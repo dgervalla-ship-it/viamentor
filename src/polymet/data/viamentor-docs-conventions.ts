@@ -3,14 +3,14 @@
  * VIAMENTOR - CONVENTIONS.md
  * ============================================================================
  *
- * Conventions de code ViaMenutor
+ * Conventions de code Viamentor
  *
  * @version 1.0.0
  * @date 2025-01-19
  */
 
 export const CONVENTIONS_MD = `
-# 📋 Conventions de code ViaMenutor
+# 📋 Conventions de code Viamentor
 
 Ce document définit les conventions de code à suivre pour maintenir la cohérence du projet.
 
@@ -613,7 +613,7 @@ describe('calculateProgression', () => {
 
 **Dernière mise à jour:** 2025-01-19  
 **Version:** 1.0.0  
-**Auteur:** ViaMenutor Team
+**Auteur:** Viamentor Team
 `;
 
 export default CONVENTIONS_MD;

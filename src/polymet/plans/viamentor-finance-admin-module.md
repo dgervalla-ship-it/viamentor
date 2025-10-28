@@ -1,4 +1,4 @@
-# ViaMenutor Finance Admin Module
+# Viamentor Finance Admin Module
 
 ## User Request
 Créer module Finance Admin complet avec dashboard KPIs (MRR, ARR, churn), table subscriptions tenants éditable, workflow changement plan avec prorata, cancel/reactivate flow, i18n formats monétaires FR/DE/IT/EN, Clean Code 200-250 lignes/fichier.

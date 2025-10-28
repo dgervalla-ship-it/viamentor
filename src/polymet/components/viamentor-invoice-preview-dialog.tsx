@@ -127,7 +127,7 @@ export function InvoicePreviewDialog({
           {/* Header */}
           <div className="flex justify-between items-start mb-8">
             <div>
-              <h1 className="text-3xl font-bold mb-2">Auto-École ViaMenutor</h1>
+              <h1 className="text-3xl font-bold mb-2">Auto-École Viamentor</h1>
               <p className="text-sm text-gray-600">
                 Route de Lausanne 123
                 <br />
@@ -288,7 +288,7 @@ export function InvoicePreviewDialog({
           {/* Footer */}
           <div className="mt-8 pt-6 border-t border-gray-300 text-xs text-gray-500 text-center">
             <p>
-              Auto-École ViaMenutor | CHE-123.456.789 TVA | RC Fribourg
+              Auto-École Viamentor | CHE-123.456.789 TVA | RC Fribourg
               CHE-123.456.789
             </p>
             <p className="mt-1">Merci de votre confiance !</p>

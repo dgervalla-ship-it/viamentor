@@ -1,4 +1,4 @@
-# Wizard Création Véhicule ViaMenutor
+# Wizard Création Véhicule Viamentor
 
 ## User Request
 Créer wizard multi-steps création véhicule avec validation OAC Art. 65-68, équipements obligatoires, assurances, Hero UI Dialog, i18n, Clean Code 200-250 lignes/fichier.

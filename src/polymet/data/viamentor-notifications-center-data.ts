@@ -596,7 +596,7 @@ export const mockNotifications: Notification[] = [
     timestamp: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000), // 2 days ago
     from: {
       id: "system",
-      name: "Système ViaMenutor",
+      name: "Système Viamentor",
       role: "Système",
     },
     relatedEntity: {
@@ -628,7 +628,7 @@ export const mockNotifications: Notification[] = [
     timestamp: new Date(Date.now() - 8 * 60 * 60 * 1000), // 8h ago
     from: {
       id: "system",
-      name: "Équipe ViaMenutor",
+      name: "Équipe Viamentor",
       role: "Système",
     },
   },
@@ -777,7 +777,7 @@ export const mockNotifications: Notification[] = [
     timestamp: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000),
     from: {
       id: "system",
-      name: "Système ViaMenutor",
+      name: "Système Viamentor",
       role: "Système",
     },
   },

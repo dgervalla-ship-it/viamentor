@@ -50,7 +50,7 @@ export function SuperAdminWelcomeBanner({
     fr: {
       welcome: "Bienvenue sur le Dashboard Super Admin",
       subtitle:
-        "Gérez et monitorez l'ensemble de la plateforme ViaMenutor en temps réel",
+        "Gérez et monitorez l'ensemble de la plateforme Viamentor en temps réel",
       newFeatures: "Nouvelles Fonctionnalités",
       features: [
         {
@@ -89,7 +89,7 @@ export function SuperAdminWelcomeBanner({
     de: {
       welcome: "Willkommen im Super Admin Dashboard",
       subtitle:
-        "Verwalten und überwachen Sie die gesamte ViaMenutor-Plattform in Echtzeit",
+        "Verwalten und überwachen Sie die gesamte Viamentor-Plattform in Echtzeit",
       newFeatures: "Neue Funktionen",
       features: [
         {
@@ -127,7 +127,7 @@ export function SuperAdminWelcomeBanner({
     it: {
       welcome: "Benvenuto nella Dashboard Super Admin",
       subtitle:
-        "Gestisci e monitora l'intera piattaforma ViaMenutor in tempo reale",
+        "Gestisci e monitora l'intera piattaforma Viamentor in tempo reale",
       newFeatures: "Nuove Funzionalità",
       features: [
         {
@@ -166,7 +166,7 @@ export function SuperAdminWelcomeBanner({
     en: {
       welcome: "Welcome to Super Admin Dashboard",
       subtitle:
-        "Manage and monitor the entire ViaMenutor platform in real-time",
+        "Manage and monitor the entire Viamentor platform in real-time",
       newFeatures: "New Features",
       features: [
         {

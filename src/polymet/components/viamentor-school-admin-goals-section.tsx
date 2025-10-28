@@ -52,7 +52,7 @@ const monthlyGoals: MonthlyGoal[] = [
 // COMPONENT
 // ============================================================================
 
-export function ViaMenutorSchoolAdminGoalsSection({
+export function ViamentorSchoolAdminGoalsSection({
   locale = "fr",
 }: SchoolAdminGoalsSectionProps) {
   return (
@@ -117,4 +117,4 @@ export function ViaMenutorSchoolAdminGoalsSection({
   );
 }
 
-export default ViaMenutorSchoolAdminGoalsSection;
+export default ViamentorSchoolAdminGoalsSection;

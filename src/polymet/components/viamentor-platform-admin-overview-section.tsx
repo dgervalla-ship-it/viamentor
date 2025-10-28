@@ -57,7 +57,7 @@ interface PlatformAdminOverviewSectionProps {
 // COMPONENT
 // ============================================================================
 
-export function ViaMenutorPlatformAdminOverviewSection({
+export function ViamentorPlatformAdminOverviewSection({
   locale = "fr",
   onViewAllIncidents,
 }: PlatformAdminOverviewSectionProps) {
@@ -288,4 +288,4 @@ export function ViaMenutorPlatformAdminOverviewSection({
   );
 }
 
-export default ViaMenutorPlatformAdminOverviewSection;
+export default ViamentorPlatformAdminOverviewSection;

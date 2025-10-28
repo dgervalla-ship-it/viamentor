@@ -32,7 +32,7 @@
 ```markdown
 # Quick Start Guide - Auto-École
 
-## Bienvenue sur ViaMenutor ! 🚗
+## Bienvenue sur Viamentor ! 🚗
 
 ### Étape 1 : Premier login (2 min)
 1. Allez sur viamentor.ch/login
@@ -139,7 +139,7 @@ invoices: "Factures" (FR) / "Rechnungen" (DE)
 **Glossaire Public** : `/docs/glossaire.md`
 
 ```markdown
-# Glossaire ViaMenutor
+# Glossaire Viamentor
 
 ## A
 **Élève** : Personne inscrite dans l'auto-école pour obtenir un permis de conduire.  
@@ -255,7 +255,7 @@ npm install -D release-it
 ```typescript
 // viamentor-contact-public-page.tsx
 <Helmet>
-  <title>Contactez-nous - ViaMenutor</title>
+  <title>Contactez-nous - Viamentor</title>
   <meta name="description" content="..." />
   <meta property="og:title" content="..." />
 </Helmet>

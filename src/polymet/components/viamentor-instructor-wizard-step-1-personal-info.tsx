@@ -108,7 +108,7 @@ const searchCities = async (
     .slice(0, 5);
 };
 
-export function ViaMenutorInstructorWizardStep1PersonalInfo({
+export function ViamentorInstructorWizardStep1PersonalInfo({
   initialData,
   locale = "fr",
   onDataChange,

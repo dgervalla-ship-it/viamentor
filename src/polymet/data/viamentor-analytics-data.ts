@@ -1,7 +1,7 @@
 /**
  * Mock Data - Revenue Analytics
  *
- * Données de démonstration pour module analytics revenus ViaMenutor
+ * Données de démonstration pour module analytics revenus Viamentor
  * KPIs, cohorts, forecasting, churn analysis
  */
 

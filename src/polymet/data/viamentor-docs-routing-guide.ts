@@ -27,7 +27,7 @@
 // ============================================================================
 
 /**
- * ViaMenutor utilise React Router v6 pour la gestion du routing.
+ * Viamentor utilise React Router v6 pour la gestion du routing.
  * 
  * Architecture:
  * - 1 prototype principal: viamentor-system-prototype
@@ -49,9 +49,9 @@
 <Route 
   path="/students" 
   element={
-    <ViaMenutorMainLayout>
+    <ViamentorMainLayout>
       <StudentsPage />
-    </ViaMenutorMainLayout>
+    </ViamentorMainLayout>
   } 
 />
 
@@ -59,9 +59,9 @@
 <Route 
   path="/students/:id" 
   element={
-    <ViaMenutorMainLayout>
+    <ViamentorMainLayout>
       <StudentDetailPage />
-    </ViaMenutorMainLayout>
+    </ViamentorMainLayout>
   } 
 />
 
@@ -414,9 +414,9 @@ function RBACGuard({
   path="/super-admin" 
   element={
     <RBACGuard allowedRoles={["super_admin"]}>
-      <ViaMenutorMainLayout>
+      <ViamentorMainLayout>
         <SuperAdminPage />
-      </ViaMenutorMainLayout>
+      </ViamentorMainLayout>
     </RBACGuard>
   } 
 />

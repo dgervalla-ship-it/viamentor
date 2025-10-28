@@ -3,7 +3,7 @@
  * VIAMENTOR - DESIGN SYSTEM REFERENCE GUIDE
  * ============================================================================
  *
- * Guide de référence complet du Design System ViaMenutor
+ * Guide de référence complet du Design System Viamentor
  * Version: 1.0.0
  * Dernière mise à jour: 2025
  *

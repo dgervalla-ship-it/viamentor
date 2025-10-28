@@ -152,7 +152,7 @@ export const mockChannels: CommunicationChannels = {
     enabled: true,
     provider: "twilio",
     apiKey: "sk_test_*********************",
-    senderName: "Auto-école ViaMenutor",
+    senderName: "Auto-école Viamentor",
     monthlyBudget: 500,
     currentUsage: 127.5,
     testNumber: "+41 79 123 45 67",

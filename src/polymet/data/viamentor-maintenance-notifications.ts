@@ -130,7 +130,7 @@ Adresse: {{garageAddress}}
 Merci de confirmer la disponibilité du véhicule.
 
 Cordialement,
-ViaMenutor`,
+Viamentor`,
     variables: [
       "vehicleName",
       "vehiclePlate",
@@ -147,7 +147,7 @@ ViaMenutor`,
     type: "sms",
     locale: "fr",
     timing: "3_days",
-    body: "ViaMenutor: Maintenance {{vehicleName}} ({{vehiclePlate}}) dans 3 jours le {{scheduledDate}}. {{garage}}",
+    body: "Viamentor: Maintenance {{vehicleName}} ({{vehiclePlate}}) dans 3 jours le {{scheduledDate}}. {{garage}}",
     variables: ["vehicleName", "vehiclePlate", "scheduledDate", "garage"],
   },
   {
@@ -168,7 +168,7 @@ Garage: {{garage}}
 ⚠️ Merci de libérer le véhicule à temps.
 
 Cordialement,
-ViaMenutor`,
+Viamentor`,
     variables: [
       "vehicleName",
       "vehiclePlate",

@@ -326,7 +326,7 @@ Nous vous invitons à partager votre expérience pour nous aider à améliorer n
 {surveyLink}
 
 Cordialement,
-L'équipe ViaMenutor`,
+L'équipe Viamentor`,
         surveyLink: "/survey/expiration/{makeupId}",
       },
       de: {

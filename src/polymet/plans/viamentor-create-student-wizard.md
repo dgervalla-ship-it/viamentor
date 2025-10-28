@@ -1,4 +1,4 @@
-# Wizard Création Élève ViaMenutor
+# Wizard Création Élève Viamentor
 
 ## User Request
 Créer un wizard complet de création d'élève avec 4 steps (Identité, Formation, Prérequis légaux OAC, Récapitulatif), validation Zod, upload documents, Hero UI Dialog fullscreen, i18n FR/DE/IT/EN.

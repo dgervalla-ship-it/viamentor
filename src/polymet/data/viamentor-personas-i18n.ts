@@ -140,7 +140,7 @@ const translations: Record<PersonasLocale, PersonasTranslations> = {
         ctaSecondary: "Demander une démo",
       },
       why: {
-        title: "Pourquoi ViaMenutor pour votre école ?",
+        title: "Pourquoi Viamentor pour votre école ?",
         block1: {
           title: "Gagnez 15h/semaine",
           subtitle: "Automatisation complète de votre gestion administrative",
@@ -216,7 +216,7 @@ const translations: Record<PersonasLocale, PersonasTranslations> = {
         ctaSecondary: "Voir la démo",
       },
       arguments: {
-        title: "Pourquoi les moniteurs adorent ViaMenutor",
+        title: "Pourquoi les moniteurs adorent Viamentor",
         items: [
           {
             title: "Planning personnel mobile",
@@ -269,7 +269,7 @@ const translations: Record<PersonasLocale, PersonasTranslations> = {
         ctaSecondary: "Voir comment ça marche",
       },
       arguments: {
-        title: "Pourquoi les élèves choisissent ViaMenutor",
+        title: "Pourquoi les élèves choisissent Viamentor",
         items: [
           {
             title: "Réservation 24/7",
@@ -336,7 +336,7 @@ const translations: Record<PersonasLocale, PersonasTranslations> = {
         ctaSecondary: "Demo anfordern",
       },
       why: {
-        title: "Warum ViaMenutor für Ihre Fahrschule?",
+        title: "Warum Viamentor für Ihre Fahrschule?",
         block1: {
           title: "Sparen Sie 15h/Woche",
           subtitle: "Vollständige Automatisierung Ihrer Verwaltung",
@@ -413,7 +413,7 @@ const translations: Record<PersonasLocale, PersonasTranslations> = {
         ctaSecondary: "Demo ansehen",
       },
       arguments: {
-        title: "Warum Fahrlehrer ViaMenutor lieben",
+        title: "Warum Fahrlehrer Viamentor lieben",
         items: [
           {
             title: "Persönliche mobile Planung",
@@ -466,7 +466,7 @@ const translations: Record<PersonasLocale, PersonasTranslations> = {
         ctaSecondary: "So funktioniert's",
       },
       arguments: {
-        title: "Warum Fahrschüler ViaMenutor wählen",
+        title: "Warum Fahrschüler Viamentor wählen",
         items: [
           {
             title: "Buchung 24/7",
@@ -533,7 +533,7 @@ const translations: Record<PersonasLocale, PersonasTranslations> = {
         ctaSecondary: "Richiedi demo",
       },
       why: {
-        title: "Perché ViaMenutor per la tua autoscuola?",
+        title: "Perché Viamentor per la tua autoscuola?",
         block1: {
           title: "Risparmia 15h/settimana",
           subtitle: "Automazione completa della gestione amministrativa",
@@ -610,7 +610,7 @@ const translations: Record<PersonasLocale, PersonasTranslations> = {
         ctaSecondary: "Vedi demo",
       },
       arguments: {
-        title: "Perché gli istruttori amano ViaMenutor",
+        title: "Perché gli istruttori amano Viamentor",
         items: [
           {
             title: "Pianificazione personale mobile",
@@ -664,7 +664,7 @@ const translations: Record<PersonasLocale, PersonasTranslations> = {
         ctaSecondary: "Vedi come funziona",
       },
       arguments: {
-        title: "Perché gli allievi scelgono ViaMenutor",
+        title: "Perché gli allievi scelgono Viamentor",
         items: [
           {
             title: "Prenotazione 24/7",
@@ -731,7 +731,7 @@ const translations: Record<PersonasLocale, PersonasTranslations> = {
         ctaSecondary: "Request demo",
       },
       why: {
-        title: "Why ViaMenutor for your school?",
+        title: "Why Viamentor for your school?",
         block1: {
           title: "Save 15h/week",
           subtitle: "Complete automation of your administrative management",
@@ -807,7 +807,7 @@ const translations: Record<PersonasLocale, PersonasTranslations> = {
         ctaSecondary: "See demo",
       },
       arguments: {
-        title: "Why instructors love ViaMenutor",
+        title: "Why instructors love Viamentor",
         items: [
           {
             title: "Personal mobile planning",
@@ -860,7 +860,7 @@ const translations: Record<PersonasLocale, PersonasTranslations> = {
         ctaSecondary: "See how it works",
       },
       arguments: {
-        title: "Why students choose ViaMenutor",
+        title: "Why students choose Viamentor",
         items: [
           {
             title: "24/7 booking",

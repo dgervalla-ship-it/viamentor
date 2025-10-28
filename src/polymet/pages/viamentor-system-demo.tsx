@@ -103,7 +103,7 @@ function ThemePalette() {
 // MAIN CONTENT COMPONENT
 // ============================================================================
 
-function ViaMenutorSystemDemoContent() {
+function ViamentorSystemDemoContent() {
   return (
     <div className="min-h-screen bg-background">
       <DemoHeader
@@ -181,11 +181,11 @@ function ViaMenutorSystemDemoContent() {
 // Architecture Clean : Séparation des concerns
 // ============================================================================
 
-export function ViaMenutorSystemDemo() {
+export function ViamentorSystemDemo() {
   return (
     <ThemeProvider initialTheme="light">
       <LocaleProvider initialLocale="fr">
-        <ViaMenutorSystemDemoContent />
+        <ViamentorSystemDemoContent />
       </LocaleProvider>
     </ThemeProvider>
   );

@@ -196,7 +196,7 @@
  *
  * Route:
  * - Path: /staff/makeups/validation
- * - Layout: ViaMenutorMainLayout
+ * - Layout: ViamentorMainLayout
  * - RBAC: School Admin, Secretary
  *
  * Features:

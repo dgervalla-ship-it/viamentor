@@ -14,13 +14,13 @@
 // ============================================================================
 
 export const EXECUTIVE_SUMMARY = {
-  title: "Refactorisation Architecture ViaMenutor - Synthèse Finale",
+  title: "Refactorisation Architecture Viamentor - Synthèse Finale",
   date: "2025-01-22",
   status: "COMPLETED",
 
   overview: `
     Refactorisation complète de l'architecture des pages système et démo 
-    de ViaMenutor en appliquant les principes SOLID, patterns de composition 
+    de Viamentor en appliquant les principes SOLID, patterns de composition 
     et séparation des responsabilités.
   `,
 
@@ -484,7 +484,7 @@ export const BEST_PRACTICES = {
 // ============================================================================
 
 export const CONCLUSION = `
-La refactorisation architecture de ViaMenutor a permis de:
+La refactorisation architecture de Viamentor a permis de:
 
 ✅ Réduire la complexité des pages de 37.5% en moyenne
 ✅ Créer 7 composants réutilisables de haute qualité

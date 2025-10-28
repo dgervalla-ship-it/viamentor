@@ -1,4 +1,4 @@
-# Wizard Création Tenant ViaMenutor
+# Wizard Création Tenant Viamentor
 
 ## User Request
 Créer un wizard multi-steps fullscreen pour Platform Admin permettant de créer un nouveau tenant (auto-école) avec validation Zod, Hero UI Dialog, i18n, et architecture Clean Code SOLID.

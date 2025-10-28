@@ -1,7 +1,7 @@
-# Correction complète Design System ViaMenutor
+# Correction complète Design System Viamentor
 
 ## User Request
-Corriger tous les composants et pages du projet ViaMenutor pour conformité complète avec le Design System fourni (couleurs, typographie, spacing, composants, UX patterns, accessibilité, mobile-first).
+Corriger tous les composants et pages du projet Viamentor pour conformité complète avec le Design System fourni (couleurs, typographie, spacing, composants, UX patterns, accessibilité, mobile-first).
 
 ## Related Files
 

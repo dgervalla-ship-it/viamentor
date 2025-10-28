@@ -184,7 +184,7 @@ export const analyticsCentralizationFix = {
     platformAnalytics: {
       route: "/platform/analytics",
       access: "Super Admin uniquement",
-      purpose: "Métriques multi-tenant plateforme ViaMenutor",
+      purpose: "Métriques multi-tenant plateforme Viamentor",
     },
   },
 

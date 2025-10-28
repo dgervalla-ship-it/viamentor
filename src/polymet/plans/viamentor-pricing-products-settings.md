@@ -1,7 +1,7 @@
 # Pricing & Products Catalog Settings
 
 ## User Request
-Créer le module complet de paramètres tarification ViaMenutor avec:
+Créer le module complet de paramètres tarification Viamentor avec:
 - Prix leçons pratiques par catégorie (45min/90min)
 - Forfaits leçons avec remises incitatives
 - Catalogue services complémentaires (cours théoriques, examens, frais)

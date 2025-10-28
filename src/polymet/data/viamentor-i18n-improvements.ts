@@ -675,7 +675,7 @@ function getAllKeys(obj: any, prefix = ""): string[] {
  */
 if (require.main === module) {
   validateTranslations().then((result) => {
-    console.log("\\n🌍 Validation i18n ViaMenutor\\n");
+    console.log("\\n🌍 Validation i18n Viamentor\\n");
 
     if (result.errors.length > 0) {
       console.log(\`❌ \${result.errors.length} erreur(s) trouvée(s):\\n\`);

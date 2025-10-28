@@ -32,7 +32,7 @@ interface SystemConfigPageProps {
 const translations = {
   fr: {
     title: "Configuration Système",
-    description: "Paramètres globaux de la plateforme ViaMenutor",
+    description: "Paramètres globaux de la plateforme Viamentor",
     save: "Enregistrer",
     tabs: {
       general: "Général",
@@ -108,7 +108,7 @@ export function SystemConfigPage({ locale = "fr" }: SystemConfigPageProps) {
                 <Label htmlFor="platform-name">{t.general.platformName}</Label>
                 <Input
                   id="platform-name"
-                  defaultValue="ViaMenutor"
+                  defaultValue="Viamentor"
                   className="h-11 border-border"
                 />
               </div>

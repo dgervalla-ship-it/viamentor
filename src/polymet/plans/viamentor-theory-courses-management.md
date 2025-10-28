@@ -1,4 +1,4 @@
-# Gestion Cours Théoriques ViaMenutor
+# Gestion Cours Théoriques Viamentor
 
 ## User Request
 Créer le système complet d'affichage et gestion des cours théoriques avec:

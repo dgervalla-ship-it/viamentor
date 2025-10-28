@@ -29,7 +29,7 @@ interface PlatformAdminConfigurationSectionProps {
 // COMPONENT
 // ============================================================================
 
-export function ViaMenutorPlatformAdminConfigurationSection({
+export function ViamentorPlatformAdminConfigurationSection({
   locale = "fr",
   onSave,
   onCancel,
@@ -140,4 +140,4 @@ export function ViaMenutorPlatformAdminConfigurationSection({
   );
 }
 
-export default ViaMenutorPlatformAdminConfigurationSection;
+export default ViamentorPlatformAdminConfigurationSection;

@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { ViaMenutorInstructorDetailHeader } from "@/polymet/components/viamentor-instructor-detail-header";
-import { ViaMenutorInstructorInformationsTab } from "@/polymet/components/viamentor-instructor-informations-tab";
-import { ViaMenutorInstructorPlanningTab } from "@/polymet/components/viamentor-instructor-planning-tab";
-import { ViaMenutorInstructorStudentsTab } from "@/polymet/components/viamentor-instructor-students-tab";
-import { ViaMenutorInstructorPerformanceTab } from "@/polymet/components/viamentor-instructor-performance-tab";
+import { ViamentorInstructorDetailHeader } from "@/polymet/components/viamentor-instructor-detail-header";
+import { ViamentorInstructorInformationsTab } from "@/polymet/components/viamentor-instructor-informations-tab";
+import { ViamentorInstructorPlanningTab } from "@/polymet/components/viamentor-instructor-planning-tab";
+import { ViamentorInstructorStudentsTab } from "@/polymet/components/viamentor-instructor-students-tab";
+import { ViamentorInstructorPerformanceTab } from "@/polymet/components/viamentor-instructor-performance-tab";
 import {
   MOCK_INSTRUCTOR_DETAIL,
   MOCK_INSTRUCTOR_LESSONS,
@@ -21,7 +21,7 @@ interface InstructorDetailPageProps {
   locale?: InstructorDetailLocale;
 }
 
-export function ViaMenutorInstructorDetailPage({
+export function ViamentorInstructorDetailPage({
   locale = "fr",
 }: InstructorDetailPageProps) {
   const { id } = useParams<{ id: string }>();
@@ -105,7 +105,7 @@ export function ViaMenutorInstructorDetailPage({
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
-      <ViaMenutorInstructorDetailHeader
+      <ViamentorInstructorDetailHeader
         instructor={instructor}
         locale={locale}
         onEdit={handleEdit}
@@ -133,7 +133,7 @@ export function ViaMenutorInstructorDetailPage({
 
           {/* Tab Informations */}
           <TabsContent value="informations" className="space-y-6">
-            <ViaMenutorInstructorInformationsTab
+            <ViamentorInstructorInformationsTab
               instructor={instructor}
               locale={locale}
               onUpdate={handleUpdate}
@@ -142,7 +142,7 @@ export function ViaMenutorInstructorDetailPage({
 
           {/* Tab Planning */}
           <TabsContent value="planning" className="space-y-6">
-            <ViaMenutorInstructorPlanningTab
+            <ViamentorInstructorPlanningTab
               lessons={lessons}
               locale={locale}
               onNewLesson={handleNewLesson}
@@ -154,7 +154,7 @@ export function ViaMenutorInstructorDetailPage({
 
           {/* Tab Students */}
           <TabsContent value="students" className="space-y-6">
-            <ViaMenutorInstructorStudentsTab
+            <ViamentorInstructorStudentsTab
               students={students}
               stats={studentsStats}
               locale={locale}
@@ -166,7 +166,7 @@ export function ViaMenutorInstructorDetailPage({
 
           {/* Tab Performance */}
           <TabsContent value="performance" className="space-y-6">
-            <ViaMenutorInstructorPerformanceTab
+            <ViamentorInstructorPerformanceTab
               performance={performance}
               reviews={reviews}
               ranking={ranking}

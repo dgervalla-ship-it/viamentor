@@ -1,4 +1,4 @@
-# Refactorisation Architecture ViaMenutor
+# Refactorisation Architecture Viamentor
 
 ## User Request
 Refactoriser l'architecture de 15 pages système/démo en appliquant:

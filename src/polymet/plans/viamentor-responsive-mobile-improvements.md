@@ -1,7 +1,7 @@
-# Améliorations Responsive & Mobile ViaMenutor
+# Améliorations Responsive & Mobile Viamentor
 
 ## User Request
-Améliorer le responsive design et l'expérience mobile de ViaMenutor en corrigeant les 4 faiblesses identifiées.
+Améliorer le responsive design et l'expérience mobile de Viamentor en corrigeant les 4 faiblesses identifiées.
 
 ## Related Files
 - @/polymet/data/viamentor-responsive-utils (to create) - Utilities responsive

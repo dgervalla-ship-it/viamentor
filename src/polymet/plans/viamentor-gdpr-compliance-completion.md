@@ -1,4 +1,4 @@
-# Complétion Conformité RGPD ViaMenutor
+# Complétion Conformité RGPD Viamentor
 
 ## User Request
 Compléter la conformité RGPD de 8 pages avec implémentation des actions RGPD obligatoires :

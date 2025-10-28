@@ -3,7 +3,7 @@
  * VIAMENTOR - Validation System README
  * ============================================================================
  *
- * Documentation complète du système de validation ViaMenutor
+ * Documentation complète du système de validation Viamentor
  * Score: ⭐ 10/10
  */
 
@@ -151,7 +151,7 @@ export const quickStart = {
   installation: {
     title: "Installation",
     steps: [
-      "Aucune installation requise - déjà configuré dans ViaMenutor",
+      "Aucune installation requise - déjà configuré dans Viamentor",
       "Importer depuis @/polymet/data/viamentor-validation-improvements",
     ],
 

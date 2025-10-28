@@ -1,4 +1,4 @@
-# Complétion 3 Dashboards Restants ViaMenutor
+# Complétion 3 Dashboards Restants Viamentor
 
 ## User Request
 Compléter les 3 dashboards restants (Instructor Manager, Marketing Manager, Accountant) en nettoyant le code et réutilisant au maximum les composants existants, notamment ResponsivePageWrapper.

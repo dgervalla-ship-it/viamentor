@@ -397,7 +397,7 @@ export function MakeupBookingWizard({
                     <div className="flex items-center gap-2">
                       <MapPinIcon className="h-4 w-4 text-muted-foreground" />
 
-                      <span className="text-sm">Auto-école ViaMenutor</span>
+                      <span className="text-sm">Auto-école Viamentor</span>
                     </div>
                   </div>
                 </AccordionContent>

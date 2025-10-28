@@ -41,7 +41,7 @@
 **Plan de Tracking** : `/docs/analytics/tracking-plan.md`
 
 ```markdown
-# Tracking Plan ViaMenutor
+# Tracking Plan Viamentor
 
 ## Events Core
 
@@ -278,7 +278,7 @@ WHERE status = 'active';
 **Guide Analytics** : `/docs/analytics/how-to-read-dashboards.md`
 
 ```markdown
-# Guide : Lire les Dashboards ViaMenutor
+# Guide : Lire les Dashboards Viamentor
 
 ## Dashboard : École (School Admin)
 

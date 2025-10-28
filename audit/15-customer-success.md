@@ -38,11 +38,11 @@
 # Email Onboarding Sequence
 
 ## J0 : Signup (immédiat)
-**Subject** : Bienvenue sur ViaMenutor ! 🎉  
+**Subject** : Bienvenue sur Viamentor ! 🎉  
 **CTA** : Compléter onboarding (30 min)
 
 ## J1 : Onboarding incomplet (si pas fini)
-**Subject** : Finalisez votre configuration ViaMenutor  
+**Subject** : Finalisez votre configuration Viamentor  
 **CTA** : Reprendre où vous étiez
 
 ## J2 : Onboarding complété
@@ -147,7 +147,7 @@
 
 ## Participants
 - Client : Directeur école
-- ViaMenutor : CSM + Account Manager
+- Viamentor : CSM + Account Manager
 
 ## Agenda (60 min)
 
@@ -163,7 +163,7 @@
   - CA généré (trend)
   - Taux réussite examen
   - Satisfaction élèves
-- ROI ViaMenutor calculé
+- ROI Viamentor calculé
 
 ### 3. Roadmap Preview (15 min)
 - Nouvelles features Q prochain
@@ -172,7 +172,7 @@
 
 ### 4. Next Steps (10 min)
 - Actions client (formation, adoption features)
-- Actions ViaMenutor (support, custom config)
+- Actions Viamentor (support, custom config)
 - Next QBR date
 
 ## Deliverables

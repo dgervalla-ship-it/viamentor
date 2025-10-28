@@ -1,4 +1,4 @@
-# Pages Gestion Leçons ViaMenutor
+# Pages Gestion Leçons Viamentor
 
 ## User Request
 Créer les 5 pages critiques manquantes pour la gestion complète des leçons:

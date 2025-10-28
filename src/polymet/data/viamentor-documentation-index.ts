@@ -8,7 +8,7 @@
 // ============================================================================
 
 /**
- * Bienvenue dans la documentation complète de ViaMenutor !
+ * Bienvenue dans la documentation complète de Viamentor !
  *
  * Cette documentation couvre tous les aspects du système:
  * - Architecture et stack technique

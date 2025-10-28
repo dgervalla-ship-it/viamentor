@@ -305,7 +305,7 @@ export function ActivityHistoryPage({
         <div>
           <h1 className="text-3xl font-bold mb-2">Historique d'Activité</h1>
           <p className="text-muted-foreground">
-            Toutes vos actions dans ViaMenutor
+            Toutes vos actions dans Viamentor
           </p>
         </div>
         <Button variant="outline" onClick={() => setExportDialogOpen(true)}>

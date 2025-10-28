@@ -3,16 +3,16 @@
  * VIAMENTOR - CONTRIBUTING.md
  * ============================================================================
  *
- * Guide de contribution ViaMenutor
+ * Guide de contribution Viamentor
  *
  * @version 1.0.0
  * @date 2025-01-19
  */
 
 export const CONTRIBUTING_MD = `
-# 🤝 Contributing Guide ViaMenutor
+# 🤝 Contributing Guide Viamentor
 
-Merci de votre intérêt pour contribuer à ViaMenutor ! Ce guide vous aidera à démarrer.
+Merci de votre intérêt pour contribuer à Viamentor ! Ce guide vous aidera à démarrer.
 
 ## Table des matières
 
@@ -537,13 +537,13 @@ Any other information
 
 Tous les contributeurs seront ajoutés au fichier CONTRIBUTORS.md.
 
-Merci de contribuer à ViaMenutor ! 🎉
+Merci de contribuer à Viamentor ! 🎉
 
 ---
 
 **Dernière mise à jour:** 2025-01-19  
 **Version:** 1.0.0  
-**Auteur:** ViaMenutor Team
+**Auteur:** Viamentor Team
 `;
 
 export default CONTRIBUTING_MD;

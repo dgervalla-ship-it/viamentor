@@ -33,7 +33,7 @@ interface SecretaryDashboardOverviewSectionProps {
 // COMPONENT
 // ============================================================================
 
-export function ViaMenutorSecretaryDashboardOverviewSection({
+export function ViamentorSecretaryDashboardOverviewSection({
   locale = "fr",
 }: SecretaryDashboardOverviewSectionProps) {
   const t = secretaryDashboardTranslations[locale];
@@ -291,4 +291,4 @@ export function ViaMenutorSecretaryDashboardOverviewSection({
   );
 }
 
-export default ViaMenutorSecretaryDashboardOverviewSection;
+export default ViamentorSecretaryDashboardOverviewSection;

@@ -26,7 +26,7 @@ interface InformationsTabProps {
   onUpdate?: (field: string, value: any) => Promise<void>;
 }
 
-export function ViaMenutorInstructorInformationsTab({
+export function ViamentorInstructorInformationsTab({
   instructor,
   locale = "fr",
   onUpdate,

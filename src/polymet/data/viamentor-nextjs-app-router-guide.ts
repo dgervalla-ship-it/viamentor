@@ -76,7 +76,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ViaMenutor - Plateforme SaaS pour auto-écoles suisses",
+  title: "Viamentor - Plateforme SaaS pour auto-écoles suisses",
   description: "Gestion complète d'auto-écoles avec RBAC, multi-tenant, i18n",
 };
 
@@ -144,7 +144,7 @@ export const TenantLayoutExample = `
 import { redirect } from "next/navigation";
 import { cookies } from "next/headers";
 import { createServerComponentClient } from "@supabase/auth-helpers-nextjs";
-import { ViaMenutorMainLayout } from "@/polymet/layouts/viamentor-main-layout";
+import { ViamentorMainLayout } from "@/polymet/layouts/viamentor-main-layout";
 import { ThemeProvider } from "@/polymet/components/viamentor-theme-provider";
 
 /**
@@ -218,7 +218,7 @@ export default async function TenantLayout({
   // ============================================================================
   return (
     <ThemeProvider initialTheme="system">
-      <ViaMenutorMainLayout
+      <ViamentorMainLayout
         locale={locale}
         tenant={tenant}
         user={{
@@ -231,7 +231,7 @@ export default async function TenantLayout({
         tenantData={tenantData}
       >
         {children}
-      </ViaMenutorMainLayout>
+      </ViamentorMainLayout>
     </ThemeProvider>
   );
 }

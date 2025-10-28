@@ -24,7 +24,7 @@ import {
 } from "@/polymet/data/viamentor-gdpr-data";
 import { ShieldCheckIcon } from "lucide-react";
 
-export function ViaMenutorGDPRCompliancePage() {
+export function ViamentorGDPRCompliancePage() {
   const [activeTab, setActiveTab] = useState("dashboard");
   const [processWizardOpen, setProcessWizardOpen] = useState(false);
   const [selectedRequest, setSelectedRequest] = useState<GDPRRequest | null>(

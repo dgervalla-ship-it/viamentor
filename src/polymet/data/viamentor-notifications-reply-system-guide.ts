@@ -369,7 +369,7 @@
  *
  * - WebSocket updates: new notification slide-in animation
  * - Sound beep optional (Toggle in settings)
- * - Badge browser tab title "(3) ViaMenutor"
+ * - Badge browser tab title "(3) Viamentor"
  * - Desktop notification preview (Notification API)
  * - Auto-mark read after 5 seconds viewing
  * - Typing indicator "Moniteur rédige..."

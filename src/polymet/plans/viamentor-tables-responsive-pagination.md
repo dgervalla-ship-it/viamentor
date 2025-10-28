@@ -1,4 +1,4 @@
-# Plan: Tables Responsive + Pagination ViaMenutor
+# Plan: Tables Responsive + Pagination Viamentor
 
 ## User Request
 Modifier TOUS les composants table pour:

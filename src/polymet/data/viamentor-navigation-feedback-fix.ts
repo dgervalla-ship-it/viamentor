@@ -209,7 +209,7 @@ export const HISTORY_FEATURES = {
  * /favorites       → FavoritesPage
  * /history         → ActivityHistoryPage
  *
- * Toutes avec ViaMenutorMainLayout
+ * Toutes avec ViamentorMainLayout
  */
 
 export const NAVIGATION_FEEDBACK_ROUTES = {

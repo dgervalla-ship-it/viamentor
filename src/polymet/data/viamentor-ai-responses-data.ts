@@ -412,7 +412,7 @@ export const generateAIResponse = async (
   // Simulation de génération IA
   const variables = {
     studentName: review.author.split(" ")[0],
-    schoolName: "ViaMenutor",
+    schoolName: "Viamentor",
     rating: review.rating,
     reviewText: review.text,
     specificPoint: "votre retour positif",

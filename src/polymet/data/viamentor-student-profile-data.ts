@@ -179,7 +179,7 @@ export const mockStudentProfile: StudentProfile = {
   enrollmentDate: "2024-01-15",
   school: {
     id: "SCH-001",
-    name: "Auto-École ViaMenutor Lausanne",
+    name: "Auto-École Viamentor Lausanne",
     logo: "https://github.com/polymet-ai.png",
     address: "Avenue de la Gare 45, 1003 Lausanne",
     phone: "+41 21 123 45 67",

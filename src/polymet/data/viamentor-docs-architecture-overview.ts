@@ -30,7 +30,7 @@
 // ============================================================================
 
 /**
- * ViaMenutor est une application web moderne construite avec:
+ * Viamentor est une application web moderne construite avec:
  * - React 18 pour l'UI
  * - TypeScript pour la type safety
  * - Tailwind CSS pour le styling
@@ -615,7 +615,7 @@ export const RBAC_ROLES = {
     description: "Accès complet système",
   },
 
-  // Platform Admin (ViaMenutor)
+  // Platform Admin (Viamentor)
   platform_admin: {
     level: 2,
     permissions: ["manage_tenants", "view_analytics", "manage_billing"],

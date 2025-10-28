@@ -23,7 +23,7 @@ import {
   LogInIcon,
 } from "lucide-react";
 
-export function ViaMenutorCredentialsPage() {
+export function ViamentorCredentialsPage() {
   const [copiedField, setCopiedField] = useState<string | null>(null);
 
   const handleCopy = (text: string, field: string) => {
@@ -55,7 +55,7 @@ export function ViaMenutorCredentialsPage() {
                     Identifiants de Connexion
                   </h1>
                   <p className="text-xs text-muted-foreground">
-                    ViaMenutor - Mode Développement
+                    Viamentor - Mode Développement
                   </p>
                 </div>
               </div>

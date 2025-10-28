@@ -4,11 +4,11 @@
  */
 
 export const NAVIGATION_README = `
-# Navigation Responsive ViaMenutor
+# Navigation Responsive Viamentor
 
 ## 📋 Vue d'ensemble
 
-La navigation ViaMenutor est une solution complète et responsive qui s'adapte automatiquement à tous les appareils (desktop, tablette, mobile). Elle offre une expérience utilisateur cohérente avec une hiérarchie claire et une organisation logique des fonctionnalités.
+La navigation Viamentor est une solution complète et responsive qui s'adapte automatiquement à tous les appareils (desktop, tablette, mobile). Elle offre une expérience utilisateur cohérente avec une hiérarchie claire et une organisation logique des fonctionnalités.
 
 ## 🎯 Objectifs
 
@@ -42,16 +42,16 @@ La navigation ViaMenutor est une solution complète et responsive qui s'adapte a
 
 ### 1. Configuration de base
 
-La navigation est automatiquement intégrée dans le \`ViaMenutorMainLayout\`:
+La navigation est automatiquement intégrée dans le \`ViamentorMainLayout\`:
 
 \`\`\`tsx
-import { ViaMenutorMainLayout } from "@/polymet/layouts/viamentor-main-layout";
+import { ViamentorMainLayout } from "@/polymet/layouts/viamentor-main-layout";
 
 export default function MyPage() {
   return (
-    <ViaMenutorMainLayout locale="fr" tenant="my-tenant">
+    <ViamentorMainLayout locale="fr" tenant="my-tenant">
       <div>Mon contenu</div>
-    </ViaMenutorMainLayout>
+    </ViamentorMainLayout>
   );
 }
 \`\`\`
@@ -337,7 +337,7 @@ Pour toute question ou problème:
 
 ---
 
-**ViaMenutor Navigation v1.0.0** - Solution responsive complète ✨
+**Viamentor Navigation v1.0.0** - Solution responsive complète ✨
 `;
 
 export default NAVIGATION_README;

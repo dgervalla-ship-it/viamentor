@@ -24,7 +24,7 @@ const mockDocs = [
   {
     id: "1",
     title: "Guide de démarrage",
-    description: "Premiers pas avec ViaMenutor",
+    description: "Premiers pas avec Viamentor",
     type: "Guide",
     icon: BookOpenIcon,
   },

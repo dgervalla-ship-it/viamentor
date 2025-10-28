@@ -43,7 +43,7 @@ interface InstructorDetailHeaderProps {
   onDelete?: () => void;
 }
 
-export function ViaMenutorInstructorDetailHeader({
+export function ViamentorInstructorDetailHeader({
   instructor,
   locale = "fr",
   onEdit,

@@ -15,7 +15,7 @@ export const migration001SQL = `
 -- ============================================================================
 -- MIGRATION 001: ADD MISSING ENTITIES
 -- Date: 2025-01-XX
--- Author: ViaMenutor Schema Audit
+-- Author: Viamentor Schema Audit
 -- Description: Correction 10 anomalies critiques/majeures/mineures
 -- ============================================================================
 

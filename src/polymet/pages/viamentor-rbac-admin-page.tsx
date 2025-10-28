@@ -103,7 +103,7 @@ const mockAuditLogs: AuditLogEntry[] = [
 // COMPONENT
 // ============================================================================
 
-export function ViaMenutorRBACAdminPage({ locale = "fr" }: RBACAdminPageProps) {
+export function ViamentorRBACAdminPage({ locale = "fr" }: RBACAdminPageProps) {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedTab, setSelectedTab] = useState("overview");
   const [isLoading, setIsLoading] = useState(false);
@@ -637,4 +637,4 @@ export function ViaMenutorRBACAdminPage({ locale = "fr" }: RBACAdminPageProps) {
   );
 }
 
-export default ViaMenutorRBACAdminPage;
+export default ViamentorRBACAdminPage;

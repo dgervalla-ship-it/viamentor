@@ -274,7 +274,7 @@ viamentor2025
 
 ---
 
-**Développé avec ❤️ pour ViaMenutor**
+**Développé avec ❤️ pour Viamentor**
 **Version 1.1.0 - Système de Mot de Passe Simplifié**
 `;
 

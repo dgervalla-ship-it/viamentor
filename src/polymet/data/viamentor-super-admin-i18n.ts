@@ -170,7 +170,7 @@ export interface SuperAdminTranslations {
 const fr: SuperAdminTranslations = {
   page: {
     title: "Dashboard Super Administrateur",
-    description: "Vue d'ensemble complète de la plateforme ViaMenutor",
+    description: "Vue d'ensemble complète de la plateforme Viamentor",
   },
 
   stats: {
@@ -332,7 +332,7 @@ const fr: SuperAdminTranslations = {
 const de: SuperAdminTranslations = {
   page: {
     title: "Super Administrator Dashboard",
-    description: "Vollständige Übersicht der ViaMenutor Plattform",
+    description: "Vollständige Übersicht der Viamentor Plattform",
   },
 
   stats: {
@@ -494,7 +494,7 @@ const de: SuperAdminTranslations = {
 const it: SuperAdminTranslations = {
   page: {
     title: "Dashboard Super Amministratore",
-    description: "Panoramica completa della piattaforma ViaMenutor",
+    description: "Panoramica completa della piattaforma Viamentor",
   },
 
   stats: {
@@ -656,7 +656,7 @@ const it: SuperAdminTranslations = {
 const en: SuperAdminTranslations = {
   page: {
     title: "Super Administrator Dashboard",
-    description: "Complete overview of the ViaMenutor platform",
+    description: "Complete overview of the Viamentor platform",
   },
 
   stats: {

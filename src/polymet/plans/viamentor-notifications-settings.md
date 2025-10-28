@@ -1,7 +1,7 @@
 # Notifications & Communications Settings
 
 ## User Request
-Créer le module complet de paramètres notifications et communications pour ViaMenutor avec:
+Créer le module complet de paramètres notifications et communications pour Viamentor avec:
 - Canaux communication (Email SMTP, SMS, Push, WhatsApp)
 - Événements déclencheurs automatiques
 - Templates emails avec éditeur WYSIWYG

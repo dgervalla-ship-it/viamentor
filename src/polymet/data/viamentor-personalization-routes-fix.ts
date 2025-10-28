@@ -112,19 +112,19 @@ export const personalizationRoutesFix = {
       {
         path: "/my-workspace",
         page: "MyWorkspacePage",
-        layout: "ViaMenutorMainLayout",
+        layout: "ViamentorMainLayout",
         description: "Espace de travail personnalisé",
       },
       {
         path: "/shortcuts",
         page: "MyShortcutsPage",
-        layout: "ViaMenutorMainLayout",
+        layout: "ViamentorMainLayout",
         description: "Gestion raccourcis",
       },
       {
         path: "/widgets",
         page: "MyWidgetsPage",
-        layout: "ViaMenutorMainLayout",
+        layout: "ViamentorMainLayout",
         description: "Bibliothèque widgets",
       },
     ],

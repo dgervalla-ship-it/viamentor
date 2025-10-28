@@ -3,7 +3,7 @@
  * Guide complet des fonctionnalités Super Admin
  *
  * Ce fichier documente toutes les fonctionnalités disponibles
- * pour le Super Administrateur de la plateforme ViaMenutor.
+ * pour le Super Administrateur de la plateforme Viamentor.
  */
 
 // ============================================================================
@@ -14,7 +14,7 @@
  * # Super Admin Dashboard
  * 
  * Le dashboard Super Admin est l'interface centrale pour la gestion
- * et le monitoring de toute la plateforme ViaMenutor multi-tenant.
+ * et le monitoring de toute la plateforme Viamentor multi-tenant.
  * 
  * ## Accès
  * - **URL**: `/super-admin`

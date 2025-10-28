@@ -19,10 +19,10 @@ import { ShieldCheckIcon, SettingsIcon } from "lucide-react";
  *
  * @example
  * ```tsx
- * <Route path="/login" element={<ViaMenutorLoginPage />} />
+ * <Route path="/login" element={<ViamentorLoginPage />} />
  * ```
  */
-export function ViaMenutorLoginPage() {
+export function ViamentorLoginPage() {
   const navigate = useNavigate();
 
   const handleLoginSuccess = () => {

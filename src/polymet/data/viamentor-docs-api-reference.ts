@@ -8,7 +8,7 @@
 // ============================================================================
 
 /**
- * Documentation complète des API endpoints ViaMenutor
+ * Documentation complète des API endpoints Viamentor
  *
  * Architecture: REST API avec Next.js App Router
  * Authentication: JWT tokens via Supabase

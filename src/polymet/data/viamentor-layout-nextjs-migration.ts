@@ -41,7 +41,7 @@ export const tenantLayoutCode = `
 import { redirect } from "next/navigation";
 import { cookies } from "next/headers";
 import { createServerComponentClient } from "@supabase/auth-helpers-nextjs";
-import { ViaMenutorMainLayout } from "@/polymet/layouts/viamentor-main-layout";
+import { ViamentorMainLayout } from "@/polymet/layouts/viamentor-main-layout";
 
 export default async function TenantLayout({
   children,
@@ -79,7 +79,7 @@ export default async function TenantLayout({
 
   // 4. RENDER LAYOUT
   return (
-    <ViaMenutorMainLayout
+    <ViamentorMainLayout
       locale={locale}
       tenant={tenant}
       user={{
@@ -90,7 +90,7 @@ export default async function TenantLayout({
       }}
     >
       {children}
-    </ViaMenutorMainLayout>
+    </ViamentorMainLayout>
   );
 }
 `;

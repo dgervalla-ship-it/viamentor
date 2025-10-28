@@ -9,7 +9,7 @@ export const masterDocumentation = `
 
 ## 🎯 Résumé Exécutif
 
-**ViaMenutor** est un système SaaS multi-tenant complet pour la gestion d'auto-écoles suisses, couvrant l'intégralité du cycle de vie : inscriptions, planning, facturation, analytics et conformité légale (OAC/OMCo/RGPD).
+**Viamentor** est un système SaaS multi-tenant complet pour la gestion d'auto-écoles suisses, couvrant l'intégralité du cycle de vie : inscriptions, planning, facturation, analytics et conformité légale (OAC/OMCo/RGPD).
 
 ### 📊 Statistiques Projet
 
@@ -329,13 +329,13 @@ Documentation:        100% ✅
 
 ## 📄 LICENCE
 
-**Proprietary** - © 2025 ViaMenutor. Tous droits réservés.
+**Proprietary** - © 2025 Viamentor. Tous droits réservés.
 
 ---
 
 **VERSION**: 2.1.0  
 **DATE**: 15 Janvier 2025  
-**AUTEUR**: ViaMenutor Team
+**AUTEUR**: Viamentor Team
 
 ---
 

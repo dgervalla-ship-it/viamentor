@@ -210,10 +210,10 @@ export const mockEmailTemplates: EmailTemplate[] = [
   {
     id: "tpl-1",
     name: "Demande d'information - Permis B",
-    subject: "Obtenez votre permis B avec ViaMenutor 🚗",
+    subject: "Obtenez votre permis B avec Viamentor 🚗",
     body: `Bonjour {firstName},
 
-Merci de votre intérêt pour notre auto-école ViaMenutor!
+Merci de votre intérêt pour notre auto-école Viamentor!
 
 Nous proposons des formations complètes pour le permis B avec:
 - Moniteurs expérimentés et certifiés
@@ -224,7 +224,7 @@ Nous proposons des formations complètes pour le permis B avec:
 📅 Réservez votre leçon d'essai gratuite dès maintenant!
 
 Cordialement,
-L'équipe ViaMenutor`,
+L'équipe Viamentor`,
     category: "info",
     locale: "fr",
   },
@@ -261,7 +261,7 @@ Nous avons remarqué que vous n'avez pas encore répondu à notre dernier messag
 Si vous avez des questions ou besoin de plus d'informations, n'hésitez pas à nous contacter!
 
 Cordialement,
-L'équipe ViaMenutor`,
+L'équipe Viamentor`,
     category: "followUp",
     locale: "fr",
   },
@@ -281,7 +281,7 @@ Offre valable jusqu'au 31 janvier 2025.
 
 Inscrivez-vous maintenant et commencez votre formation dès février!
 
-L'équipe ViaMenutor`,
+L'équipe Viamentor`,
     category: "promotion",
     locale: "fr",
   },
@@ -425,7 +425,7 @@ export const mockCampaigns: Campaign[] = [
     audienceFilters: [],
     audienceCount: 67,
     template: "tpl-1",
-    emailSubject: "Newsletter ViaMenutor - Janvier 2025 📰",
+    emailSubject: "Newsletter Viamentor - Janvier 2025 📰",
     emailBody: "Contenu newsletter...",
     abTestEnabled: false,
     variants: [],

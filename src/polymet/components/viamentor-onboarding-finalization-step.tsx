@@ -448,15 +448,15 @@ export function FinalizationStep({
           <DialogHeader>
             <DialogTitle>Conditions Générales d'Utilisation</DialogTitle>
             <DialogDescription>
-              ViaMenutor - Dernière mise à jour : Janvier 2025
+              Viamentor - Dernière mise à jour : Janvier 2025
             </DialogDescription>
           </DialogHeader>
           <div className="prose prose-sm dark:prose-invert">
             <p>
-              En utilisant ViaMenutor, vous acceptez les conditions suivantes...
+              En utilisant Viamentor, vous acceptez les conditions suivantes...
             </p>
             <h3>1. Objet</h3>
-            <p>ViaMenutor est une plateforme SaaS de gestion d'auto-école...</p>
+            <p>Viamentor est une plateforme SaaS de gestion d'auto-école...</p>
             <h3>2. Responsabilités</h3>
             <p>L'utilisateur est responsable de la véracité des données...</p>
             {/* Add more terms content */}
@@ -475,7 +475,7 @@ export function FinalizationStep({
           </DialogHeader>
           <div className="prose prose-sm dark:prose-invert">
             <p>
-              ViaMenutor s'engage à protéger vos données conformément à la nLPD
+              Viamentor s'engage à protéger vos données conformément à la nLPD
               2023...
             </p>
             <h3>Données collectées</h3>

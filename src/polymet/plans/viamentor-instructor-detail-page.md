@@ -1,4 +1,4 @@
-# Page Détail Moniteur ViaMenutor
+# Page Détail Moniteur Viamentor
 
 ## User Request
 Créer page détail moniteur complète avec header Hero UI, tabs navigation (Informations/Planning/Élèves assignés/Performance), édition inline, charts performance, Hero UI, i18n FR/DE/IT/EN, Clean Code 200-250 lignes/fichier.

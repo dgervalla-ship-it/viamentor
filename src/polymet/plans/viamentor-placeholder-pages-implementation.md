@@ -1,4 +1,4 @@
-# Implémentation Pages Placeholder ViaMenutor
+# Implémentation Pages Placeholder Viamentor
 
 ## User Request
 Implémenter les 17 pages placeholder manquantes dans le prototype pour remplacer les routes utilisant `viamentor-placeholder-page`.

@@ -62,7 +62,7 @@ interface BulkActionsBarProps {
   onSuspend?: (data: { reason: string; instructorIds: string[] }) => void;
 }
 
-export function ViaMenutorInstructorsBulkActions({
+export function ViamentorInstructorsBulkActions({
   selectedCount,
   selectedIds,
   locale = "fr",

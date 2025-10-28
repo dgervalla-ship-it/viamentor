@@ -15,7 +15,7 @@ export const EXECUTIVE_SUMMARY = {
   version: "1.0.0",
 
   overview: `
-    ViaMenutor implémente une conformité RGPD/nLPD complète avec tous les
+    Viamentor implémente une conformité RGPD/nLPD complète avec tous les
     droits utilisateurs obligatoires et les meilleures pratiques de sécurité.
     
     Toutes les 4 actions RGPD obligatoires sont implémentées :

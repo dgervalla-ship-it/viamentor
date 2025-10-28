@@ -45,7 +45,7 @@ interface SchoolAdminActivitySectionProps {
 // COMPONENT
 // ============================================================================
 
-export function ViaMenutorSchoolAdminActivitySection({
+export function ViamentorSchoolAdminActivitySection({
   locale = "fr",
 }: SchoolAdminActivitySectionProps) {
   // Render activity icon
@@ -124,4 +124,4 @@ export function ViaMenutorSchoolAdminActivitySection({
   );
 }
 
-export default ViaMenutorSchoolAdminActivitySection;
+export default ViamentorSchoolAdminActivitySection;

@@ -237,7 +237,7 @@ export const mockPixelEvents: PixelEvent[] = [
     status: "sent",
     parameters: {
       page_url: "https://viamentor.ch/contact",
-      page_title: "Contact - ViaMenutor",
+      page_title: "Contact - Viamentor",
     },
     response: {
       statusCode: 200,

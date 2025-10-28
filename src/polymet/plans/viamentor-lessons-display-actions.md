@@ -1,4 +1,4 @@
-# Plan: Lessons Display & Actions ViaMenutor
+# Plan: Lessons Display & Actions Viamentor
 
 ## User Request
 Créer le système complet d'affichage et interactions pour les leçons pratiques avec:

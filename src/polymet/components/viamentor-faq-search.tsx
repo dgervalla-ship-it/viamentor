@@ -44,16 +44,16 @@ const faqData: FAQItem[] = [
   // Général
   {
     category: "general",
-    question: "Qu'est-ce que ViaMenutor ?",
+    question: "Qu'est-ce que Viamentor ?",
     answer:
-      "ViaMenutor est une plateforme complète de gestion pour auto-écoles suisses. Elle permet de gérer les élèves, le planning, la facturation, le marketing et bien plus encore, le tout conforme aux normes suisses OAC et nLPD.",
+      "Viamentor est une plateforme complète de gestion pour auto-écoles suisses. Elle permet de gérer les élèves, le planning, la facturation, le marketing et bien plus encore, le tout conforme aux normes suisses OAC et nLPD.",
     related: ["Migration depuis un autre logiciel ?", "Essai gratuit ?"],
   },
   {
     category: "general",
-    question: "Pour qui est ViaMenutor ?",
+    question: "Pour qui est Viamentor ?",
     answer:
-      "ViaMenutor s'adresse aux auto-écoles de toutes tailles en Suisse, des petites structures avec 1-2 moniteurs aux grandes écoles multi-sites avec des dizaines de moniteurs.",
+      "Viamentor s'adresse aux auto-écoles de toutes tailles en Suisse, des petites structures avec 1-2 moniteurs aux grandes écoles multi-sites avec des dizaines de moniteurs.",
   },
   {
     category: "general",
@@ -73,7 +73,7 @@ const faqData: FAQItem[] = [
     category: "features",
     question: "Y a-t-il une app mobile ?",
     answer:
-      "Oui, ViaMenutor dispose d'applications mobiles natives pour iOS et Android. Les moniteurs peuvent gérer leur planning, les élèves peuvent réserver des leçons et suivre leur progression.",
+      "Oui, Viamentor dispose d'applications mobiles natives pour iOS et Android. Les moniteurs peuvent gérer leur planning, les élèves peuvent réserver des leçons et suivre leur progression.",
   },
   {
     category: "features",
@@ -85,7 +85,7 @@ const faqData: FAQItem[] = [
   // Tarifs
   {
     category: "pricing",
-    question: "Combien coûte ViaMenutor ?",
+    question: "Combien coûte Viamentor ?",
     answer:
       "Nos tarifs commencent à 149 CHF/mois pour le plan Starter. Le plan Professional est à 299 CHF/mois. Pour les grandes structures, nous proposons un plan Enterprise sur mesure.",
   },
@@ -113,7 +113,7 @@ const faqData: FAQItem[] = [
     category: "technical",
     question: "Quelles sont les intégrations disponibles ?",
     answer:
-      "ViaMenutor s'intègre avec Google Calendar, Outlook, Twint, Stripe, et de nombreux autres services. Une API REST est disponible pour les plans Enterprise.",
+      "Viamentor s'intègre avec Google Calendar, Outlook, Twint, Stripe, et de nombreux autres services. Une API REST est disponible pour les plans Enterprise.",
   },
   {
     category: "technical",

@@ -27,7 +27,7 @@
 // ============================================================================
 
 /**
- * Approche de test ViaMenutor:
+ * Approche de test Viamentor:
  *
  * 1. Tests manuels dans le navigateur (priorité)
  * 2. Tests visuels avec screenshots

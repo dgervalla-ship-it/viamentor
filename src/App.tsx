@@ -29,17 +29,17 @@ import { BlogPage } from "@/polymet/pages/viamentor-blog-page";
 import { BlogArticlePage } from "@/polymet/pages/viamentor-blog-article-page";
 import { ResourcesPage } from "@/polymet/pages/viamentor-resources-page";
 import { CaseStudiesPage } from "@/polymet/pages/viamentor-case-studies-page";
-import { ViaMenutorSystemDemo } from "@/polymet/pages/viamentor-system-demo";
-import { ViaMenutorLoginPage } from "@/polymet/pages/viamentor-login-page";
-import { ViaMenutorCompleteDemo } from "@/polymet/pages/viamentor-complete-demo";
-import { ViaMenutorReportPage } from "@/polymet/pages/viamentor-report-page";
-import { ViaMenutorTenantsPage } from "@/polymet/pages/viamentor-tenants-page";
-import { ViaMenutorTenantDetailPage } from "@/polymet/pages/viamentor-tenant-detail-page";
-import { ViaMenutorGDPRCompliancePage } from "@/polymet/pages/viamentor-gdpr-compliance-page";
-import { ViaMenutorFinancePage } from "@/polymet/pages/viamentor-finance-page";
+import { ViamentorSystemDemo } from "@/polymet/pages/viamentor-system-demo";
+import { ViamentorLoginPage } from "@/polymet/pages/viamentor-login-page";
+import { ViamentorCompleteDemo } from "@/polymet/pages/viamentor-complete-demo";
+import { ViamentorReportPage } from "@/polymet/pages/viamentor-report-page";
+import { ViamentorTenantsPage } from "@/polymet/pages/viamentor-tenants-page";
+import { ViamentorTenantDetailPage } from "@/polymet/pages/viamentor-tenant-detail-page";
+import { ViamentorGDPRCompliancePage } from "@/polymet/pages/viamentor-gdpr-compliance-page";
+import { ViamentorFinancePage } from "@/polymet/pages/viamentor-finance-page";
 import { FinanceDashboardPage } from "@/polymet/pages/viamentor-finance-dashboard-page";
 import { VATReportsPage } from "@/polymet/pages/viamentor-vat-reports-page";
-import { ViaMenutorInvoicesPage } from "@/polymet/pages/viamentor-invoices-page";
+import { ViamentorInvoicesPage } from "@/polymet/pages/viamentor-invoices-page";
 import { InvoicesListPage } from "@/polymet/pages/viamentor-invoices-list-page";
 import { RevenueAnalyticsPage } from "@/polymet/pages/viamentor-revenue-analytics-page";
 import { AnalyticsCentralPage } from "@/polymet/pages/viamentor-analytics-central-page";
@@ -50,9 +50,9 @@ import { StudentsNewPage } from "@/polymet/pages/viamentor-students-new-page";
 import { StudentsImportPage } from "@/polymet/pages/viamentor-students-import-page";
 import { StudentsArchivePage } from "@/polymet/pages/viamentor-students-archive-page";
 import { StudentDetailPage } from "@/polymet/pages/viamentor-student-detail-page";
-import { ViaMenutorInstructorsPage } from "@/polymet/pages/viamentor-instructors-page";
+import { ViamentorInstructorsPage } from "@/polymet/pages/viamentor-instructors-page";
 import { InstructorsNewPage } from "@/polymet/pages/viamentor-instructors-new-page";
-import { ViaMenutorInstructorDetailPage } from "@/polymet/pages/viamentor-instructor-detail-page";
+import { ViamentorInstructorDetailPage } from "@/polymet/pages/viamentor-instructor-detail-page";
 import { InstructorsAnalyticsPage } from "@/polymet/pages/viamentor-instructors-analytics-page";
 import { VehiclesAnalyticsPage } from "@/polymet/pages/viamentor-vehicles-analytics-page";
 import { VehiclesPage } from "@/polymet/pages/viamentor-vehicles-page";
@@ -71,11 +71,11 @@ import { DashboardSchoolPage } from "@/polymet/pages/viamentor-dashboard-school-
 import { DashboardInstructorPage } from "@/polymet/pages/viamentor-dashboard-instructor-page";
 import { DashboardStudentPage } from "@/polymet/pages/viamentor-dashboard-student-page";
 import { LayoutDemoPage } from "@/polymet/pages/viamentor-layout-demo-page";
-import { ViaMenutorSupabaseDemoPage } from "@/polymet/pages/viamentor-supabase-demo-page";
-import { ViaMenutorCredentialsPage } from "@/polymet/pages/viamentor-credentials-page";
-import { ViaMenutorNoAuthInfoPage } from "@/polymet/pages/viamentor-no-auth-info-page";
+import { ViamentorSupabaseDemoPage } from "@/polymet/pages/viamentor-supabase-demo-page";
+import { ViamentorCredentialsPage } from "@/polymet/pages/viamentor-credentials-page";
+import { ViamentorNoAuthInfoPage } from "@/polymet/pages/viamentor-no-auth-info-page";
 import { NavigationDemoPage } from "@/polymet/pages/viamentor-navigation-demo-page";
-import { ViaMenutorQuickActionsDemoPage } from "@/polymet/pages/viamentor-quick-actions-demo-page";
+import { ViamentorQuickActionsDemoPage } from "@/polymet/pages/viamentor-quick-actions-demo-page";
 import { StudentBookLessonPage } from "@/polymet/pages/viamentor-student-book-lesson-page";
 import { StudentLessonsPage } from "@/polymet/pages/viamentor-student-lessons-page";
 import StudentProgressionPage from "@/polymet/pages/viamentor-student-progression-page";
@@ -104,13 +104,13 @@ import { StaffCampaignsPage } from "@/polymet/pages/viamentor-staff-campaigns-pa
 import { ReviewsSettingsPage } from "@/polymet/pages/viamentor-reviews-settings-page";
 import { ReviewsVerificationPage } from "@/polymet/pages/viamentor-reviews-verification-page";
 import { ReviewsDashboardPage } from "@/polymet/pages/viamentor-reviews-dashboard-page";
-import { ViaMenutorRBACAdminPage } from "@/polymet/pages/viamentor-rbac-admin-page";
+import { ViamentorRBACAdminPage } from "@/polymet/pages/viamentor-rbac-admin-page";
 import { AdminRolesPage } from "@/polymet/pages/viamentor-admin-roles-page";
 import { AdminDbHealthPage } from "@/polymet/pages/viamentor-admin-db-health-page";
 import { SecurityBreachesPage } from "@/polymet/pages/viamentor-security-breaches-page";
 import { SuperAdminPage } from "@/polymet/pages/viamentor-super-admin-page";
-import { ViaMenutorPlatformAdminPage } from "@/polymet/pages/viamentor-platform-admin-page";
-import { ViaMenutorSchoolAdminPage } from "@/polymet/pages/viamentor-school-admin-page";
+import { ViamentorPlatformAdminPage } from "@/polymet/pages/viamentor-platform-admin-page";
+import { ViamentorSchoolAdminPage } from "@/polymet/pages/viamentor-school-admin-page";
 import { GlobalUsersPage } from "@/polymet/pages/viamentor-global-users-page";
 import { SystemHealthPage } from "@/polymet/pages/viamentor-system-health-page";
 import { SecurityAlertsPage } from "@/polymet/pages/viamentor-security-alerts-page";
@@ -187,7 +187,7 @@ import { NotFoundPage } from "@/polymet/pages/viamentor-not-found-page";
 import { UnauthorizedPage } from "@/polymet/pages/viamentor-unauthorized-page";
 import { ErrorPage } from "@/polymet/pages/viamentor-error-page";
 import { MaintenancePage } from "@/polymet/pages/viamentor-maintenance-page";
-import { ViaMenutorMainLayout } from "@/polymet/layouts/viamentor-main-layout";
+import { ViamentorMainLayout } from "@/polymet/layouts/viamentor-main-layout";
 import { SmartHomeRedirect } from "@/polymet/components/viamentor-smart-home-redirect";
 import { StudentTemporaryAccessPage } from "@/polymet/pages/viamentor-student-temporary-access-page";
 import { InstructorTemporaryStudentsPage } from "@/polymet/pages/viamentor-instructor-temporary-students-page";
@@ -198,7 +198,7 @@ import { CoursesTypesPage } from "@/polymet/pages/viamentor-courses-types-page";
 import { CoursesCalendarPage } from "@/polymet/pages/viamentor-courses-calendar-page";
 import { CoursesSessionsPage } from "@/polymet/pages/viamentor-courses-sessions-page";
 
-export default function ViaMenutorSystemPrototype() {
+export default function ViamentorSystemPrototype() {
   return (
     <Router>
       <Routes>
@@ -269,9 +269,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/login"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
-              <ViaMenutorLoginPage />
-            </ViaMenutorMainLayout>
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
+              <ViamentorLoginPage />
+            </ViamentorMainLayout>
           }
         />
 
@@ -283,9 +283,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/not-found"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <NotFoundPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -293,9 +293,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/unauthorized"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <UnauthorizedPage locale="fr" reason="permission" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -303,9 +303,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/error"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <ErrorPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -313,9 +313,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/maintenance"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <MaintenancePage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -323,9 +323,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/supabase-demo"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
-              <ViaMenutorSupabaseDemoPage />
-            </ViaMenutorMainLayout>
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
+              <ViamentorSupabaseDemoPage />
+            </ViamentorMainLayout>
           }
         />
 
@@ -333,9 +333,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/credentials"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
-              <ViaMenutorCredentialsPage />
-            </ViaMenutorMainLayout>
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
+              <ViamentorCredentialsPage />
+            </ViamentorMainLayout>
           }
         />
 
@@ -343,9 +343,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/onboarding"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <OnboardingPage />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -353,9 +353,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/no-auth-info"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
-              <ViaMenutorNoAuthInfoPage />
-            </ViaMenutorMainLayout>
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
+              <ViamentorNoAuthInfoPage />
+            </ViamentorMainLayout>
           }
         />
 
@@ -363,9 +363,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/navigation-demo"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <NavigationDemoPage />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -373,9 +373,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/quick-actions-demo"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
-              <ViaMenutorQuickActionsDemoPage />
-            </ViaMenutorMainLayout>
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
+              <ViamentorQuickActionsDemoPage />
+            </ViamentorMainLayout>
           }
         />
 
@@ -387,9 +387,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/quick/book-lesson"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <QuickBookLessonPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -397,9 +397,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/quick/new-student"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <QuickNewStudentPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -407,9 +407,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/quick/new-invoice"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <QuickNewInvoicePage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -417,9 +417,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/quick/report-absence"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <QuickReportAbsencePage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -431,9 +431,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/search"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <GlobalSearchPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -441,9 +441,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/recent"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <RecentPagesPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -451,9 +451,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/favorites"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <FavoritesPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -461,9 +461,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/history"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <ActivityHistoryPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -475,9 +475,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/my-workspace"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <MyWorkspacePage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -485,9 +485,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/shortcuts"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <MyShortcutsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -495,9 +495,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/widgets"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <MyWidgetsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -505,9 +505,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/system"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
-              <ViaMenutorSystemDemo />
-            </ViaMenutorMainLayout>
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
+              <ViamentorSystemDemo />
+            </ViamentorMainLayout>
           }
         />
 
@@ -515,9 +515,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/complete"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
-              <ViaMenutorCompleteDemo />
-            </ViaMenutorMainLayout>
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
+              <ViamentorCompleteDemo />
+            </ViamentorMainLayout>
           }
         />
 
@@ -525,9 +525,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/report"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
-              <ViaMenutorReportPage />
-            </ViaMenutorMainLayout>
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
+              <ViamentorReportPage />
+            </ViamentorMainLayout>
           }
         />
 
@@ -535,9 +535,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/tenants"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
-              <ViaMenutorTenantsPage />
-            </ViaMenutorMainLayout>
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
+              <ViamentorTenantsPage />
+            </ViamentorMainLayout>
           }
         />
 
@@ -545,9 +545,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/tenants/:id"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
-              <ViaMenutorTenantDetailPage />
-            </ViaMenutorMainLayout>
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
+              <ViamentorTenantDetailPage />
+            </ViamentorMainLayout>
           }
         />
 
@@ -555,9 +555,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/compliance/gdpr"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
-              <ViaMenutorGDPRCompliancePage />
-            </ViaMenutorMainLayout>
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
+              <ViamentorGDPRCompliancePage />
+            </ViamentorMainLayout>
           }
         />
 
@@ -565,9 +565,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/finance"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
-              <ViaMenutorFinancePage />
-            </ViaMenutorMainLayout>
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
+              <ViamentorFinancePage />
+            </ViamentorMainLayout>
           }
         />
 
@@ -575,9 +575,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/finance/dashboard"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <FinanceDashboardPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -585,9 +585,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/finance/vat-reports"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <VATReportsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -595,9 +595,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/billing"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <BillingDashboardPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -605,9 +605,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/payments"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <PaymentsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -615,9 +615,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/finance/invoices"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
-              <ViaMenutorInvoicesPage />
-            </ViaMenutorMainLayout>
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
+              <ViamentorInvoicesPage />
+            </ViamentorMainLayout>
           }
         />
 
@@ -625,9 +625,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/invoices"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <InvoicesListPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -635,9 +635,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/analytics"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <AnalyticsCentralPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -651,9 +651,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/students"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StudentsPage />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -661,9 +661,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/students/new"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StudentsNewPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -671,9 +671,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/students/import"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StudentsImportPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -681,9 +681,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/students/archive"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StudentsArchivePage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -691,9 +691,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/students/:id"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StudentDetailPage />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -701,9 +701,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/school/students/:studentId/temporary-access"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StudentTemporaryAccessPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -711,9 +711,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/school/students/:studentId/assignment-history"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StudentAssignmentHistoryPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -721,9 +721,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/instructor-manager"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <InstructorManagerPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -731,9 +731,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/marketing-manager"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <MarketingManagerPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -741,9 +741,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/finance-manager"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <FinanceManagerPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -751,9 +751,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/accountant"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <AccountantPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -761,9 +761,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/instructors"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
-              <ViaMenutorInstructorsPage />
-            </ViaMenutorMainLayout>
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
+              <ViamentorInstructorsPage />
+            </ViamentorMainLayout>
           }
         />
 
@@ -771,9 +771,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/instructors/new"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <InstructorsNewPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -781,9 +781,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/instructors/:id"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
-              <ViaMenutorInstructorDetailPage />
-            </ViaMenutorMainLayout>
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
+              <ViamentorInstructorDetailPage />
+            </ViamentorMainLayout>
           }
         />
 
@@ -797,9 +797,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/vehicles"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <VehiclesPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -807,9 +807,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/maintenance"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <MaintenancePage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -817,9 +817,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/vehicles/:id"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <VehicleDetailPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -845,36 +845,36 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/exams"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <ExamsListPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
         <Route
           path="/exams/:id"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <ExamDetailPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
         <Route
           path="/exams/book"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <ExamsBookPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
         <Route
           path="/exams/mock"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <ExamsMockPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -882,9 +882,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/exams/results"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <ExamsResultsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -892,9 +892,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/exams/calendar"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <ExamsCalendarPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -902,27 +902,27 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/theory-courses"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <TheoryCoursesListPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
         <Route
           path="/theory-courses/:id"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <TheoryCourseDetailPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
         <Route
           path="/theory-courses/book"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <TheoryCourseBookPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -930,9 +930,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/planning"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <PlanningPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -940,9 +940,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/planning/import"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <PlanningImportPage locale="fr" tenant="auto-ecole-geneve" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -950,9 +950,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/planning/import/history"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <PlanningImportHistoryPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -960,9 +960,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/planning/export"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <PlanningExportPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -970,45 +970,45 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/lessons"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <LessonsListPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
         <Route
           path="/lessons/:id"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <LessonDetailPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
         <Route
           path="/lessons/calendar"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <LessonsCalendarPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
         <Route
           path="/lessons/book"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <LessonsBookPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
         <Route
           path="/lessons/conflicts"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <LessonsConflictsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1016,9 +1016,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/instructor/planning"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <InstructorPlanningPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1026,9 +1026,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/instructor/lessons"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <InstructorLessonsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1036,9 +1036,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/instructor/students"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <InstructorStudentsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1046,9 +1046,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/instructor/temporary-students"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <InstructorTemporaryStudentsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1056,9 +1056,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/settings"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <SettingsCentralPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1066,9 +1066,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/settings/pricing"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <PricingSettingsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1076,9 +1076,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/pricing"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <PricingManagementPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1086,9 +1086,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/notifications"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <NotificationsCenterPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1096,9 +1096,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/settings/notifications"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <NotificationsSettingsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1106,9 +1106,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/layout-demo"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <LayoutDemoPage />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1118,9 +1118,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/school/dashboard"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
-              <ViaMenutorSchoolAdminPage locale="fr" />
-            </ViaMenutorMainLayout>
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
+              <ViamentorSchoolAdminPage locale="fr" />
+            </ViamentorMainLayout>
           }
         />
 
@@ -1128,9 +1128,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/instructor/dashboard"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <DashboardInstructorPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1138,9 +1138,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/student/dashboard"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <DashboardStudentPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1164,27 +1164,27 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/student/planning"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StudentPlanningPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
         <Route
           path="/student/lessons"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StudentLessonsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
         <Route
           path="/student/lessons/book"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StudentBookLessonPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1192,9 +1192,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/student/progression"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StudentProgressionPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1202,9 +1202,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/student/billing"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StudentBillingPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1212,9 +1212,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/student/profile"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StudentProfilePage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1222,9 +1222,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/instructor/lessons/:lessonId/evaluate"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <LessonEvaluationPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1232,9 +1232,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/instructor/profile"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <InstructorProfilePage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1242,9 +1242,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/secretary/dashboard"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <SecretaryDashboardPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1252,9 +1252,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/secretary/registrations"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <SecretaryRegistrationsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1262,18 +1262,18 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/secretary/planning"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StaffPlanningPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
         <Route
           path="/secretary/lessons"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <SecretaryLessonsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1287,9 +1287,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/staff/messages"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StaffMessagesPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1297,9 +1297,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/staff/tasks"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StaffTasksPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1307,9 +1307,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/rooms"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <RoomsManagementPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1317,9 +1317,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/settings/course-types"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <CourseTypesSettingsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1327,9 +1327,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/settings/makeups"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <MakeupsSettingsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1337,9 +1337,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/student/makeups"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StudentMakeupsPage locale="fr" featureMakeupsEnabled={true} />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1347,9 +1347,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/contact"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <ContactPublicPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1357,9 +1357,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/merci"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <ThankYouPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1367,9 +1367,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/marketing/pixels/health"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <PixelsHealthPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1377,9 +1377,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/staff/prospects"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StaffProspectsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1387,9 +1387,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/staff/marketing/campaigns"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StaffCampaignsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1397,9 +1397,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/settings/reviews"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <ReviewsSettingsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1407,9 +1407,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/reviews/verification"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <ReviewsVerificationPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1423,9 +1423,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/admin/rbac"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
-              <ViaMenutorRBACAdminPage locale="fr" />
-            </ViaMenutorMainLayout>
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
+              <ViamentorRBACAdminPage locale="fr" />
+            </ViamentorMainLayout>
           }
         />
 
@@ -1433,9 +1433,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/admin/roles"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <AdminRolesPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1443,9 +1443,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/admin/db-health"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <AdminDbHealthPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1453,9 +1453,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/security/breaches"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <SecurityBreachesPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1463,9 +1463,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/platform-admin"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
-              <ViaMenutorPlatformAdminPage locale="fr" />
-            </ViaMenutorMainLayout>
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
+              <ViamentorPlatformAdminPage locale="fr" />
+            </ViamentorMainLayout>
           }
         />
 
@@ -1473,9 +1473,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/super-admin"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <SuperAdminPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1483,9 +1483,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/school-admin"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
-              <ViaMenutorSchoolAdminPage locale="fr" />
-            </ViaMenutorMainLayout>
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
+              <ViamentorSchoolAdminPage locale="fr" />
+            </ViamentorMainLayout>
           }
         />
 
@@ -1497,9 +1497,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/users"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="viamentor-platform">
+            <ViamentorMainLayout locale="fr" tenant="viamentor-platform">
               <GlobalUsersPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1507,9 +1507,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/system/health"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="viamentor-platform">
+            <ViamentorMainLayout locale="fr" tenant="viamentor-platform">
               <SystemHealthPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1517,9 +1517,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/security/alerts"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="viamentor-platform">
+            <ViamentorMainLayout locale="fr" tenant="viamentor-platform">
               <SecurityAlertsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1527,9 +1527,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/audit"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="viamentor-platform">
+            <ViamentorMainLayout locale="fr" tenant="viamentor-platform">
               <AuditLogsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1537,9 +1537,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/platform/analytics"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="viamentor-platform">
+            <ViamentorMainLayout locale="fr" tenant="viamentor-platform">
               <PlatformAnalyticsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1547,9 +1547,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/config"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="viamentor-platform">
+            <ViamentorMainLayout locale="fr" tenant="viamentor-platform">
               <SystemConfigPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1557,9 +1557,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/config/features"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="viamentor-platform">
+            <ViamentorMainLayout locale="fr" tenant="viamentor-platform">
               <FeatureFlagsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1567,9 +1567,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/config/integrations"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="viamentor-platform">
+            <ViamentorMainLayout locale="fr" tenant="viamentor-platform">
               <SystemIntegrationsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1577,9 +1577,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/docs"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="viamentor-platform">
+            <ViamentorMainLayout locale="fr" tenant="viamentor-platform">
               <DocumentationPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1591,9 +1591,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/support"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="viamentor-platform">
+            <ViamentorMainLayout locale="fr" tenant="viamentor-platform">
               <SupportTicketsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1601,9 +1601,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/reports"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="viamentor-platform">
+            <ViamentorMainLayout locale="fr" tenant="viamentor-platform">
               <GlobalReportsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1615,9 +1615,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/staff"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StaffManagementPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1625,9 +1625,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/availability"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <AvailabilityGlobalPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1635,9 +1635,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/group-lessons"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <GroupLessonsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1645,9 +1645,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/billing/reminders"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <BillingRemindersPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1655,9 +1655,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/campaigns/analytics"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <CampaignsAnalyticsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1665,9 +1665,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/settings/school"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <SchoolSettingsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1675,9 +1675,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/settings/categories"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <CategoriesSettingsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1685,9 +1685,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/settings/hours"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <BusinessHoursSettingsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1695,9 +1695,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/school/courses/categories"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <CoursesCategoriesPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1705,9 +1705,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/school/courses/categories/:categoryId/types"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <CoursesTypesPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1715,9 +1715,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/school/courses/calendar"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <CoursesCalendarPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1725,9 +1725,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/school/courses/sessions"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <CoursesSessionsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1735,12 +1735,12 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/settings/integrations"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <PlaceholderPage
                 title="Intégrations"
                 description="Configuration des intégrations tierces"
               />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1748,9 +1748,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/settings/users"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <UsersManagementPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1762,9 +1762,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/instructor/evaluations"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <InstructorEvaluationsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1772,9 +1772,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/instructor/availability"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <InstructorAvailabilityPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1782,13 +1782,13 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/instructor/makeups"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <PlaceholderPage
                 title="Rattrapages Élèves"
                 description="Gestion des crédits de rattrapage de mes élèves"
                 backLink="/instructor-dashboard"
               />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1796,9 +1796,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/instructor/messages"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <InstructorMessagesPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1806,9 +1806,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/instructor/help"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <InstructorHelpPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1816,9 +1816,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/instructor/today"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <InstructorTodayPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1826,9 +1826,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/instructor/week"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <InstructorWeekPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1836,9 +1836,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/instructor/priorities"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <InstructorPrioritiesPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1846,9 +1846,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/instructor/performance"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <InstructorPerformancePage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1856,9 +1856,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/instructor/earnings"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <InstructorEarningsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1870,9 +1870,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/student/exams"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StudentExamsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1880,9 +1880,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/student/payments"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StudentPaymentsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1890,9 +1890,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/student/documents"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StudentDocumentsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1900,9 +1900,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/student/messages"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StudentMessagesPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1910,9 +1910,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/student/help"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StudentHelpPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1920,9 +1920,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/student/journey"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StudentJourneyPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1930,9 +1930,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/student/next-steps"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StudentNextStepsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1940,9 +1940,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/student/milestones"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <StudentMilestonesPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1954,9 +1954,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/secretary/students"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <SecretaryStudentsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1964,9 +1964,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/secretary/instructors"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <SecretaryInstructorsPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1974,9 +1974,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/secretary/calendar"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <SecretaryCalendarPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -1984,13 +1984,13 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="/staff/profile"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <PlaceholderPage
                 title="Mon Profil"
                 description="Gestion de mon profil secrétaire"
                 backLink="/secretary/dashboard"
               />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
 
@@ -2002,9 +2002,9 @@ export default function ViaMenutorSystemPrototype() {
         <Route
           path="*"
           element={
-            <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+            <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
               <NotFoundPage locale="fr" />
-            </ViaMenutorMainLayout>
+            </ViamentorMainLayout>
           }
         />
       </Routes>

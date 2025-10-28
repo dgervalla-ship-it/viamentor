@@ -11,7 +11,7 @@
 // ============================================================================
 
 /**
- * Le module Planning ViaMenutor offre une gestion complète du planning
+ * Le module Planning Viamentor offre une gestion complète du planning
  * avec 3 vues (Month/Week/Day), intégration cours théoriques + leçons pratiques,
  * filtres actifs, drag & drop, et export PDF/Excel.
  */

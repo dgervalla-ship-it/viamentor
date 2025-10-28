@@ -5,7 +5,7 @@
  * @example
  * ```tsx
  * <SEOHead
- *   title="À propos de ViaMenutor"
+ *   title="À propos de Viamentor"
  *   description="Découvrez notre mission et notre équipe"
  *   canonicalUrl="https://viamentor.ch/about"
  *   locale="fr"
@@ -53,7 +53,7 @@ interface SEOHeadProps {
 // CONSTANTS
 // ============================================================================
 
-const SITE_NAME = "ViaMenutor";
+const SITE_NAME = "Viamentor";
 const SITE_URL = "https://viamentor.ch";
 const DEFAULT_OG_IMAGE = `${SITE_URL}/og-image.png`;
 const TWITTER_HANDLE = "@viamentor";
@@ -246,7 +246,7 @@ export function createAboutPageStructuredData(
   return {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    name: locale === "fr" ? "À propos de ViaMenutor" : "About ViaMenutor",
+    name: locale === "fr" ? "À propos de Viamentor" : "About Viamentor",
     description:
       locale === "fr"
         ? "Découvrez notre mission, notre histoire et notre équipe"

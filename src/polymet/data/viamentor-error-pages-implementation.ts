@@ -8,7 +8,7 @@ export const errorPagesImplementation = {
   // OVERVIEW
   // ============================================================================
   overview: {
-    title: "Système de Gestion des Erreurs ViaMenutor",
+    title: "Système de Gestion des Erreurs Viamentor",
     description:
       "Implémentation complète de 4 pages d'erreur pour gérer tous les cas d'erreur et améliorer l'expérience utilisateur",
     version: "1.0.0",
@@ -322,7 +322,7 @@ if (isMaintenanceMode) {
       title: "Cohérence visuelle",
       description: "Toutes les pages d'erreur suivent le même design pattern",
       elements: [
-        "Logo ViaMenutor en haut",
+        "Logo Viamentor en haut",
         "Icône d'erreur colorée (destructive pour erreurs, primary pour maintenance)",
         "Code d'erreur en grand (404, 403, 500, 503)",
         "Titre clair et descriptif",

@@ -25,7 +25,7 @@ import { DunningManagement } from "@/polymet/components/viamentor-dunning-manage
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { FileTextIcon, CreditCardIcon, BellIcon } from "lucide-react";
 
-export function ViaMenutorInvoicesPage() {
+export function ViamentorInvoicesPage() {
   const [invoices, setInvoices] = useState<Invoice[]>(MOCK_INVOICES);
   const [paymentMethods, setPaymentMethods] =
     useState<PaymentMethod[]>(MOCK_PAYMENT_METHODS);

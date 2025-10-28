@@ -104,7 +104,7 @@ export const TOURS_I18N: Record<SupportedLocale, ToursTranslations> = {
     },
 
     schoolAdmin: {
-      title: "Bienvenue sur ViaMenutor !",
+      title: "Bienvenue sur Viamentor !",
       steps: {
         sidebar: {
           title: "Navigation principale",
@@ -137,14 +137,14 @@ export const TOURS_I18N: Record<SupportedLocale, ToursTranslations> = {
             "Analysez la performance de votre auto-école : taux de réussite, revenus, utilisation véhicules. Exportez vos rapports en PDF/Excel.",
         },
         settings: {
-          title: "Personnalisez ViaMenutor",
+          title: "Personnalisez Viamentor",
           content:
             "Configurez vos tarifs, horaires d'ouverture, templates emails, et tous les paramètres de votre auto-école.",
         },
         final: {
           title: "Vous êtes prêt !",
           content:
-            "Vous maîtrisez maintenant les bases de ViaMenutor. Explorez à votre rythme, notre support est disponible 24/7 si besoin.",
+            "Vous maîtrisez maintenant les bases de Viamentor. Explorez à votre rythme, notre support est disponible 24/7 si besoin.",
         },
       },
     },
@@ -180,7 +180,7 @@ export const TOURS_I18N: Record<SupportedLocale, ToursTranslations> = {
         final: {
           title: "Bonne route !",
           content:
-            "Vous êtes prêt à utiliser ViaMenutor. Bonne formation à vos élèves !",
+            "Vous êtes prêt à utiliser Viamentor. Bonne formation à vos élèves !",
         },
       },
     },
@@ -272,7 +272,7 @@ export const TOURS_I18N: Record<SupportedLocale, ToursTranslations> = {
     },
 
     schoolAdmin: {
-      title: "Willkommen bei ViaMenutor!",
+      title: "Willkommen bei Viamentor!",
       steps: {
         sidebar: {
           title: "Hauptnavigation",
@@ -305,14 +305,14 @@ export const TOURS_I18N: Record<SupportedLocale, ToursTranslations> = {
             "Analysieren Sie die Leistung Ihrer Fahrschule: Erfolgsquote, Einnahmen, Fahrzeugnutzung. Exportieren Sie Ihre Berichte als PDF/Excel.",
         },
         settings: {
-          title: "ViaMenutor anpassen",
+          title: "Viamentor anpassen",
           content:
             "Konfigurieren Sie Ihre Tarife, Öffnungszeiten, E-Mail-Vorlagen und alle Parameter Ihrer Fahrschule.",
         },
         final: {
           title: "Sie sind bereit!",
           content:
-            "Sie beherrschen jetzt die Grundlagen von ViaMenutor. Erkunden Sie in Ihrem Tempo, unser Support ist 24/7 verfügbar.",
+            "Sie beherrschen jetzt die Grundlagen von Viamentor. Erkunden Sie in Ihrem Tempo, unser Support ist 24/7 verfügbar.",
         },
       },
     },
@@ -348,7 +348,7 @@ export const TOURS_I18N: Record<SupportedLocale, ToursTranslations> = {
         final: {
           title: "Gute Fahrt!",
           content:
-            "Sie sind bereit, ViaMenutor zu nutzen. Viel Erfolg bei der Ausbildung Ihrer Schüler!",
+            "Sie sind bereit, Viamentor zu nutzen. Viel Erfolg bei der Ausbildung Ihrer Schüler!",
         },
       },
     },
@@ -440,7 +440,7 @@ export const TOURS_I18N: Record<SupportedLocale, ToursTranslations> = {
     },
 
     schoolAdmin: {
-      title: "Benvenuto su ViaMenutor!",
+      title: "Benvenuto su Viamentor!",
       steps: {
         sidebar: {
           title: "Navigazione principale",
@@ -473,14 +473,14 @@ export const TOURS_I18N: Record<SupportedLocale, ToursTranslations> = {
             "Analizza le prestazioni della tua scuola guida: tasso di successo, entrate, utilizzo veicoli. Esporta i tuoi report in PDF/Excel.",
         },
         settings: {
-          title: "Personalizza ViaMenutor",
+          title: "Personalizza Viamentor",
           content:
             "Configura le tue tariffe, orari di apertura, template email e tutti i parametri della tua scuola guida.",
         },
         final: {
           title: "Sei pronto!",
           content:
-            "Ora padroneggi le basi di ViaMenutor. Esplora al tuo ritmo, il nostro supporto è disponibile 24/7 se necessario.",
+            "Ora padroneggi le basi di Viamentor. Esplora al tuo ritmo, il nostro supporto è disponibile 24/7 se necessario.",
         },
       },
     },
@@ -516,7 +516,7 @@ export const TOURS_I18N: Record<SupportedLocale, ToursTranslations> = {
         final: {
           title: "Buona strada!",
           content:
-            "Sei pronto per utilizzare ViaMenutor. Buona formazione ai tuoi studenti!",
+            "Sei pronto per utilizzare Viamentor. Buona formazione ai tuoi studenti!",
         },
       },
     },
@@ -608,7 +608,7 @@ export const TOURS_I18N: Record<SupportedLocale, ToursTranslations> = {
     },
 
     schoolAdmin: {
-      title: "Welcome to ViaMenutor!",
+      title: "Welcome to Viamentor!",
       steps: {
         sidebar: {
           title: "Main Navigation",
@@ -641,14 +641,14 @@ export const TOURS_I18N: Record<SupportedLocale, ToursTranslations> = {
             "Analyze your driving school performance: success rate, revenue, vehicle utilization. Export your reports as PDF/Excel.",
         },
         settings: {
-          title: "Customize ViaMenutor",
+          title: "Customize Viamentor",
           content:
             "Configure your rates, opening hours, email templates, and all your driving school settings.",
         },
         final: {
           title: "You're Ready!",
           content:
-            "You now master the basics of ViaMenutor. Explore at your own pace, our support is available 24/7 if needed.",
+            "You now master the basics of Viamentor. Explore at your own pace, our support is available 24/7 if needed.",
         },
       },
     },
@@ -684,7 +684,7 @@ export const TOURS_I18N: Record<SupportedLocale, ToursTranslations> = {
         final: {
           title: "Safe Driving!",
           content:
-            "You're ready to use ViaMenutor. Good training to your students!",
+            "You're ready to use Viamentor. Good training to your students!",
         },
       },
     },

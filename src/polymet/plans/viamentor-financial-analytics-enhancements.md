@@ -1,7 +1,7 @@
 # Financial Analytics Enhancements
 
 ## User Request
-Ajouter 3 sections optionnelles au module Financial Analytics ViaMenutor:
+Ajouter 3 sections optionnelles au module Financial Analytics Viamentor:
 1. Pricing Analysis avec ScatterPlot
 2. Payment Methods avec breakdown détaillé
 3. Budget Tracking avec Progress bars

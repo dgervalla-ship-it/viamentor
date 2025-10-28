@@ -69,7 +69,7 @@ const mockCaseStudies: CaseStudy[] = [
       satisfactionIncrease: "+25%",
     },
     quote:
-      "ViaMenutor a transformé notre façon de travailler. Nous avons gagné 15h par semaine sur l'administratif et augmenté nos inscriptions de 40% en 6 mois.",
+      "Viamentor a transformé notre façon de travailler. Nous avons gagné 15h par semaine sur l'administratif et augmenté nos inscriptions de 40% en 6 mois.",
     author: {
       name: "Jean Dupont",
       role: "Directeur",
@@ -135,7 +135,7 @@ const mockCaseStudies: CaseStudy[] = [
       satisfactionIncrease: "+22%",
     },
     quote:
-      "La conformité OAC et nLPD était un casse-tête. ViaMenutor gère tout automatiquement. Nous sommes sereins et nos élèves aussi.",
+      "La conformité OAC et nLPD était un casse-tête. Viamentor gère tout automatiquement. Nous sommes sereins et nos élèves aussi.",
     author: {
       name: "Sophie Schneider",
       role: "Directrice",
@@ -179,7 +179,7 @@ const mockCaseStudies: CaseStudy[] = [
       satisfactionIncrease: "+32%",
     },
     quote:
-      "Nous avons ouvert 2 nouveaux sites en 1 an grâce à ViaMenutor. La gestion multi-sites est un jeu d'enfant.",
+      "Nous avons ouvert 2 nouveaux sites en 1 an grâce à Viamentor. La gestion multi-sites est un jeu d'enfant.",
     author: {
       name: "Laura Rossier",
       role: "Directrice Générale",
@@ -355,7 +355,7 @@ export function CaseStudiesPage({
           </h2>
           <p className="mb-8 text-lg text-muted-foreground">
             Rejoignez les 500+ auto-écoles qui ont transformé leur activité avec
-            ViaMenutor
+            Viamentor
           </p>
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button size="lg" className="gap-2">

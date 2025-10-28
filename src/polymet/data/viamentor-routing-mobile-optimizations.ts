@@ -269,7 +269,7 @@ export function ResponsiveTable({ children }: { children: ReactNode }) {
 /**
  * Structure Recommandée du Prototype
  *
- * export default function ViaMenutorSystemPrototype() {
+ * export default function ViamentorSystemPrototype() {
  *   return (
  *     <AppProvider>
  *       <Router>
@@ -302,9 +302,9 @@ function LayoutWrapper({ children }: { children: ReactNode }) {
   const { tenant, locale } = useApp();
 
   return (
-    <ViaMenutorMainLayout locale={locale} tenant={tenant}>
+    <ViamentorMainLayout locale={locale} tenant={tenant}>
       {children}
-    </ViaMenutorMainLayout>
+    </ViamentorMainLayout>
   );
 }
 

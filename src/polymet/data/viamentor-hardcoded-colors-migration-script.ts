@@ -4,7 +4,7 @@
 # VIAMENTOR - SCRIPT MIGRATION COULEURS HARDCODÉES
 # 
 # Ce script remplace automatiquement les couleurs hardcodées par des variants
-# sémantiques dans tout le projet ViaMenutor
+# sémantiques dans tout le projet Viamentor
 #
 # @usage ./migrate-hardcoded-colors.sh
 # @date 2025-01-18

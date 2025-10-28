@@ -527,7 +527,7 @@ export const mockAppointments: Appointment[] = [
 
 export const mockSchoolInfo: SchoolInfo = {
   logo: "https://github.com/polymet-ai.png",
-  name: "Auto-École ViaMenutor Lausanne",
+  name: "Auto-École Viamentor Lausanne",
   address: "Rue de la Gare 12, 1003 Lausanne",
   phone: "+41 21 123 45 67",
   email: "contact@viamentor.ch",
@@ -535,7 +535,7 @@ export const mockSchoolInfo: SchoolInfo = {
   socialMedia: {
     facebook: "https://facebook.com/viamentor",
     instagram: "https://instagram.com/viamentor",
-    googleMaps: "https://maps.google.com/?q=Auto-École+ViaMenutor+Lausanne",
+    googleMaps: "https://maps.google.com/?q=Auto-École+Viamentor+Lausanne",
   },
   openingHours: {
     monday: { open: "08:00", close: "18:00" },

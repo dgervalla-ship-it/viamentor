@@ -34,7 +34,7 @@ export const TABLE_OF_CONTENTS = {
 export const INTRODUCTION = `
 # Architecture Refactoring Guide
 
-Ce guide explique comment utiliser l'architecture refactorisée de ViaMenutor
+Ce guide explique comment utiliser l'architecture refactorisée de Viamentor
 pour créer des pages et composants maintenables, testables et réutilisables.
 
 ## Objectifs de l'Architecture

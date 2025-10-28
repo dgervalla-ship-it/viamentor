@@ -79,7 +79,7 @@ const translations = {
       title: "Informations générales",
       description: "Informations de base de votre école",
       schoolName: "Nom de l'école",
-      schoolNamePlaceholder: "Auto-école ViaMenutor",
+      schoolNamePlaceholder: "Auto-école Viamentor",
       description_field: "Description",
       descriptionPlaceholder: "Description de votre école...",
       logo: "Logo",
@@ -175,7 +175,7 @@ const translations = {
       title: "Allgemeine Informationen",
       description: "Grundlegende Informationen Ihrer Schule",
       schoolName: "Schulname",
-      schoolNamePlaceholder: "Fahrschule ViaMenutor",
+      schoolNamePlaceholder: "Fahrschule Viamentor",
       description_field: "Beschreibung",
       descriptionPlaceholder: "Beschreibung Ihrer Schule...",
       logo: "Logo",
@@ -271,7 +271,7 @@ const translations = {
       title: "Informazioni generali",
       description: "Informazioni di base della tua scuola",
       schoolName: "Nome della scuola",
-      schoolNamePlaceholder: "Autoscuola ViaMenutor",
+      schoolNamePlaceholder: "Autoscuola Viamentor",
       description_field: "Descrizione",
       descriptionPlaceholder: "Descrizione della tua scuola...",
       logo: "Logo",
@@ -368,7 +368,7 @@ const translations = {
       title: "General information",
       description: "Basic information about your school",
       schoolName: "School name",
-      schoolNamePlaceholder: "ViaMenutor Driving School",
+      schoolNamePlaceholder: "Viamentor Driving School",
       description_field: "Description",
       descriptionPlaceholder: "Description of your school...",
       logo: "Logo",
@@ -546,7 +546,7 @@ export default function SchoolSettingsPage({
                 <Input
                   id="schoolName"
                   placeholder={t.general.schoolNamePlaceholder}
-                  defaultValue="Auto-école ViaMenutor Genève"
+                  defaultValue="Auto-école Viamentor Genève"
                 />
               </div>
 

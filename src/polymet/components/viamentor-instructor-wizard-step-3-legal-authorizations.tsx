@@ -58,7 +58,7 @@ interface LegalAuthorizationsStepProps {
   onValidationChange: (isValid: boolean) => void;
 }
 
-export function ViaMenutorInstructorWizardStep3LegalAuthorizations({
+export function ViamentorInstructorWizardStep3LegalAuthorizations({
   initialData,
   locale = "fr",
   onDataChange,

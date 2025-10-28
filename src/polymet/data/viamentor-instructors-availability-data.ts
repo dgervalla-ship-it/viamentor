@@ -184,19 +184,19 @@ export const MOCK_MESSAGE_TEMPLATES: BulkMessageTemplate[] = [
     id: "template-1",
     name: "Rappel planning semaine",
     subject: "Planning de la semaine du {date}",
-    body: "Bonjour {prenom},\n\nVoici votre planning pour la semaine du {date}.\n\nCordialement,\nL'équipe ViaMenutor",
+    body: "Bonjour {prenom},\n\nVoici votre planning pour la semaine du {date}.\n\nCordialement,\nL'équipe Viamentor",
   },
   {
     id: "template-2",
     name: "Demande disponibilités",
     subject: "Mise à jour de vos disponibilités",
-    body: "Bonjour {prenom},\n\nMerci de mettre à jour vos disponibilités pour le mois prochain.\n\nCordialement,\nL'équipe ViaMenutor",
+    body: "Bonjour {prenom},\n\nMerci de mettre à jour vos disponibilités pour le mois prochain.\n\nCordialement,\nL'équipe Viamentor",
   },
   {
     id: "template-3",
     name: "Information importante",
     subject: "Information importante",
-    body: "Bonjour {prenom},\n\n[Votre message ici]\n\nCordialement,\nL'équipe ViaMenutor",
+    body: "Bonjour {prenom},\n\n[Votre message ici]\n\nCordialement,\nL'équipe Viamentor",
   },
 ];
 

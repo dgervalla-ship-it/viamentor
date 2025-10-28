@@ -61,7 +61,7 @@ type ViewMode = "grid" | "list";
 /**
  * Page de gestion des tenants
  */
-export function ViaMenutorTenantsPage() {
+export function ViamentorTenantsPage() {
   const [viewMode, setViewMode] = useState<ViewMode>("grid");
   const [presetName, setPresetName] = useState("");
   const [showPresetDialog, setShowPresetDialog] = useState(false);

@@ -1,7 +1,7 @@
 # Business Hours & Availability Settings Module
 
 ## User Request
-Créer le module complet de paramètres horaires et disponibilités ViaMenutor avec:
+Créer le module complet de paramètres horaires et disponibilités Viamentor avec:
 - Horaires d'ouverture standard (7 jours semaine, matin/après-midi)
 - Configuration créneaux leçons (durée, slots, délais)
 - Jours fériés suisses (API import, fédéraux/cantonaux)

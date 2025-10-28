@@ -28,7 +28,7 @@ export const TABLE_OF_CONTENTS = {
 
 export const OVERVIEW = {
   description: `
-Le système i18n de ViaMenutor supporte 4 langues (FR/DE/IT/EN) avec :
+Le système i18n de Viamentor supporte 4 langues (FR/DE/IT/EN) avec :
 - Traductions centralisées par langue
 - Namespaces pour éviter les collisions
 - Pluralization automatique

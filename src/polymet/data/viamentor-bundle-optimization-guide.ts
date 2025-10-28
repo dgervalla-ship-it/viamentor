@@ -4,7 +4,7 @@
  * ============================================================================
  *
  * Guide complet pour optimiser le bundle size et améliorer les performances
- * de chargement de l'application ViaMenutor.
+ * de chargement de l'application Viamentor.
  *
  * SCORE ACTUEL: 6/10 ⚠️
  * SCORE CIBLE: 9/10 ✅

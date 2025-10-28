@@ -55,7 +55,7 @@ interface StudentsTabProps {
   onUnassign?: (student: AssignedStudent) => void;
 }
 
-export function ViaMenutorInstructorStudentsTab({
+export function ViamentorInstructorStudentsTab({
   students,
   stats,
   locale = "fr",

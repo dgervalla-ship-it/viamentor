@@ -8,7 +8,7 @@
 // ============================================================================
 
 /**
- * FAQ complète ViaMenutor
+ * FAQ complète Viamentor
  *
  * Cette FAQ couvre toutes les questions fréquentes des utilisateurs
  * organisées par catégorie et par rôle.
@@ -26,8 +26,8 @@ export const GENERAL_FAQ = {
 
   questions: [
     {
-      q: "Qu'est-ce que ViaMenutor ?",
-      a: "ViaMenutor est un système de gestion complet pour écoles de conduite suisses, conforme aux réglementations OAC et OMCo.",
+      q: "Qu'est-ce que Viamentor ?",
+      a: "Viamentor est un système de gestion complet pour écoles de conduite suisses, conforme aux réglementations OAC et OMCo.",
       tags: ["général", "présentation"],
     },
     {
@@ -473,7 +473,7 @@ export const MOBILE_FAQ = {
 
   questions: [
     {
-      q: "Puis-je utiliser ViaMenutor sur mobile ?",
+      q: "Puis-je utiliser Viamentor sur mobile ?",
       a: "Oui, l'interface est entièrement responsive et optimisée pour mobile/tablette.",
       tags: ["mobile", "compatibilité"],
     },
@@ -537,7 +537,7 @@ export const SUPPORT_FAQ = {
 
 export const FAQ_BY_TAGS = {
   général: [
-    "Qu'est-ce que ViaMenutor ?",
+    "Qu'est-ce que Viamentor ?",
     "Quels sont les rôles disponibles ?",
     "Quelles langues sont supportées ?",
   ],

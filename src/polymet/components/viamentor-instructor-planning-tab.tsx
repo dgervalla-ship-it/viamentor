@@ -57,7 +57,7 @@ interface PlanningTabProps {
 
 type ViewMode = "month" | "week" | "day";
 
-export function ViaMenutorInstructorPlanningTab({
+export function ViamentorInstructorPlanningTab({
   lessons,
   locale = "fr",
   onNewLesson,

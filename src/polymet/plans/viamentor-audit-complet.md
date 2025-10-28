@@ -1,7 +1,7 @@
-# Audit Complet ViaMenutor
+# Audit Complet Viamentor
 
 ## User Request
-Identifier toutes les anomalies, incohérences et pages manquantes dans le prototype ViaMenutor.
+Identifier toutes les anomalies, incohérences et pages manquantes dans le prototype Viamentor.
 
 ## Related Files
 - @/polymet/prototypes/viamentor-system-prototype (to view) - Prototype principal
@@ -78,7 +78,7 @@ Identifier toutes les anomalies, incohérences et pages manquantes dans le proto
 **B. Préfixes incohérents:**
 - Certaines pages: `viamentor-` prefix
 - Autres pages: pas de prefix
-- Exemple: `ViaMenutorLoginPage` vs `StudentsPage`
+- Exemple: `ViamentorLoginPage` vs `StudentsPage`
 
 #### 5. Pages Détails Manquantes
 
@@ -146,7 +146,7 @@ Identifier toutes les anomalies, incohérences et pages manquantes dans le proto
 - Pages réelles: pas de back link systématique
 
 **C. Layout inconsistencies:**
-- Toutes les pages wrapped dans `ViaMenutorMainLayout`
+- Toutes les pages wrapped dans `ViamentorMainLayout`
 - Mais certaines devraient être fullscreen (onboarding, login)
 
 #### 8. Problèmes de Performance

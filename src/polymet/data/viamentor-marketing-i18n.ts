@@ -548,7 +548,7 @@ const translations: Record<MarketingLocale, MarketingTranslations> = {
         shareArticle: "Partager l'article",
       },
       cta: {
-        title: "Essayer ViaMenutor gratuitement",
+        title: "Essayer Viamentor gratuitement",
         button: "Démarrer l'essai gratuit",
       },
     },
@@ -568,7 +568,7 @@ const translations: Record<MarketingLocale, MarketingTranslations> = {
         button: "Télécharger gratuitement",
         modalTitle: "Télécharger la ressource",
         email: "Votre email professionnel",
-        consent: "J'accepte de recevoir des emails de ViaMenutor",
+        consent: "J'accepte de recevoir des emails de Viamentor",
         submit: "Télécharger maintenant",
       },
     },
@@ -585,7 +585,7 @@ const translations: Record<MarketingLocale, MarketingTranslations> = {
       readFullStory: "Lire l'étude complète",
     },
     nav: {
-      logo: "ViaMenutor",
+      logo: "Viamentor",
       forSchools: "Pour Auto-écoles",
       forInstructors: "Pour Moniteurs",
       forStudents: "Pour Élèves",
@@ -675,7 +675,7 @@ const translations: Record<MarketingLocale, MarketingTranslations> = {
             "Gestion élèves, planning, facturation QR-factures - Conforme OAC/nLPD",
         },
         arguments: {
-          title: "Pourquoi ViaMenutor pour votre école ?",
+          title: "Pourquoi Viamentor pour votre école ?",
           subtitle: "Des résultats concrets et mesurables dès le premier mois",
           timeSaving: [
             "Inscriptions automatisées avec wizard 5 étapes",
@@ -820,7 +820,7 @@ const translations: Record<MarketingLocale, MarketingTranslations> = {
           sync: "Sync Google Calendar",
         },
         arguments: {
-          title: "Pourquoi les moniteurs adorent ViaMenutor",
+          title: "Pourquoi les moniteurs adorent Viamentor",
           subtitle: "Moins d'administratif, plus de pédagogie",
           planning: {
             title: "Planning personnel mobile",
@@ -902,7 +902,7 @@ const translations: Record<MarketingLocale, MarketingTranslations> = {
           items: [
             {
               quote:
-                "J'ai gagné 12h par semaine depuis que j'utilise ViaMenutor. Je peux enfin me concentrer sur l'enseignement.",
+                "J'ai gagné 12h par semaine depuis que j'utilise Viamentor. Je peux enfin me concentrer sur l'enseignement.",
               name: "Marc Dubois",
               role: "Moniteur indépendant, Genève",
             },
@@ -922,7 +922,7 @@ const translations: Record<MarketingLocale, MarketingTranslations> = {
         },
         finalCta: {
           title: "Prêt à simplifier votre quotidien ?",
-          subtitle: "Rejoignez les 500+ moniteurs qui utilisent ViaMenutor",
+          subtitle: "Rejoignez les 500+ moniteurs qui utilisent Viamentor",
           free: "Gratuit pour les moniteurs employés",
         },
       },
@@ -938,7 +938,7 @@ const translations: Record<MarketingLocale, MarketingTranslations> = {
           appTitle: "Mon Permis",
         },
         arguments: {
-          title: "Pourquoi les élèves choisissent ViaMenutor",
+          title: "Pourquoi les élèves choisissent Viamentor",
           subtitle: "Une expérience moderne et intuitive",
           booking: {
             title: "Réservation 24/7",
@@ -1061,7 +1061,7 @@ const translations: Record<MarketingLocale, MarketingTranslations> = {
         finalCta: {
           title: "Prêt à commencer votre formation ?",
           subtitle:
-            "Rejoignez les milliers d'élèves qui apprennent avec ViaMenutor",
+            "Rejoignez les milliers d'élèves qui apprennent avec Viamentor",
           easy: "Simple, rapide et sécurisé",
         },
       },
@@ -1080,7 +1080,7 @@ const translations: Record<MarketingLocale, MarketingTranslations> = {
       resources: "Ressources",
       legal: "Légal",
       contact: "Contact",
-      copyright: "© 2025 ViaMenutor - Tous droits réservés",
+      copyright: "© 2025 Viamentor - Tous droits réservés",
       madeInSwitzerland: "Fait en Suisse 🇨🇭",
     },
     pricing: {
@@ -1182,7 +1182,7 @@ const translations: Record<MarketingLocale, MarketingTranslations> = {
     },
     demo: {
       hero: {
-        title: "Découvrez ViaMenutor en action",
+        title: "Découvrez Viamentor en action",
         subtitle: "Vidéo démo 4 min - Ou réservez une démo personnalisée",
       },
       video: {
@@ -1201,7 +1201,7 @@ const translations: Record<MarketingLocale, MarketingTranslations> = {
         phone: "Téléphone",
         schoolSize: "Taille de votre école",
         needs: "Besoins spécifiques (optionnel)",
-        consent: "J'accepte d'être contacté par ViaMenutor",
+        consent: "J'accepte d'être contacté par Viamentor",
         submit: "Demander une démo",
       },
     },
@@ -1234,7 +1234,7 @@ const translations: Record<MarketingLocale, MarketingTranslations> = {
         updated: "Dernière mise à jour: 15.01.2025",
         publisher: {
           title: "Éditeur",
-          company: "ViaMenutor SA",
+          company: "Viamentor SA",
           address: "Route de Lausanne 45, 1202 Genève, Suisse",
           uid: "CHE-123.456.789 TVA",
           ide: "IDE CH-550.1.234.567-8",
@@ -1253,7 +1253,7 @@ const translations: Record<MarketingLocale, MarketingTranslations> = {
         ip: {
           title: "Propriété intellectuelle",
           content:
-            "Copyright © 2025 ViaMenutor SA. Tous droits réservés. Les marques, logos, designs et code source sont protégés par les lois sur la propriété intellectuelle. Toute utilisation non autorisée est strictement interdite et fera l'objet de poursuites judiciaires.",
+            "Copyright © 2025 Viamentor SA. Tous droits réservés. Les marques, logos, designs et code source sont protégés par les lois sur la propriété intellectuelle. Toute utilisation non autorisée est strictement interdite et fera l'objet de poursuites judiciaires.",
         },
       },
       privacy: {
@@ -1261,7 +1261,7 @@ const translations: Record<MarketingLocale, MarketingTranslations> = {
         updated: "Dernière mise à jour: 15.01.2025",
         controller: {
           title: "Responsable du traitement",
-          company: "ViaMenutor SA",
+          company: "Viamentor SA",
           dpo: "Délégué à la protection des données: dpo@viamentor.ch",
         },
         dataCollected: {
@@ -1407,7 +1407,7 @@ const translations: Record<MarketingLocale, MarketingTranslations> = {
   },
   de: {
     nav: {
-      logo: "ViaMenutor",
+      logo: "Viamentor",
       forSchools: "Für Fahrschulen",
       forInstructors: "Für Fahrlehrer",
       forStudents: "Für Fahrschüler",
@@ -1497,7 +1497,7 @@ const translations: Record<MarketingLocale, MarketingTranslations> = {
       resources: "Ressourcen",
       legal: "Rechtliches",
       contact: "Kontakt",
-      copyright: "© 2025 ViaMenutor - Alle Rechte vorbehalten",
+      copyright: "© 2025 Viamentor - Alle Rechte vorbehalten",
       madeInSwitzerland: "Made in Switzerland 🇨🇭",
     },
     pricing: {
@@ -1556,7 +1556,7 @@ const translations: Record<MarketingLocale, MarketingTranslations> = {
         updated: "Letzte Aktualisierung: 15.01.2025",
         publisher: {
           title: "Herausgeber",
-          company: "ViaMenutor SA",
+          company: "Viamentor SA",
           address: "Route de Lausanne 45, 1202 Genf, Schweiz",
           uid: "CHE-123.456.789 MWST",
           ide: "IDE CH-550.1.234.567-8",
@@ -1571,7 +1571,7 @@ const translations: Record<MarketingLocale, MarketingTranslations> = {
         director: { title: "Verantwortlicher", name: "Jean Dupont, CEO" },
         ip: {
           title: "Geistiges Eigentum",
-          content: "Copyright © 2025 ViaMenutor SA. Alle Rechte vorbehalten.",
+          content: "Copyright © 2025 Viamentor SA. Alle Rechte vorbehalten.",
         },
       },
       privacy: {
@@ -1579,7 +1579,7 @@ const translations: Record<MarketingLocale, MarketingTranslations> = {
         updated: "Letzte Aktualisierung: 15.01.2025",
         controller: {
           title: "Verantwortlicher",
-          company: "ViaMenutor SA",
+          company: "Viamentor SA",
           dpo: "Datenschutzbeauftragter: dpo@viamentor.ch",
         },
         dataCollected: { title: "Erhobene Daten", items: [] },
@@ -1632,7 +1632,7 @@ const translations: Record<MarketingLocale, MarketingTranslations> = {
   },
   it: {
     nav: {
-      logo: "ViaMenutor",
+      logo: "Viamentor",
       forSchools: "Per Autoscuole",
       forInstructors: "Per Istruttori",
       forStudents: "Per Allievi",
@@ -1712,13 +1712,13 @@ const translations: Record<MarketingLocale, MarketingTranslations> = {
       resources: "Risorse",
       legal: "Legale",
       contact: "Contatto",
-      copyright: "© 2025 ViaMenutor - Tutti i diritti riservati",
+      copyright: "© 2025 Viamentor - Tutti i diritti riservati",
       madeInSwitzerland: "Made in Switzerland 🇨🇭",
     },
   },
   en: {
     nav: {
-      logo: "ViaMenutor",
+      logo: "Viamentor",
       forSchools: "For Driving Schools",
       forInstructors: "For Instructors",
       forStudents: "For Students",
@@ -1798,7 +1798,7 @@ const translations: Record<MarketingLocale, MarketingTranslations> = {
       resources: "Resources",
       legal: "Legal",
       contact: "Contact",
-      copyright: "© 2025 ViaMenutor - All rights reserved",
+      copyright: "© 2025 Viamentor - All rights reserved",
       madeInSwitzerland: "Made in Switzerland 🇨🇭",
     },
   },

@@ -1,7 +1,7 @@
-# Migration i18n ViaMenutor
+# Migration i18n Viamentor
 
 ## User Request
-Implémenter les améliorations i18n ViaMenutor avec architecture centralisée, namespaces et validation automatique.
+Implémenter les améliorations i18n Viamentor avec architecture centralisée, namespaces et validation automatique.
 
 ## Related Files
 - @/polymet/data/viamentor-i18n-locales-fr (créé) - Traductions FR centralisées

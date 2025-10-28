@@ -1,4 +1,4 @@
-# Plan: Gestion Paiements ViaMenutor
+# Plan: Gestion Paiements Viamentor
 
 ## User Request
 Développer système complet gestion paiements avec:

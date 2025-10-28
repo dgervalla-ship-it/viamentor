@@ -5,7 +5,7 @@
  *
  * Partie 1/6 : VUE D'ENSEMBLE ET CONTEXTE
  *
- * Cette documentation explique l'architecture actuelle du projet ViaMenutor,
+ * Cette documentation explique l'architecture actuelle du projet Viamentor,
  * sa structure cible Next.js 15, et le plan de migration complet.
  */
 
@@ -16,7 +16,7 @@
 /**
  * 1.1 Environnement Actuel : Polymet
  *
- * ViaMenutor est actuellement développé dans l'environnement Polymet,
+ * Viamentor est actuellement développé dans l'environnement Polymet,
  * une plateforme de prototypage rapide qui utilise React Router.
  *
  * ⚠️ IMPORTANT : Ce n'est PAS la structure de production finale !

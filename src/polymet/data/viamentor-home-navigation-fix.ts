@@ -248,9 +248,9 @@ export const SOLUTION_BENEFITS = {
  * <Route
  *   path="/fleet-manager"
  *   element={
- *     <ViaMenutorMainLayout>
+ *     <ViamentorMainLayout>
  *       <FleetManagerPage />
- *     </ViaMenutorMainLayout>
+ *     </ViamentorMainLayout>
  *   }
  * />
  *

@@ -50,7 +50,7 @@ export function LayoutDocumentationPage() {
             <div className="flex-1 space-y-4">
               <div>
                 <h1 className="text-4xl font-bold">
-                  Layout Principal ViaMenutor
+                  Layout Principal Viamentor
                 </h1>
                 <p className="mt-2 text-xl text-muted-foreground">
                   Next.js 14 App Router • TypeScript • Supabase • Multi-tenant •
@@ -332,7 +332,7 @@ export function LayoutDocumentationPage() {
                 <div className="space-y-4">
                   {[
                     {
-                      name: "ViaMenutorMainLayout",
+                      name: "ViamentorMainLayout",
                       path: "layouts/viamentor-main-layout",
                       desc: "Layout principal avec auth check et tenant validation",
                     },
@@ -391,7 +391,7 @@ export function LayoutDocumentationPage() {
 import { redirect } from "next/navigation";
 import { cookies } from "next/headers";
 import { createServerComponentClient } from "@supabase/auth-helpers-nextjs";
-import { ViaMenutorMainLayout } from "@/polymet/layouts/viamentor-main-layout";
+import { ViamentorMainLayout } from "@/polymet/layouts/viamentor-main-layout";
 
 export default async function TenantLayout({
   children,
@@ -424,14 +424,14 @@ export default async function TenantLayout({
 
   // 4. RENDER LAYOUT
   return (
-    <ViaMenutorMainLayout
+    <ViamentorMainLayout
       locale={locale}
       tenant={tenant}
       user={session.user}
       role={userRole.role}
     >
       {children}
-    </ViaMenutorMainLayout>
+    </ViamentorMainLayout>
   );
 }`,
               },

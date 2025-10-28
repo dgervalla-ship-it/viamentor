@@ -90,7 +90,7 @@ serve(async (req) => {
 # openapi.yml
 openapi: 3.0.0
 info:
-  title: ViaMenutor API
+  title: Viamentor API
   version: 1.0.0
 
 paths:

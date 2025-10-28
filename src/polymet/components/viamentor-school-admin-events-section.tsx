@@ -39,7 +39,7 @@ interface SchoolAdminEventsSectionProps {
 // COMPONENT
 // ============================================================================
 
-export function ViaMenutorSchoolAdminEventsSection({
+export function ViamentorSchoolAdminEventsSection({
   locale = "fr",
 }: SchoolAdminEventsSectionProps) {
   const t = schoolAdminTranslations[locale];
@@ -130,4 +130,4 @@ export function ViaMenutorSchoolAdminEventsSection({
   );
 }
 
-export default ViaMenutorSchoolAdminEventsSection;
+export default ViamentorSchoolAdminEventsSection;

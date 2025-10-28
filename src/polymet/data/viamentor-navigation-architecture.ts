@@ -14,7 +14,7 @@
 
 export const NAVIGATION_ARCHITECTURE = {
   overview: {
-    title: "ViaMenutor Navigation Sidebar Architecture",
+    title: "Viamentor Navigation Sidebar Architecture",
     description: "Architecture modulaire complète avec RBAC, i18n, analytics",
     version: "2.1.0",
     lastUpdated: "2025-01-13",

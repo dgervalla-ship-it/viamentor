@@ -355,7 +355,7 @@ export function BillingInvoicesPreview({
                     vatAmount:
                       selectedInvoice.amount - selectedInvoice.amount / 1.077,
                     currency: "CHF",
-                    tenantName: "Auto-École ViaMenutor",
+                    tenantName: "Auto-École Viamentor",
                     tenantLogo: "https://github.com/polymet-ai.png",
                     tenantAddress: {
                       street: "Rue de la Gare 12",

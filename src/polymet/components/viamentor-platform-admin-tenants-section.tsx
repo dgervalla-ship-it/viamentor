@@ -70,7 +70,7 @@ interface PlatformAdminTenantsSectionProps {
 // COMPONENT
 // ============================================================================
 
-export function ViaMenutorPlatformAdminTenantsSection({
+export function ViamentorPlatformAdminTenantsSection({
   locale = "fr",
   onViewTenant,
   onImpersonate,
@@ -355,4 +355,4 @@ export function ViaMenutorPlatformAdminTenantsSection({
   );
 }
 
-export default ViaMenutorPlatformAdminTenantsSection;
+export default ViamentorPlatformAdminTenantsSection;

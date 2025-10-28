@@ -8,7 +8,7 @@
 
 ## 🎯 Vue d'ensemble
 
-Ce projet ViaMenutor est un **prototype fonctionnel avancé** avec :
+Ce projet Viamentor est un **prototype fonctionnel avancé** avec :
 - ✅ **1079 fichiers** de code source
 - ✅ **370+ composants** métier
 - ✅ **189 pages/routes** définies
@@ -170,7 +170,7 @@ audit/
 
 ## 🎯 CONCLUSION
 
-**ViaMenutor est un excellent prototype** avec une architecture solide et un design soigné. 
+**Viamentor est un excellent prototype** avec une architecture solide et un design soigné. 
 
 **MAIS** : Il nécessite **6-8 semaines** d'efforts concentrés sur :
 1. Backend réel

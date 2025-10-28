@@ -1,7 +1,7 @@
 # Priorité 3 - Tests & Documentation
 
 ## User Request
-Passer à Priorité 3 : Tester les nouvelles pages créées et créer plus de documentation pour le système ViaMenutor.
+Passer à Priorité 3 : Tester les nouvelles pages créées et créer plus de documentation pour le système Viamentor.
 
 ## Related Files
 - @/polymet/pages/viamentor-theory-courses-list-page (to test)

@@ -1,5 +1,5 @@
 /**
- * Traductions i18n pour page Planning ViaMenutor
+ * Traductions i18n pour page Planning Viamentor
  * Support FR/DE/IT/EN avec terminologie auto-école
  */
 

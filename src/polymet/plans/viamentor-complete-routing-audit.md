@@ -1,4 +1,4 @@
-# Audit Complet Routing ViaMenutor
+# Audit Complet Routing Viamentor
 
 ## User Request
 Contrôler les 206 fichiers du projet et connecter toutes les routes manquantes dans le prototype.
@@ -19,7 +19,7 @@ Contrôler les 206 fichiers du projet et connecter toutes les routes manquantes 
 
 ### ✅ RÉSULTAT FINAL: 100% DE CONFORMITÉ!
 
-**Toutes les routes sont bien connectées dans le prototype ViaMenutor!**
+**Toutes les routes sont bien connectées dans le prototype Viamentor!**
 
 ### Statistiques Complètes
 - **Total routes dans prototype**: 181 routes
@@ -172,7 +172,7 @@ Ces 4 routes utilisent PlaceholderPage pour des features en développement:
 4. /staff/profile → Profil secrétaire
 
 ### Architecture Routing
-- ✅ Toutes routes authentifiées utilisent ViaMenutorMainLayout
+- ✅ Toutes routes authentifiées utilisent ViamentorMainLayout
 - ✅ Routes marketing sans layout (standalone)
 - ✅ Locale FR par défaut partout
 - ✅ Tenant "auto-ecole-geneve" pour routes école
@@ -182,7 +182,7 @@ Ces 4 routes utilisent PlaceholderPage pour des features en développement:
 - ✅ Tous les imports corrects et fonctionnels
 
 ### Conclusion
-**Le prototype ViaMenutor est 100% conforme et complet!**
+**Le prototype Viamentor est 100% conforme et complet!**
 
 Toutes les 181 routes sont correctement configurées, tous les imports sont valides, et l'architecture de routing est solide. Les 4 placeholder pages sont intentionnelles pour des features en développement futur.
 

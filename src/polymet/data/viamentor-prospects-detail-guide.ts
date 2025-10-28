@@ -365,7 +365,7 @@ Events tracked:
 
 ## 🎉 Conclusion
 
-Le système de détail prospect ViaMenutor est **production-ready** avec:
+Le système de détail prospect Viamentor est **production-ready** avec:
 - ✅ Architecture modulaire clean
 - ✅ Types TypeScript complets
 - ✅ i18n multi-langue

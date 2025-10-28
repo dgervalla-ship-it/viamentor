@@ -3,7 +3,7 @@
  * VIAMENTOR - Security System README
  * ============================================================================
  *
- * Documentation complète du système de sécurité ViaMenutor
+ * Documentation complète du système de sécurité Viamentor
  * Score: ⭐ 10/10
  */
 

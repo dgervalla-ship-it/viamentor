@@ -1,7 +1,7 @@
 # Améliorations Avancées Module Maintenance
 
 ## User Request
-Implémenter 4 fonctionnalités avancées pour le module de maintenance ViaMenutor:
+Implémenter 4 fonctionnalités avancées pour le module de maintenance Viamentor:
 1. **Synchronisation statuts véhicules** : Mettre à jour `Vehicle.status = "maintenance"` automatiquement quand une tâche est en cours
 2. **Notifications automatiques** : Emails/SMS avant les échéances de maintenance
 3. **Intégration garages** : API pour réservation automatique chez les prestataires

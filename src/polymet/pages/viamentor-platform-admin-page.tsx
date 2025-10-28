@@ -21,13 +21,13 @@
  */
 
 import React, { useState } from "react";
-import { ViaMenutorResponsivePageWrapper } from "@/polymet/components/viamentor-responsive-page-wrapper";
-import { ViaMenutorPlatformAdminOverviewSection } from "@/polymet/components/viamentor-platform-admin-overview-section";
-import { ViaMenutorPlatformAdminTenantsSection } from "@/polymet/components/viamentor-platform-admin-tenants-section";
-import { ViaMenutorPlatformAdminMonitoringSection } from "@/polymet/components/viamentor-platform-admin-monitoring-section";
-import { ViaMenutorPlatformAdminIncidentsSection } from "@/polymet/components/viamentor-platform-admin-incidents-section";
-import { ViaMenutorPlatformAdminAuditSection } from "@/polymet/components/viamentor-platform-admin-audit-section";
-import { ViaMenutorPlatformAdminConfigurationSection } from "@/polymet/components/viamentor-platform-admin-configuration-section";
+import { ViamentorResponsivePageWrapper } from "@/polymet/components/viamentor-responsive-page-wrapper";
+import { ViamentorPlatformAdminOverviewSection } from "@/polymet/components/viamentor-platform-admin-overview-section";
+import { ViamentorPlatformAdminTenantsSection } from "@/polymet/components/viamentor-platform-admin-tenants-section";
+import { ViamentorPlatformAdminMonitoringSection } from "@/polymet/components/viamentor-platform-admin-monitoring-section";
+import { ViamentorPlatformAdminIncidentsSection } from "@/polymet/components/viamentor-platform-admin-incidents-section";
+import { ViamentorPlatformAdminAuditSection } from "@/polymet/components/viamentor-platform-admin-audit-section";
+import { ViamentorPlatformAdminConfigurationSection } from "@/polymet/components/viamentor-platform-admin-configuration-section";
 import {
   Card,
   CardContent,
@@ -128,7 +128,7 @@ interface PlatformAdminPageProps {
 // COMPONENT
 // ============================================================================
 
-export function ViaMenutorPlatformAdminPage({
+export function ViamentorPlatformAdminPage({
   locale = "fr",
 }: PlatformAdminPageProps) {
   const t = getPlatformAdminTranslations(locale);
@@ -183,7 +183,7 @@ export function ViaMenutorPlatformAdminPage({
   // ============================================================================
 
   const OverviewTab = () => (
-    <ViaMenutorPlatformAdminOverviewSection
+    <ViamentorPlatformAdminOverviewSection
       locale={locale}
       onViewAllIncidents={handleViewAllIncidents}
     />
@@ -194,7 +194,7 @@ export function ViaMenutorPlatformAdminPage({
   // ============================================================================
 
   const TenantsTab = () => (
-    <ViaMenutorPlatformAdminTenantsSection
+    <ViamentorPlatformAdminTenantsSection
       locale={locale}
       onViewTenant={handleViewTenant}
       onImpersonate={handleImpersonate}
@@ -208,7 +208,7 @@ export function ViaMenutorPlatformAdminPage({
   // ============================================================================
 
   const MonitoringTab = () => (
-    <ViaMenutorPlatformAdminMonitoringSection locale={locale} />
+    <ViamentorPlatformAdminMonitoringSection locale={locale} />
   );
 
   // ============================================================================
@@ -216,7 +216,7 @@ export function ViaMenutorPlatformAdminPage({
   // ============================================================================
 
   const IncidentsTab = () => (
-    <ViaMenutorPlatformAdminIncidentsSection
+    <ViamentorPlatformAdminIncidentsSection
       locale={locale}
       onCreateIncident={() => console.log("Create incident")}
     />
@@ -227,7 +227,7 @@ export function ViaMenutorPlatformAdminPage({
   // ============================================================================
 
   const AuditTab = () => (
-    <ViaMenutorPlatformAdminAuditSection locale={locale} />
+    <ViamentorPlatformAdminAuditSection locale={locale} />
   );
 
   // ============================================================================
@@ -235,7 +235,7 @@ export function ViaMenutorPlatformAdminPage({
   // ============================================================================
 
   const ConfigurationTab = () => (
-    <ViaMenutorPlatformAdminConfigurationSection
+    <ViamentorPlatformAdminConfigurationSection
       locale={locale}
       onSave={(config) => console.log("Save config:", config)}
       onCancel={() => console.log("Cancel")}
@@ -362,4 +362,4 @@ export function ViaMenutorPlatformAdminPage({
   );
 }
 
-export default ViaMenutorPlatformAdminPage;
+export default ViamentorPlatformAdminPage;

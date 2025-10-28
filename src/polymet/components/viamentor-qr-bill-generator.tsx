@@ -50,7 +50,7 @@ export function QRBillGenerator({
   invoice,
   locale = "fr",
   creditorIBAN = "CH91 0076 2011 6238 5295 7",
-  creditorName = "ViaMenutor SA",
+  creditorName = "Viamentor SA",
   creditorAddress = {
     street: "Route de Berne 301",
     zip: "1000",

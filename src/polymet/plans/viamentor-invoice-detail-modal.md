@@ -1,4 +1,4 @@
-# Vue Détail Facture ViaMenutor
+# Vue Détail Facture Viamentor
 
 ## User Request
 Créer une vue détail facture complète avec modal fullscreen, sections organisées (élève, montants, conditions, items, paiements, QR-bill, communications, actions, notes, historique), Hero UI, i18n, Clean Code 200-250 lignes/fichier.

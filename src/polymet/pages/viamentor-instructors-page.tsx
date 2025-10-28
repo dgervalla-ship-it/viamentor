@@ -28,7 +28,7 @@ import { InstructorsStatsCards } from "@/polymet/components/viamentor-instructor
 import { InstructorsFilters } from "@/polymet/components/viamentor-instructors-filters";
 import { InstructorsTable } from "@/polymet/components/viamentor-instructors-table";
 import { InstructorsGridView } from "@/polymet/components/viamentor-instructors-grid-view";
-import { ViaMenutorCreateInstructorWizard } from "@/polymet/components/viamentor-create-instructor-wizard";
+import { ViamentorCreateInstructorWizard } from "@/polymet/components/viamentor-create-instructor-wizard";
 import { Instructor } from "@/polymet/data/viamentor-instructors-data";
 import {
   InstructorsLocale,
@@ -44,7 +44,7 @@ interface InstructorsPageProps {
   locale?: InstructorsLocale;
 }
 
-export function ViaMenutorInstructorsPage({
+export function ViamentorInstructorsPage({
   locale = "fr",
 }: InstructorsPageProps) {
   const t = useInstructorsTranslations(locale);
@@ -233,7 +233,7 @@ export function ViaMenutorInstructorsPage({
         )}
 
         {/* Create Instructor Wizard */}
-        <ViaMenutorCreateInstructorWizard
+        <ViamentorCreateInstructorWizard
           open={showCreateWizard}
           onOpenChange={setShowCreateWizard}
           locale={locale}

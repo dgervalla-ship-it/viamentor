@@ -7,7 +7,7 @@
  */
 
 export const NAVIGATION_SOLUTION_SUMMARY = {
-  title: "Solution Navigation Responsive ViaMenutor",
+  title: "Solution Navigation Responsive Viamentor",
   version: "1.0.0",
   status: "✓ Implémenté et testé",
 

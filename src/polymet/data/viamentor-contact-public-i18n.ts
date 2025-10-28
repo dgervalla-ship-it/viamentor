@@ -91,11 +91,11 @@ export const contactPublicTranslations: Record<
   fr: {
     pageTitle: "Contactez-nous",
     pageSubtitle: "Commencez votre formation de conduite aujourd'hui",
-    metaTitle: "Contactez ViaMenutor - École de conduite en Suisse",
+    metaTitle: "Contactez Viamentor - École de conduite en Suisse",
     metaDescription:
-      "Contactez ViaMenutor pour votre formation de conduite. Permis B, A, BE et formations professionnelles. Réponse sous 24h.",
+      "Contactez Viamentor pour votre formation de conduite. Permis B, A, BE et formations professionnelles. Réponse sous 24h.",
     metaKeywords:
-      "contact auto-école, formation conduite suisse, permis conduire, ViaMenutor contact",
+      "contact auto-école, formation conduite suisse, permis conduire, Viamentor contact",
 
     firstName: "Prénom",
     firstNamePlaceholder: "Jean",
@@ -156,17 +156,17 @@ export const contactPublicTranslations: Record<
 
     privacyPolicyTitle: "Politique de confidentialité",
     privacyPolicyContent:
-      "ViaMenutor s'engage à protéger vos données personnelles conformément au RGPD et à la nLPD suisse. Vos informations seront utilisées uniquement pour traiter votre demande de contact et vous proposer nos services de formation à la conduite. Vous disposez d'un droit d'accès, de rectification et de suppression de vos données.",
+      "Viamentor s'engage à protéger vos données personnelles conformément au RGPD et à la nLPD suisse. Vos informations seront utilisées uniquement pour traiter votre demande de contact et vous proposer nos services de formation à la conduite. Vous disposez d'un droit d'accès, de rectification et de suppression de vos données.",
   },
 
   de: {
     pageTitle: "Kontaktieren Sie uns",
     pageSubtitle: "Beginnen Sie heute Ihre Fahrausbildung",
-    metaTitle: "Kontakt ViaMenutor - Fahrschule in der Schweiz",
+    metaTitle: "Kontakt Viamentor - Fahrschule in der Schweiz",
     metaDescription:
-      "Kontaktieren Sie ViaMenutor für Ihre Fahrausbildung. Führerschein B, A, BE und Berufsausbildungen. Antwort innerhalb von 24 Stunden.",
+      "Kontaktieren Sie Viamentor für Ihre Fahrausbildung. Führerschein B, A, BE und Berufsausbildungen. Antwort innerhalb von 24 Stunden.",
     metaKeywords:
-      "Fahrschule Kontakt, Fahrausbildung Schweiz, Führerschein, ViaMenutor Kontakt",
+      "Fahrschule Kontakt, Fahrausbildung Schweiz, Führerschein, Viamentor Kontakt",
 
     firstName: "Vorname",
     firstNamePlaceholder: "Hans",
@@ -228,17 +228,17 @@ export const contactPublicTranslations: Record<
 
     privacyPolicyTitle: "Datenschutzrichtlinie",
     privacyPolicyContent:
-      "ViaMenutor verpflichtet sich, Ihre persönlichen Daten gemäß DSGVO und Schweizer nDSG zu schützen. Ihre Informationen werden nur zur Bearbeitung Ihrer Kontaktanfrage und zum Angebot unserer Fahrausbildungsdienste verwendet. Sie haben das Recht auf Zugang, Berichtigung und Löschung Ihrer Daten.",
+      "Viamentor verpflichtet sich, Ihre persönlichen Daten gemäß DSGVO und Schweizer nDSG zu schützen. Ihre Informationen werden nur zur Bearbeitung Ihrer Kontaktanfrage und zum Angebot unserer Fahrausbildungsdienste verwendet. Sie haben das Recht auf Zugang, Berichtigung und Löschung Ihrer Daten.",
   },
 
   it: {
     pageTitle: "Contattaci",
     pageSubtitle: "Inizia oggi la tua formazione alla guida",
-    metaTitle: "Contatta ViaMenutor - Scuola guida in Svizzera",
+    metaTitle: "Contatta Viamentor - Scuola guida in Svizzera",
     metaDescription:
-      "Contatta ViaMenutor per la tua formazione alla guida. Patente B, A, BE e formazioni professionali. Risposta entro 24 ore.",
+      "Contatta Viamentor per la tua formazione alla guida. Patente B, A, BE e formazioni professionali. Risposta entro 24 ore.",
     metaKeywords:
-      "contatto scuola guida, formazione guida svizzera, patente, ViaMenutor contatto",
+      "contatto scuola guida, formazione guida svizzera, patente, Viamentor contatto",
 
     firstName: "Nome",
     firstNamePlaceholder: "Marco",
@@ -298,17 +298,17 @@ export const contactPublicTranslations: Record<
 
     privacyPolicyTitle: "Politica sulla privacy",
     privacyPolicyContent:
-      "ViaMenutor si impegna a proteggere i tuoi dati personali in conformità al GDPR e alla nLPD svizzera. Le tue informazioni saranno utilizzate solo per elaborare la tua richiesta di contatto e offrirti i nostri servizi di formazione alla guida. Hai il diritto di accesso, rettifica e cancellazione dei tuoi dati.",
+      "Viamentor si impegna a proteggere i tuoi dati personali in conformità al GDPR e alla nLPD svizzera. Le tue informazioni saranno utilizzate solo per elaborare la tua richiesta di contatto e offrirti i nostri servizi di formazione alla guida. Hai il diritto di accesso, rettifica e cancellazione dei tuoi dati.",
   },
 
   en: {
     pageTitle: "Contact Us",
     pageSubtitle: "Start your driving training today",
-    metaTitle: "Contact ViaMenutor - Driving School in Switzerland",
+    metaTitle: "Contact Viamentor - Driving School in Switzerland",
     metaDescription:
-      "Contact ViaMenutor for your driving training. License B, A, BE and professional training. Response within 24 hours.",
+      "Contact Viamentor for your driving training. License B, A, BE and professional training. Response within 24 hours.",
     metaKeywords:
-      "driving school contact, driving training switzerland, driver's license, ViaMenutor contact",
+      "driving school contact, driving training switzerland, driver's license, Viamentor contact",
 
     firstName: "First name",
     firstNamePlaceholder: "John",
@@ -368,6 +368,6 @@ export const contactPublicTranslations: Record<
 
     privacyPolicyTitle: "Privacy Policy",
     privacyPolicyContent:
-      "ViaMenutor is committed to protecting your personal data in accordance with GDPR and Swiss nLPD. Your information will be used only to process your contact request and offer you our driving training services. You have the right to access, rectify and delete your data.",
+      "Viamentor is committed to protecting your personal data in accordance with GDPR and Swiss nLPD. Your information will be used only to process your contact request and offer you our driving training services. You have the right to access, rectify and delete your data.",
   },
 };

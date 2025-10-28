@@ -4,7 +4,7 @@
  * ============================================================================
  *
  * Index complet de toute la documentation validation
- * Point d'entrée unique pour la validation ViaMenutor
+ * Point d'entrée unique pour la validation Viamentor
  */
 
 // ============================================================================

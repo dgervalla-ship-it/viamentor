@@ -59,7 +59,7 @@ const DAY_NAMES: Record<string, string[]> = {
   en: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
 };
 
-export function ViaMenutorInstructorsAvailabilityCalendar({
+export function ViamentorInstructorsAvailabilityCalendar({
   instructors,
   slots,
   locale = "fr",

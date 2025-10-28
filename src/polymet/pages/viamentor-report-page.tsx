@@ -21,7 +21,7 @@ import {
   CodeIcon,
 } from "lucide-react";
 
-export function ViaMenutorReportPage() {
+export function ViamentorReportPage() {
   return (
     <div className="min-h-screen bg-background p-8">
       <div className="max-w-7xl mx-auto space-y-8">

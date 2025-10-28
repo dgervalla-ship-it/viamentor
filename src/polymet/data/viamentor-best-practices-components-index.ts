@@ -382,7 +382,7 @@ export const BEST_PRACTICES_CHECKLIST = {
 export const RESOURCES = {
   documentation: [
     {
-      name: "ViaMenutor Architecture",
+      name: "Viamentor Architecture",
       path: "@/polymet/data/viamentor-architecture-index",
       description: "Documentation complète architecture",
     },

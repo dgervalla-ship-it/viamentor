@@ -27,7 +27,7 @@
 // ============================================================================
 
 /**
- * ViaMenutor supporte 4 langues officielles suisses:
+ * Viamentor supporte 4 langues officielles suisses:
  * - Français (FR) - Langue par défaut
  * - Allemand (DE)
  * - Italien (IT)

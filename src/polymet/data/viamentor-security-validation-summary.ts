@@ -21,7 +21,7 @@
 // ============================================================================
 
 export const EXECUTIVE_SUMMARY = {
-  title: "ViaMenutor - Security & Validation Improvements",
+  title: "Viamentor - Security & Validation Improvements",
   date: new Date().toISOString().split("T")[0],
   version: "1.0.0",
 

@@ -3,7 +3,7 @@
  * VIAMENTOR - API.md
  * ============================================================================
  *
- * Documentation complète de l'API ViaMenutor
+ * Documentation complète de l'API Viamentor
  *
  * @version 1.0.0
  * @date 2025-01-19
@@ -11,7 +11,7 @@
 
 // Documentation API exportée comme string
 export const API_MD = String.raw`
-# 🔌 API Documentation ViaMenutor
+# 🔌 API Documentation Viamentor
 
 ## Table des matières
 
@@ -842,7 +842,7 @@ Cette API REST suit les standards modernes:
 
 **Dernière mise à jour:** 2025-01-19  
 **Version:** 1.0.0  
-**Auteur:** ViaMenutor Team
+**Auteur:** Viamentor Team
 `.trim();
 
 // Export par défaut

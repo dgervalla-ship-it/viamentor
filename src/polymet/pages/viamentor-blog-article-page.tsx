@@ -106,7 +106,7 @@ Contactez votre banque pour obtenir un QR-IBAN. C'est un IBAN spécial qui comme
 
 ### 2. Configurer votre logiciel
 
-ViaMenutor génère automatiquement vos QR-factures conformes. Il vous suffit de renseigner votre QR-IBAN dans les paramètres.
+Viamentor génère automatiquement vos QR-factures conformes. Il vous suffit de renseigner votre QR-IBAN dans les paramètres.
 
 ### 3. Tester vos premières factures
 
@@ -114,7 +114,7 @@ Nous recommandons de tester avec quelques factures avant de déployer à grande 
 
 ## Conformité et obligations légales
 
-Les QR-factures doivent respecter les **Swiss Payment Standards**. ViaMenutor garantit cette conformité automatiquement.
+Les QR-factures doivent respecter les **Swiss Payment Standards**. Viamentor garantit cette conformité automatiquement.
 
 ### Points de vigilance
 
@@ -125,7 +125,7 @@ Les QR-factures doivent respecter les **Swiss Payment Standards**. ViaMenutor ga
 
 ## Conclusion
 
-La migration vers les QR-factures est une opportunité de moderniser votre gestion administrative. Avec ViaMenutor, cette transition est transparente et sans effort.
+La migration vers les QR-factures est une opportunité de moderniser votre gestion administrative. Avec Viamentor, cette transition est transparente et sans effort.
 
 **Besoin d'aide ?** Notre équipe support est disponible pour vous accompagner dans la configuration.
   `,
@@ -332,7 +332,7 @@ export function BlogArticlePage({
                 {t.blog.cta.title}
               </h3>
               <p className="mb-6 text-muted-foreground">
-                Découvrez comment ViaMenutor peut transformer votre auto-école
+                Découvrez comment Viamentor peut transformer votre auto-école
               </p>
               <Button size="lg" className="gap-2">
                 {t.blog.cta.button}

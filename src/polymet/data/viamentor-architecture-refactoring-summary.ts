@@ -84,7 +84,7 @@
  * - `secondaryAction`: Action secondaire (label, onClick/href, icon)
  * - `metadata`: Métadonnées (label, value)
  * - `children`: Contenu additionnel
- * - `showLogo`: Afficher le logo ViaMenutor
+ * - `showLogo`: Afficher le logo Viamentor
  *
  * **Usage**:
  * ```tsx
@@ -423,7 +423,7 @@
 /**
  * ## Conclusion
  *
- * La refactorisation architecture de ViaMenutor apporte des améliorations
+ * La refactorisation architecture de Viamentor apporte des améliorations
  * significatives en termes de:
  *
  * - **Maintenabilité**: Code plus clair et mieux organisé
@@ -434,7 +434,7 @@
  * - **Qualité**: Meilleure testabilité et moins de bugs
  *
  * Cette refactorisation pose les bases d'une architecture scalable et
- * maintenable pour l'évolution future de ViaMenutor.
+ * maintenable pour l'évolution future de Viamentor.
  */
 
 export const architectureRefactoringSummary = {

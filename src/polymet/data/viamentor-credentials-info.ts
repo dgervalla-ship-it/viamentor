@@ -7,7 +7,7 @@
  */
 
 /**
- * Informations de connexion ViaMenutor
+ * Informations de connexion Viamentor
  */
 export const VIAMENTOR_CREDENTIALS = {
   /**

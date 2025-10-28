@@ -3,14 +3,14 @@
  * VIAMENTOR - CHANGELOG.md
  * ============================================================================
  *
- * Historique des versions ViaMenutor
+ * Historique des versions Viamentor
  *
  * @version 1.0.0
  * @date 2025-01-19
  */
 
 export const CHANGELOG_MD = `
-# 📝 Changelog ViaMenutor
+# 📝 Changelog Viamentor
 
 Tous les changements notables de ce projet seront documentés dans ce fichier.
 
@@ -232,7 +232,7 @@ et ce projet adhère au [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## Versioning
 
-ViaMenutor suit le [Semantic Versioning](https://semver.org/):
+Viamentor suit le [Semantic Versioning](https://semver.org/):
 
 - **MAJOR** (X.0.0) : Changements incompatibles
 - **MINOR** (0.X.0) : Nouvelles fonctionnalités compatibles
@@ -251,7 +251,7 @@ ViaMenutor suit le [Semantic Versioning](https://semver.org/):
 
 **Dernière mise à jour:** 2025-01-19  
 **Version:** 1.0.0  
-**Auteur:** ViaMenutor Team
+**Auteur:** Viamentor Team
 `;
 
 export default CHANGELOG_MD;

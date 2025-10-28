@@ -1,4 +1,4 @@
-# Module RGPD et Consentements ViaMenutor
+# Module RGPD et Consentements Viamentor
 
 ## User Request
 Développer un module complet de gestion RGPD pour Security Officer avec:

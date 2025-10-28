@@ -43,7 +43,7 @@ interface SchoolAdminStatsSectionProps {
 // COMPONENT
 // ============================================================================
 
-export function ViaMenutorSchoolAdminStatsSection({
+export function ViamentorSchoolAdminStatsSection({
   locale = "fr",
 }: SchoolAdminStatsSectionProps) {
   const t = schoolAdminTranslations[locale];
@@ -173,4 +173,4 @@ export function ViaMenutorSchoolAdminStatsSection({
   );
 }
 
-export default ViaMenutorSchoolAdminStatsSection;
+export default ViamentorSchoolAdminStatsSection;

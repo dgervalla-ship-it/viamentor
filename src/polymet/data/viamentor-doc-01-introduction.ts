@@ -3,11 +3,11 @@
  */
 
 export const introductionDoc = `
-# 📘 ViaMenutor - Introduction
+# 📘 Viamentor - Introduction
 
 ## 🎯 Vue d'ensemble
 
-**ViaMenutor** est un système de gestion complet pour auto-écoles suisses, conçu comme une solution SaaS multi-tenant. Le système couvre l'intégralité du cycle de vie d'une auto-école, de l'inscription des élèves jusqu'à la gestion administrative et financière.
+**Viamentor** est un système de gestion complet pour auto-écoles suisses, conçu comme une solution SaaS multi-tenant. Le système couvre l'intégralité du cycle de vie d'une auto-école, de l'inscription des élèves jusqu'à la gestion administrative et financière.
 
 ---
 
@@ -47,7 +47,7 @@ Digitaliser et moderniser la gestion des auto-écoles suisses en offrant une pla
 
 ## 👥 Utilisateurs cibles
 
-### **Platform Admin** (ViaMenutor)
+### **Platform Admin** (Viamentor)
 - Gestion des tenants (auto-écoles)
 - Monitoring global
 - Support technique
@@ -246,7 +246,7 @@ Documentation:        100%
 
 ## 📄 Licence
 
-**Proprietary** - © 2025 ViaMenutor. Tous droits réservés.
+**Proprietary** - © 2025 Viamentor. Tous droits réservés.
 
 ---
 

@@ -1,4 +1,4 @@
-# Module Instructors Management ViaMenutor
+# Module Instructors Management Viamentor
 
 ## User Request
 Créer module complet gestion moniteurs pour School Admin avec DataTable optimisée, filtres basiques, stats header, Hero UI, i18n FR/DE/IT/EN, Clean Code 200-250 lignes/fichier.

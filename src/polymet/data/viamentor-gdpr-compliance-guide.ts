@@ -10,7 +10,7 @@
 // ============================================================================
 
 /**
- * ViaMenutor implémente une conformité RGPD/nLPD complète avec :
+ * Viamentor implémente une conformité RGPD/nLPD complète avec :
  *
  * 1. ✅ Consentement explicite et granulaire
  * 2. ✅ Droit à l'oubli (Right to be Forgotten)

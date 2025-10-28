@@ -4,7 +4,7 @@
  */
 
 export const paymentsCompletionSummary = `
-# ✅ Module Payments ViaMenutor - Résumé Complet
+# ✅ Module Payments Viamentor - Résumé Complet
 
 ## 📅 Date de Complétion
 ${new Date().toLocaleDateString("fr-CH", {
@@ -291,7 +291,7 @@ ${new Date().toLocaleDateString("fr-CH", {
 
 ## 🔄 Intégrations
 
-### Modules ViaMenutor
+### Modules Viamentor
 - ✓ **Invoices** - Lien avec factures
 - ✓ **Students** - Sélection élèves
 - ✓ **Finance** - Rapports comptables
@@ -412,7 +412,7 @@ Tous les objectifs initiaux ont été atteints et dépassés avec :
 
 ## 🙏 Remerciements
 
-Merci d'avoir utilisé le module Payments ViaMenutor !
+Merci d'avoir utilisé le module Payments Viamentor !
 
 Pour toute question ou suggestion d'amélioration, n'hésitez pas à nous contacter.
 
@@ -421,7 +421,7 @@ Pour toute question ou suggestion d'amélioration, n'hésitez pas à nous contac
 **Version** : 1.0.0
 **Statut** : ✅ Production Ready
 **Date** : ${new Date().toLocaleDateString("fr-CH")}
-**Équipe** : ViaMenutor Development Team
+**Équipe** : Viamentor Development Team
 `;
 
 export default paymentsCompletionSummary;

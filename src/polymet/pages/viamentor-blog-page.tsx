@@ -107,7 +107,7 @@ const mockArticles: Article[] = [
   {
     id: "4",
     slug: "nouveaute-viamentor-janvier-2025",
-    title: "Nouveautés ViaMenutor Janvier 2025: Analytics IA",
+    title: "Nouveautés Viamentor Janvier 2025: Analytics IA",
     excerpt:
       "Découvrez les nouvelles fonctionnalités d'analytics prédictifs basés sur l'IA pour anticiper vos revenus et optimiser votre activité.",
     image:
@@ -126,7 +126,7 @@ const mockArticles: Article[] = [
     slug: "success-story-auto-ecole-geneve",
     title: "Success Story: +40% d'élèves en 6 mois à Genève",
     excerpt:
-      "Témoignage d'une auto-école genevoise qui a transformé son activité grâce à ViaMenutor. Résultats concrets et chiffres clés.",
+      "Témoignage d'une auto-école genevoise qui a transformé son activité grâce à Viamentor. Résultats concrets et chiffres clés.",
     image:
       "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=250&fit=crop",
     category: "success",

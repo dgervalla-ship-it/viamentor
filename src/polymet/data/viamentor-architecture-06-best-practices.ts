@@ -2559,7 +2559,7 @@ export const SEO_AUDIT = {
       title: "Ajouter meta descriptions",
       code: `// app/students/page.tsx
 export const metadata = {
-  title: "Gestion Élèves | ViaMenutor",
+  title: "Gestion Élèves | Viamentor",
   description: "Gérez vos élèves: inscriptions, progression, planning",
 }`,
     },
@@ -2570,7 +2570,7 @@ export const metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "ViaMenutor",
+  name: "Viamentor",
   url: "https://viamentor.ch",
 }`,
     },

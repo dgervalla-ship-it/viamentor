@@ -1,4 +1,4 @@
-# Optimisation Pages Admin ViaMenutor
+# Optimisation Pages Admin Viamentor
 
 ## User Request
 Optimiser les 20 pages admin avec architecture moderne utilisant Zustand stores et TanStack Query hooks pour améliorer les performances, la maintenabilité et l'UX.

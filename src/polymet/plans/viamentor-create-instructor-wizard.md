@@ -1,4 +1,4 @@
-# Wizard Création Moniteur ViaMenutor
+# Wizard Création Moniteur Viamentor
 
 ## User Request
 Créer wizard création moniteur avec 5 steps, Hero UI Dialog fullscreen, validation OMCo (âge ≥21 ans), qualifications brevet fédéral, i18n FR/DE/IT/EN, Clean Code 200-250 lignes/fichier.

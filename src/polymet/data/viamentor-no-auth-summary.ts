@@ -30,7 +30,7 @@ export const NO_AUTH_SUMMARY = {
     {
       path: "prototypes/viamentor-system-prototype",
       changes: [
-        "Ajout de l'import ViaMenutorNoAuthInfoPage",
+        "Ajout de l'import ViamentorNoAuthInfoPage",
         "Ajout de la route /no-auth-info",
         "Redirection de / vers /no-auth-info au lieu de /login",
       ],

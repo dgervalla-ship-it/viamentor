@@ -67,7 +67,7 @@ const successRateData = [
 // COMPONENT
 // ============================================================================
 
-export function ViaMenutorSchoolAdminChartsSection({
+export function ViamentorSchoolAdminChartsSection({
   locale = "fr",
 }: SchoolAdminChartsSectionProps) {
   return (
@@ -190,4 +190,4 @@ export function ViaMenutorSchoolAdminChartsSection({
   );
 }
 
-export default ViaMenutorSchoolAdminChartsSection;
+export default ViamentorSchoolAdminChartsSection;

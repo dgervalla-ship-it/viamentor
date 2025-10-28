@@ -59,7 +59,7 @@ const iconMap: Record<string, any> = {
 // COMPONENT
 // ============================================================================
 
-export function ViaMenutorSchoolAdminQuickActionsSection({
+export function ViamentorSchoolAdminQuickActionsSection({
   locale = "fr",
 }: SchoolAdminQuickActionsSectionProps) {
   const t = schoolAdminTranslations[locale];
@@ -123,4 +123,4 @@ export function ViaMenutorSchoolAdminQuickActionsSection({
   );
 }
 
-export default ViaMenutorSchoolAdminQuickActionsSection;
+export default ViamentorSchoolAdminQuickActionsSection;

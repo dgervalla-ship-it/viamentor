@@ -10,7 +10,7 @@ export const SECURITY_MONITORING_SUMMARY = {
   // VUE D'ENSEMBLE
   // ============================================================================
   overview: {
-    title: "Module Monitoring Sécurité ViaMenutor",
+    title: "Module Monitoring Sécurité Viamentor",
     description:
       "Système complet de monitoring sécurité avec détection intrusion, alertes temps réel, logs audit et métriques",
     status: "✅ COMPLÉTÉ",
@@ -389,7 +389,7 @@ export const SECURITY_MONITORING_SUMMARY = {
   // RÉSUMÉ EXÉCUTIF
   // ============================================================================
   executiveSummary: {
-    title: "Module Monitoring Sécurité ViaMenutor - Implémentation Complète",
+    title: "Module Monitoring Sécurité Viamentor - Implémentation Complète",
     status: "✅ TERMINÉ",
     completion: "100%",
     highlights: [

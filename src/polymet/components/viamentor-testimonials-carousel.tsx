@@ -38,7 +38,7 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     quote:
-      "ViaMenutor a transformé notre gestion quotidienne. Nous gagnons 15h par semaine et nos élèves sont plus satisfaits.",
+      "Viamentor a transformé notre gestion quotidienne. Nous gagnons 15h par semaine et nos élèves sont plus satisfaits.",
     author: "Sophie Martin",
     role: "Directrice",
     school: "Auto-École Lausanne",

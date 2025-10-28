@@ -16,7 +16,7 @@ import {
   MonitorIcon,
 } from "lucide-react";
 
-export function ViaMenutorQuickActionsDemoPage() {
+export function ViamentorQuickActionsDemoPage() {
   return (
     <div className="space-y-6">
       {/* Header */}

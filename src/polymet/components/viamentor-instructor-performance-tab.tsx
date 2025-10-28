@@ -55,7 +55,7 @@ interface PerformanceTabProps {
   onUpdateTarget?: (target: number) => void;
 }
 
-export function ViaMenutorInstructorPerformanceTab({
+export function ViamentorInstructorPerformanceTab({
   performance,
   reviews,
   ranking,

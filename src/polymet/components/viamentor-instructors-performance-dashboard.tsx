@@ -52,7 +52,7 @@ const CHART_COLORS = [
   "hsl(var(--chart-5))",
 ];
 
-export function ViaMenutorInstructorsPerformanceDashboard({
+export function ViamentorInstructorsPerformanceDashboard({
   stats,
   locale = "fr",
 }: PerformanceDashboardProps) {

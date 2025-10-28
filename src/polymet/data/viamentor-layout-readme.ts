@@ -4,11 +4,11 @@
  */
 
 export const LAYOUT_README = `
-# Layout Principal ViaMenutor
+# Layout Principal Viamentor
 
 ## 📋 Vue d'ensemble
 
-Le Layout Principal ViaMenutor est un système complet de mise en page pour applications multi-tenant avec:
+Le Layout Principal Viamentor est un système complet de mise en page pour applications multi-tenant avec:
 - **Sidebar** navigation RBAC (280px, collapsible)
 - **Header** global avec breadcrumb, search, notifications
 - **Main** content area scrollable avec ErrorBoundary et Suspense
@@ -24,15 +24,15 @@ Le Layout Principal ViaMenutor est un système complet de mise en page pour appl
 ### 1. Importer le Layout
 
 \`\`\`tsx
-import { ViaMenutorMainLayout } from "@/polymet/layouts/viamentor-main-layout";
+import { ViamentorMainLayout } from "@/polymet/layouts/viamentor-main-layout";
 
 export default function MyPage() {
   return (
-    <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+    <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
       <div>
         <h1>Mon contenu de page</h1>
       </div>
-    </ViaMenutorMainLayout>
+    </ViamentorMainLayout>
   );
 }
 \`\`\`
@@ -40,15 +40,15 @@ export default function MyPage() {
 ### 2. Utiliser dans le Prototype
 
 \`\`\`tsx
-import { ViaMenutorMainLayout } from "@/polymet/layouts/viamentor-main-layout";
+import { ViamentorMainLayout } from "@/polymet/layouts/viamentor-main-layout";
 import { MyPage } from "@/polymet/pages/my-page";
 
 <Route
   path="/my-page"
   element={
-    <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+    <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
       <MyPage />
-    </ViaMenutorMainLayout>
+    </ViamentorMainLayout>
   }
 />
 \`\`\`
@@ -194,9 +194,9 @@ const navigationConfig = NAVIGATION_BY_ROLE[user.role]
 ### Utilisation
 
 \`\`\`tsx
-<ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+<ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
   {/* Contenu en français */}
-</ViaMenutorMainLayout>
+</ViamentorMainLayout>
 \`\`\`
 
 ### Traductions
@@ -360,16 +360,16 @@ NEXT_PUBLIC_APP_URL=https://app.viamentor.ch
 ### Exemple 1: Page Simple
 
 \`\`\`tsx
-import { ViaMenutorMainLayout } from "@/polymet/layouts/viamentor-main-layout";
+import { ViamentorMainLayout } from "@/polymet/layouts/viamentor-main-layout";
 
 export function MySimplePage() {
   return (
-    <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+    <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
       <div className="space-y-6">
         <h1 className="text-3xl font-bold">Ma Page</h1>
         <p>Contenu de ma page...</p>
       </div>
-    </ViaMenutorMainLayout>
+    </ViamentorMainLayout>
   );
 }
 \`\`\`
@@ -377,7 +377,7 @@ export function MySimplePage() {
 ### Exemple 2: Page avec Données
 
 \`\`\`tsx
-import { ViaMenutorMainLayout } from "@/polymet/layouts/viamentor-main-layout";
+import { ViamentorMainLayout } from "@/polymet/layouts/viamentor-main-layout";
 import { useEffect, useState } from "react";
 
 export function MyDataPage() {
@@ -389,13 +389,13 @@ export function MyDataPage() {
   }, []);
 
   return (
-    <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+    <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
       {data ? (
         <div>Data loaded: {data}</div>
       ) : (
         <LoadingPage message="Chargement des données..." />
       )}
-    </ViaMenutorMainLayout>
+    </ViamentorMainLayout>
   );
 }
 \`\`\`
@@ -403,16 +403,16 @@ export function MyDataPage() {
 ### Exemple 3: Page avec ErrorBoundary Custom
 
 \`\`\`tsx
-import { ViaMenutorMainLayout } from "@/polymet/layouts/viamentor-main-layout";
+import { ViamentorMainLayout } from "@/polymet/layouts/viamentor-main-layout";
 import { ErrorBoundary } from "@/polymet/components/viamentor-error-boundary";
 
 export function MyProtectedPage() {
   return (
-    <ViaMenutorMainLayout locale="fr" tenant="auto-ecole-geneve">
+    <ViamentorMainLayout locale="fr" tenant="auto-ecole-geneve">
       <ErrorBoundary fallback={<CustomErrorPage />}>
         <MyRiskyComponent />
       </ErrorBoundary>
-    </ViaMenutorMainLayout>
+    </ViamentorMainLayout>
   );
 }
 \`\`\`
@@ -452,7 +452,7 @@ export const NAVIGATION_BY_ROLE = {
 
 1. Créer la page: \`@/polymet/pages/my-dashboard-page\`
 2. Ajouter la route dans le prototype
-3. Wrapper avec \`ViaMenutorMainLayout\`
+3. Wrapper avec \`ViamentorMainLayout\`
 
 ---
 
@@ -497,7 +497,7 @@ Pour toute question ou problème:
 
 **Version**: 1.0.0  
 **Dernière mise à jour**: 2024-01-14  
-**Auteur**: ViaMenutor Team
+**Auteur**: Viamentor Team
 `;
 
 export default LAYOUT_README;

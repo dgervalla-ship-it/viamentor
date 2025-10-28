@@ -4,7 +4,7 @@
  */
 
 export const STUDENT_MAKEUPS_GUIDE = `
-# Interface Élève Rattrapages ViaMenutor
+# Interface Élève Rattrapages Viamentor
 
 ## Vue d'ensemble
 
@@ -385,7 +385,7 @@ if (status === "available") {
 
 ## Conclusion
 
-Interface élève rattrapages ViaMenutor complète, production-ready, avec :
+Interface élève rattrapages Viamentor complète, production-ready, avec :
 - UX optimisée conversion
 - Psychology scarcity/transparency
 - Clean Code architecture

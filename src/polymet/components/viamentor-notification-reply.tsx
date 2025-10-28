@@ -189,7 +189,7 @@ export function NotificationReply({
     {
       id: "welcome",
       label: t.templates.welcome,
-      content: `Bonjour,\n\nMerci pour votre inscription à notre auto-école. Nous sommes ravis de vous accompagner dans votre formation.\n\nCordialement,\nL'équipe ViaMenutor`,
+      content: `Bonjour,\n\nMerci pour votre inscription à notre auto-école. Nous sommes ravis de vous accompagner dans votre formation.\n\nCordialement,\nL'équipe Viamentor`,
     },
     {
       id: "lesson-confirmed",

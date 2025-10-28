@@ -54,7 +54,7 @@ export function DemoVideo({ locale = "fr", className }: DemoVideoProps) {
             <iframe
               className="w-full h-full"
               src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
-              title="ViaMenutor Demo"
+              title="Viamentor Demo"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             />

@@ -214,7 +214,7 @@ const mockNextLesson = {
   instructorAvatar: "https://github.com/yusufhilmi.png",
   vehicle: "VW Golf - GE 12345",
   category: "B",
-  location: "Auto-école ViaMenutor, Rue du Rhône 15, 1204 Genève",
+  location: "Auto-école Viamentor, Rue du Rhône 15, 1204 Genève",
   type: "Circulation urbaine",
   status: "scheduled" as const,
 };

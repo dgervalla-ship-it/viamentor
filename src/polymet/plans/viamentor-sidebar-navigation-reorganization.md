@@ -1,4 +1,4 @@
-# Réorganisation Navigation Sidebar ViaMenutor
+# Réorganisation Navigation Sidebar Viamentor
 
 ## User Request
 Résoudre le conflit entre sidebar et menu mobile/tablette en intégrant tous les liens de manière cohérente, logique et responsive.

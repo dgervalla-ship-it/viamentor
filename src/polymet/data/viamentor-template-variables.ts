@@ -168,7 +168,7 @@ export const templateVariables: Record<VariableContext, TemplateVariable[]> = {
       name: "Nom de l'école",
       variable: "{schoolName}",
       description: "Nom de l'auto-école",
-      example: "Auto-école ViaMenutor",
+      example: "Auto-école Viamentor",
       context: ["student", "instructor", "lesson", "invoice", "school"],
     },
     {

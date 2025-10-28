@@ -176,7 +176,7 @@ export const instructorStatusTranslations: Record<
       independentSolo: {
         label: "Indépendant sans salle",
         description:
-          "Freelance autonome - Utilise ViaMenutor en solo - Gère ses propres élèves, factures et véhicules - Aucun lien juridique avec l'école",
+          "Freelance autonome - Utilise Viamentor en solo - Gère ses propres élèves, factures et véhicules - Aucun lien juridique avec l'école",
       },
       independentAttached: {
         label: "Indépendant rattaché salle",
@@ -319,7 +319,7 @@ export const instructorStatusTranslations: Record<
       independentSolo: {
         label: "Selbständig ohne Fahrschule",
         description:
-          "Autonomer Freelancer - Nutzt ViaMenutor solo - Verwaltet eigene Schüler, Rechnungen und Fahrzeuge - Keine rechtliche Verbindung zur Fahrschule",
+          "Autonomer Freelancer - Nutzt Viamentor solo - Verwaltet eigene Schüler, Rechnungen und Fahrzeuge - Keine rechtliche Verbindung zur Fahrschule",
       },
       independentAttached: {
         label: "Selbständig angeschlossen",
@@ -464,7 +464,7 @@ export const instructorStatusTranslations: Record<
       independentSolo: {
         label: "Indipendente senza scuola",
         description:
-          "Freelance autonomo - Utilizza ViaMenutor da solo - Gestisce propri allievi, fatture e veicoli - Nessun legame giuridico con la scuola",
+          "Freelance autonomo - Utilizza Viamentor da solo - Gestisce propri allievi, fatture e veicoli - Nessun legame giuridico con la scuola",
       },
       independentAttached: {
         label: "Indipendente collegato",
@@ -607,7 +607,7 @@ export const instructorStatusTranslations: Record<
       independentSolo: {
         label: "Independent without school",
         description:
-          "Autonomous freelancer - Uses ViaMenutor solo - Manages own students, invoices and vehicles - No legal connection to school",
+          "Autonomous freelancer - Uses Viamentor solo - Manages own students, invoices and vehicles - No legal connection to school",
       },
       independentAttached: {
         label: "Independent attached",

@@ -12,7 +12,7 @@
 
 /**
  * Préfixe Global
- * - Tous les fichiers ViaMenutor utilisent le préfixe "viamentor-"
+ * - Tous les fichiers Viamentor utilisent le préfixe "viamentor-"
  * - Format: viamentor-{type}-{nom}
  * - Exemple: viamentor-students-page, viamentor-user-store
  */

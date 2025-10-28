@@ -3,7 +3,7 @@
  * Documentation complète du système de layout avec routing multi-tenant
  *
  * @version 1.0.0
- * @author ViaMenutor Team
+ * @author Viamentor Team
  */
 
 export const LAYOUT_ARCHITECTURE_DOC = {

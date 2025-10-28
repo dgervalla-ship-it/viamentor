@@ -5,7 +5,7 @@
  * @module pages/viamentor-secretary-instructors-page
  */
 
-import { ViaMenutorInstructorsPage } from "@/polymet/pages/viamentor-instructors-page";
+import { ViamentorInstructorsPage } from "@/polymet/pages/viamentor-instructors-page";
 
 // ============================================================================
 // TYPES
@@ -27,5 +27,5 @@ interface SecretaryInstructorsPageProps {
 export function SecretaryInstructorsPage({
   locale = "fr",
 }: SecretaryInstructorsPageProps) {
-  return <ViaMenutorInstructorsPage locale={locale} />;
+  return <ViamentorInstructorsPage locale={locale} />;
 }

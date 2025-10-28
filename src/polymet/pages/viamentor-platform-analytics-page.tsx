@@ -41,7 +41,7 @@ const translations = {
   fr: {
     title: "Analytics Plateforme",
     description:
-      "Métriques et analytics multi-tenant de la plateforme ViaMenutor",
+      "Métriques et analytics multi-tenant de la plateforme Viamentor",
     period: "Période",
     export: "Exporter",
     tabs: {

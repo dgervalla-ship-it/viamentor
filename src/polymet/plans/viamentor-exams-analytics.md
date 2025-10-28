@@ -1,7 +1,7 @@
 # Exams Analytics Module
 
 ## User Request
-Créer le module complet d'analytics examens ViaMenutor avec:
+Créer le module complet d'analytics examens Viamentor avec:
 - Header stats cards (examens passés, taux réussite, échecs, tentatives)
 - Success Rates Analysis (global, par catégorie, évolution)
 - By Instructor (performance moniteurs, scatter plot)

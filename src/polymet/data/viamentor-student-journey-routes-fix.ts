@@ -1,5 +1,5 @@
 /**
- * ViaMenutor - Correction Routes Parcours Guidés Élève
+ * Viamentor - Correction Routes Parcours Guidés Élève
  *
  * Documentation de la correction du problème #16 - Pas de parcours guidés
  *
@@ -158,7 +158,7 @@ export const studentJourneyRoutesFix = {
     {
       path: "/student/journey",
       page: "StudentJourneyPage",
-      layout: "ViaMenutorMainLayout",
+      layout: "ViamentorMainLayout",
       locale: "fr",
       tenant: "auto-ecole-geneve",
       description: "Parcours de formation complet",
@@ -166,7 +166,7 @@ export const studentJourneyRoutesFix = {
     {
       path: "/student/next-steps",
       page: "StudentNextStepsPage",
-      layout: "ViaMenutorMainLayout",
+      layout: "ViamentorMainLayout",
       locale: "fr",
       tenant: "auto-ecole-geneve",
       description: "Prochaines étapes recommandées",
@@ -174,7 +174,7 @@ export const studentJourneyRoutesFix = {
     {
       path: "/student/milestones",
       page: "StudentMilestonesPage",
-      layout: "ViaMenutorMainLayout",
+      layout: "ViamentorMainLayout",
       locale: "fr",
       tenant: "auto-ecole-geneve",
       description: "Étapes franchies et accomplissements",

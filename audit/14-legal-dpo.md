@@ -39,13 +39,13 @@
 **CGU (Conditions Générales d'Utilisation)** :
 
 ```markdown
-# Conditions Générales d'Utilisation - ViaMenutor
+# Conditions Générales d'Utilisation - Viamentor
 
 ## 1. Objet
-Les présentes CGU régissent l'utilisation de la plateforme ViaMenutor...
+Les présentes CGU régissent l'utilisation de la plateforme Viamentor...
 
 ## 2. Définitions
-- "Plateforme" : ViaMenutor.ch
+- "Plateforme" : Viamentor.ch
 - "Utilisateur" : Auto-école cliente
 - "Données" : Informations élèves, moniteurs, planning
 
@@ -67,7 +67,7 @@ L'inscription nécessite :
 - Paiement dans délais
 
 ## 6. Responsabilités
-ViaMenutor n'est pas responsable de...
+Viamentor n'est pas responsable de...
 
 ## 7. Données personnelles
 Voir Politique de confidentialité
@@ -87,7 +87,7 @@ Date : 1er novembre 2025
 # Politique de Confidentialité
 
 ## 1. Responsable du traitement
-ViaMenutor SA
+Viamentor SA
 Rue de ... Genève
 Email : dpo@viamentor.ch
 
@@ -369,7 +369,7 @@ Formaliser dans `/docs/security/data-classification.md`
 # Data Processing Agreement (DPA)
 
 Entre :
-- ViaMenutor SA (Responsable traitement)
+- Viamentor SA (Responsable traitement)
 - Supabase Inc. (Sous-traitant)
 
 Article 1 : Objet
@@ -395,13 +395,13 @@ Article 4 : Sous-sous-traitants
 - Autorisation préalable requise
 
 Article 5 : Audit
-ViaMenutor peut auditer Supabase (sur demande)
+Viamentor peut auditer Supabase (sur demande)
 
 Article 6 : Durée
 Pendant toute la durée du contrat commercial
 
 Signatures :
-ViaMenutor : ___________
+Viamentor : ___________
 Supabase : ___________
 ```
 
@@ -500,7 +500,7 @@ Supabase : ___________
 
 ## ⚖️ RGPD vs nDSG (Suisse)
 
-| Aspect | RGPD (UE) | nDSG (Suisse) | ViaMenutor |
+| Aspect | RGPD (UE) | nDSG (Suisse) | Viamentor |
 |--------|-----------|---------------|------------|
 | **Scope** | UE residents | Suisse residents | ✅ Suisse focus |
 | **Consentement** | Opt-in strict | Opt-in préférable | 🟡 À implémenter |

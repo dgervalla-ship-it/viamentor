@@ -324,7 +324,7 @@ export function PlanningWithCustomPrint() {
     const printHeader = document.createElement('div');
     printHeader.className = 'print-header';
     printHeader.innerHTML = `
-      <h1>Planning ViaMenutor</h1>
+      <h1>Planning Viamentor</h1>
       <p>Période: ${new Date().toLocaleDateString('fr')}</p>
       <p>Filtres: Type=${filters.type}, Status=${filters.status}</p>
     `;

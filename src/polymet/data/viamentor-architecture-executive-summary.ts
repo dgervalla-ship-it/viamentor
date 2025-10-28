@@ -8,7 +8,7 @@
 // ============================================================================
 
 export const EXECUTIVE_SUMMARY = {
-  project: "ViaMenutor",
+  project: "Viamentor",
   version: "1.0.0",
   lastUpdate: "2025-01-18",
   status: "Production Ready (avec améliorations recommandées)",
@@ -457,7 +457,7 @@ export const EXECUTIVE_SUMMARY = {
 
   conclusion: {
     summary:
-      "ViaMenutor est une application solide avec une architecture moderne, mais nécessite des améliorations critiques en sécurité et testing avant production à grande échelle.",
+      "Viamentor est une application solide avec une architecture moderne, mais nécessite des améliorations critiques en sécurité et testing avant production à grande échelle.",
 
     strengths:
       "Architecture Next.js 15 excellente, design system cohérent, RBAC complet, i18n exemplaire.",

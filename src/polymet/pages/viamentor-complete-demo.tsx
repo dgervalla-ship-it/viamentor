@@ -175,7 +175,7 @@ function SystemsSection() {
 // MAIN COMPONENT
 // ============================================================================
 
-export function ViaMenutorCompleteDemo() {
+export function ViamentorCompleteDemo() {
   const { isAuthenticated, user } = useUserStore();
 
   const userActions =

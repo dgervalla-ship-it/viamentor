@@ -22,7 +22,7 @@ import {
   ShieldCheckIcon,
 } from "lucide-react";
 
-export function ViaMenutorNoAuthInfoPage() {
+export function ViamentorNoAuthInfoPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-background to-muted/20 p-8">
       <div className="mx-auto max-w-6xl space-y-8">
@@ -33,7 +33,7 @@ export function ViaMenutorNoAuthInfoPage() {
           </div>
           <h1 className="text-4xl font-bold">Mode Sans Authentification</h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Le système ViaMenutor fonctionne maintenant en mode développement.
+            Le système Viamentor fonctionne maintenant en mode développement.
             Accédez à toutes les pages sans avoir besoin de vous connecter.
           </p>
           <Badge variant="outline" className="text-green-600 border-green-600">
@@ -284,4 +284,4 @@ export function ViaMenutorNoAuthInfoPage() {
   );
 }
 
-export default ViaMenutorNoAuthInfoPage;
+export default ViamentorNoAuthInfoPage;

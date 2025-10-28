@@ -142,7 +142,7 @@ export function LayoutDemoPage() {
   return (
     <div className="space-y-8">
       <DemoHeader
-        title="Layout Principal ViaMenutor"
+        title="Layout Principal Viamentor"
         description="Système de layout complet avec Sidebar + Header, routing multi-tenant et auth Supabase"
         icon={LayoutDashboardIcon}
         badges={[

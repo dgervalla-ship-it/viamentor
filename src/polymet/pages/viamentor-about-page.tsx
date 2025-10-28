@@ -66,7 +66,7 @@ const SITE_URL = "https://viamentor.ch";
 // ============================================================================
 
 /**
- * Page À propos de ViaMenutor
+ * Page À propos de Viamentor
  *
  * @param initialLocale - Locale initiale (fr, de, it, en)
  */
@@ -148,7 +148,7 @@ export function AboutPage({ initialLocale = "fr" }: AboutPageProps) {
           type="website"
           structuredData={structuredData}
           keywords={[
-            "ViaMenutor",
+            "Viamentor",
             "auto-école",
             "formation conduite",
             "Suisse",
@@ -396,7 +396,7 @@ export function AboutPage({ initialLocale = "fr" }: AboutPageProps) {
                 id="cta-title"
                 className="text-3xl md:text-4xl font-bold text-foreground mb-6"
               >
-                Rejoignez l'aventure ViaMenutor
+                Rejoignez l'aventure Viamentor
               </h2>
               <p className="text-xl text-muted-foreground mb-8">
                 Nous recrutons des talents passionnés pour transformer
@@ -410,7 +410,7 @@ export function AboutPage({ initialLocale = "fr" }: AboutPageProps) {
                 >
                   <Link
                     to="/demo"
-                    aria-label="Demander une démonstration de ViaMenutor"
+                    aria-label="Demander une démonstration de Viamentor"
                   >
                     <RocketIcon className="h-5 w-5 mr-2" aria-hidden="true" />
                     Voir une démo
@@ -424,7 +424,7 @@ export function AboutPage({ initialLocale = "fr" }: AboutPageProps) {
                 >
                   <a
                     href={`mailto:${jobsEmail}`}
-                    aria-label="Postuler chez ViaMenutor"
+                    aria-label="Postuler chez Viamentor"
                   >
                     <HeartIcon className="h-5 w-5 mr-2" aria-hidden="true" />
                     Nous rejoindre

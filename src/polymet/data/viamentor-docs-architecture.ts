@@ -3,14 +3,14 @@
  * VIAMENTOR - ARCHITECTURE.md
  * ============================================================================
  *
- * Documentation complète de l'architecture ViaMenutor
+ * Documentation complète de l'architecture Viamentor
  *
  * @version 1.0.0
  * @date 2025-01-19
  */
 
 export const ARCHITECTURE_MD = `
-# 📐 Architecture ViaMenutor
+# 📐 Architecture Viamentor
 
 ## Table des matières
 
@@ -29,7 +29,7 @@ export const ARCHITECTURE_MD = `
 
 ### 1.1 Description
 
-ViaMenutor est une **plateforme SaaS multi-tenant** pour la gestion complète d'auto-écoles suisses, conforme aux réglementations OAC (Ordonnance sur l'admission à la circulation).
+Viamentor est une **plateforme SaaS multi-tenant** pour la gestion complète d'auto-écoles suisses, conforme aux réglementations OAC (Ordonnance sur l'admission à la circulation).
 
 ### 1.2 Caractéristiques principales
 
@@ -720,7 +720,7 @@ Cette architecture est conçue pour:
 
 **Dernière mise à jour:** 2025-01-19  
 **Version:** 1.0.0  
-**Auteur:** ViaMenutor Team
+**Auteur:** Viamentor Team
 `;
 
 export default ARCHITECTURE_MD;

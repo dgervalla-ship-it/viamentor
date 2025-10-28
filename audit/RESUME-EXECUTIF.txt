@@ -278,7 +278,7 @@
 
   VERDICT : 🟢 GO pour Phase 1 (12 semaines)
   
-  Le projet ViaMenutor est un PROTOTYPE DE QUALITÉ avec une
+  Le projet Viamentor est un PROTOTYPE DE QUALITÉ avec une
   architecture solide et un design soigné.
   
   CEPENDANT, il nécessite 12 SEMAINES d'efforts concentrés sur :
@@ -344,7 +344,7 @@
 ║                                                                ║
 ║   🎉 Audit Complet Terminé avec Succès ! 🎉                   ║
 ║                                                                ║
-║   Projet : ViaMenutor                                          ║
+║   Projet : Viamentor                                          ║
 ║   Statut : Prototype Avancé                                    ║
 ║   Score : 4.5/10 (Bon départ, incomplet production)            ║
 ║   Bloqueurs : 5 critiques identifiés                           ║

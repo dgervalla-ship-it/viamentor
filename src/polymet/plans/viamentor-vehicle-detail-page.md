@@ -1,4 +1,4 @@
-# Page Détail Véhicule ViaMenutor
+# Page Détail Véhicule Viamentor
 
 ## User Request
 Créer page détail véhicule complète avec tabs: Historique audit trail, GPS tracking optionnel avec maps, Gestion coûts et carburant, Analytics utilisation, exports PDF, Hero UI, i18n FR/DE/IT/EN, Clean Code 200-250 lignes/fichier.

@@ -20,9 +20,9 @@ import {
   XIcon,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { ViaMenutorInstructorWizardStep1PersonalInfo } from "@/polymet/components/viamentor-instructor-wizard-step-1-personal-info";
-import { ViaMenutorInstructorWizardStep2Qualifications } from "@/polymet/components/viamentor-instructor-wizard-step-2-qualifications";
-import { ViaMenutorInstructorWizardStep3LegalAuthorizations } from "@/polymet/components/viamentor-instructor-wizard-step-3-legal-authorizations";
+import { ViamentorInstructorWizardStep1PersonalInfo } from "@/polymet/components/viamentor-instructor-wizard-step-1-personal-info";
+import { ViamentorInstructorWizardStep2Qualifications } from "@/polymet/components/viamentor-instructor-wizard-step-2-qualifications";
+import { ViamentorInstructorWizardStep3LegalAuthorizations } from "@/polymet/components/viamentor-instructor-wizard-step-3-legal-authorizations";
 import {
   type PersonalInfoData,
   type QualificationsData,
@@ -80,7 +80,7 @@ const WIZARD_STEPS: WizardStep[] = [
   { id: 5, key: "summary", icon: CheckCircleIcon, titleKey: "steps.summary" },
 ];
 
-export function ViaMenutorCreateInstructorWizard({
+export function ViamentorCreateInstructorWizard({
   open,
   onOpenChange,
   locale = "fr",
@@ -216,7 +216,7 @@ export function ViaMenutorCreateInstructorWizard({
     switch (currentStep) {
       case 1:
         return (
-          <ViaMenutorInstructorWizardStep1PersonalInfo
+          <ViamentorInstructorWizardStep1PersonalInfo
             initialData={personalInfoData}
             locale={locale}
             onDataChange={setPersonalInfoData}
@@ -226,7 +226,7 @@ export function ViaMenutorCreateInstructorWizard({
 
       case 2:
         return (
-          <ViaMenutorInstructorWizardStep2Qualifications
+          <ViamentorInstructorWizardStep2Qualifications
             initialData={qualificationsData}
             locale={locale}
             onDataChange={setQualificationsData}
@@ -236,7 +236,7 @@ export function ViaMenutorCreateInstructorWizard({
 
       case 3:
         return (
-          <ViaMenutorInstructorWizardStep3LegalAuthorizations
+          <ViamentorInstructorWizardStep3LegalAuthorizations
             initialData={legalAuthorizationsData}
             locale={locale}
             onDataChange={setLegalAuthorizationsData}

@@ -1,7 +1,7 @@
 # Module Instructors Real-Time Availability & Bulk Actions
 
 ## User Request
-Développer disponibilité temps réel et actions groupées moniteurs ViaMenutor: WebSocket status, availability calendar, bulk operations, Hero UI, i18n, Clean Code 200-250 lignes/fichier.
+Développer disponibilité temps réel et actions groupées moniteurs Viamentor: WebSocket status, availability calendar, bulk operations, Hero UI, i18n, Clean Code 200-250 lignes/fichier.
 
 ## Related Files
 - @/polymet/data/viamentor-instructors-data (to view) - Mock data instructors

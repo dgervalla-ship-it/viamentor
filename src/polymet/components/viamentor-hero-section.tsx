@@ -185,7 +185,7 @@ export function HeroSection({
       <Dialog open={videoOpen} onOpenChange={setVideoOpen}>
         <DialogContent className="max-w-4xl">
           <DialogHeader>
-            <DialogTitle>Démo ViaMenutor</DialogTitle>
+            <DialogTitle>Démo Viamentor</DialogTitle>
           </DialogHeader>
           <div className="aspect-video bg-muted rounded-lg flex items-center justify-center">
             <div className="text-center space-y-4">

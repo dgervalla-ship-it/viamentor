@@ -1,4 +1,4 @@
-# Module Invoices Management ViaMenutor
+# Module Invoices Management Viamentor
 
 ## User Request
 Développer le module complet de gestion des factures Finance Admin avec:

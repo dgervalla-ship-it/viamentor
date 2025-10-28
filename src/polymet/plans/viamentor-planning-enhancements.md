@@ -1,4 +1,4 @@
-# Plan Améliorations Planning ViaMenutor
+# Plan Améliorations Planning Viamentor
 
 ## User Request
 Ajouter des fonctionnalités avancées au module Planning : views Week et Day, intégration leçons pratiques, filtres actifs, drag & drop événements, export PDF/Excel et print view optimisée.

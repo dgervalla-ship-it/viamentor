@@ -11,7 +11,7 @@ export const SUPABASE_MOCK_README = `
 
 ## Vue d'ensemble
 
-La simulation Supabase Mock permet de développer et tester ViaMenutor **sans connexion réelle à Supabase**. 
+La simulation Supabase Mock permet de développer et tester Viamentor **sans connexion réelle à Supabase**. 
 Toutes les fonctionnalités d'authentification et de base de données sont simulées localement.
 
 ---
@@ -373,7 +373,7 @@ L'API reste identique ! 🎉
 
 ---
 
-**Développé avec ❤️ pour ViaMenutor**
+**Développé avec ❤️ pour Viamentor**
 `;
 
 export default SUPABASE_MOCK_README;

@@ -306,7 +306,7 @@ export function ICSImportWizard({
           title: "Leçon de conduite - Marie Dupont",
           startDate: new Date("2025-01-15T14:00:00"),
           endDate: new Date("2025-01-15T15:00:00"),
-          location: "Auto-école ViaMenutor",
+          location: "Auto-école Viamentor",
           attendees: ["marie.dupont@example.com"],
           status: "new",
         },

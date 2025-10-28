@@ -1,4 +1,4 @@
-# 🚗 ViaMenutor
+# 🚗 Viamentor
 
 **Plateforme SaaS multi-tenant pour la gestion complète d'auto-écoles suisses**
 
@@ -24,7 +24,7 @@
 
 ## 🎯 Aperçu
 
-ViaMenutor est une solution complète de gestion pour auto-écoles suisses, conforme aux réglementations OAC (Ordonnance sur l'admission à la circulation).
+Viamentor est une solution complète de gestion pour auto-écoles suisses, conforme aux réglementations OAC (Ordonnance sur l'admission à la circulation).
 
 ### Caractéristiques principales
 
@@ -203,7 +203,7 @@ viamentor/
 │   ├── components/        # Composants UI Shadcn/ui
 │   ├── hooks/            # Custom React hooks
 │   ├── lib/              # Utilitaires (Supabase, utils)
-│   ├── polymet/          # Code métier ViaMenutor
+│   ├── polymet/          # Code métier Viamentor
 │   │   ├── components/   # 370+ composants métier
 │   │   ├── data/         # 370+ fichiers data/i18n/schemas
 │   │   ├── layouts/      # Layouts (MainLayout)

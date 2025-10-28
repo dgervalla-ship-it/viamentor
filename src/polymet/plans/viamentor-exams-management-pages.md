@@ -1,7 +1,7 @@
 # Gestion Examens - Pages Manquantes
 
 ## User Request
-Créer 4 pages essentielles pour la gestion complète des examens dans ViaMenutor:
+Créer 4 pages essentielles pour la gestion complète des examens dans Viamentor:
 1. `/exams` - Liste examens avec filtres et stats
 2. `/exams/:id` - Détail examen avec informations complètes
 3. `/exams/book` - Wizard réservation examen

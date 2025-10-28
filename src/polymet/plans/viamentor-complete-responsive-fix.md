@@ -1,4 +1,4 @@
-# Correction Complète Responsive & Mobile ViaMenutor
+# Correction Complète Responsive & Mobile Viamentor
 
 ## User Request
 Corriger TOUS les composants sans exception pour responsive & mobile selon les règles :

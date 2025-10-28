@@ -1,7 +1,7 @@
 # Financial Analytics Module
 
 ## User Request
-Créer le module complet d'analytics financières ViaMenutor avec analyse revenus détaillée, rentabilité, prévisions ML cash-flow, ratios financiers, Hero UI, i18n FR/DE/IT/EN, Clean Code 200-250 lignes/fichier.
+Créer le module complet d'analytics financières Viamentor avec analyse revenus détaillée, rentabilité, prévisions ML cash-flow, ratios financiers, Hero UI, i18n FR/DE/IT/EN, Clean Code 200-250 lignes/fichier.
 
 ## Related Files
 - @/polymet/data/viamentor-financial-analytics-data (to create) - Mock data et types

@@ -72,7 +72,7 @@ interface QualificationsStepProps {
   onValidationChange: (isValid: boolean) => void;
 }
 
-export function ViaMenutorInstructorWizardStep2Qualifications({
+export function ViamentorInstructorWizardStep2Qualifications({
   initialData,
   locale = "fr",
   onDataChange,

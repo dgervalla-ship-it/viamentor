@@ -208,7 +208,7 @@ export const ONBOARDING_I18N: Record<OnboardingLocale, OnboardingTranslations> =
     // ============================================================================
     fr: {
       header: {
-        welcome: "Bienvenue sur ViaMenutor !",
+        welcome: "Bienvenue sur Viamentor !",
         subtitle: "Configurons ensemble votre auto-école en 5 étapes simples",
         skipNotAllowed: "Configuration obligatoire pour démarrer",
       },
@@ -276,7 +276,7 @@ export const ONBOARDING_I18N: Record<OnboardingLocale, OnboardingTranslations> =
       step2: {
         title: "Créez votre équipe",
         subtitle:
-          "Invitez vos moniteurs et collaborateurs à rejoindre ViaMenutor",
+          "Invitez vos moniteurs et collaborateurs à rejoindre Viamentor",
         alert: {
           title: "Vous êtes l'administrateur principal",
           description:
@@ -368,7 +368,7 @@ export const ONBOARDING_I18N: Record<OnboardingLocale, OnboardingTranslations> =
         terms: {
           accept: "J'accepte les conditions générales d'utilisation",
           privacy: "J'accepte la politique de confidentialité",
-          newsletter: "Je souhaite recevoir les actualités ViaMenutor",
+          newsletter: "Je souhaite recevoir les actualités Viamentor",
           dataProcessing:
             "J'autorise le traitement de mes données conformément au RGPD",
         },
@@ -406,7 +406,7 @@ export const ONBOARDING_I18N: Record<OnboardingLocale, OnboardingTranslations> =
     // ============================================================================
     de: {
       header: {
-        welcome: "Willkommen bei ViaMenutor!",
+        welcome: "Willkommen bei Viamentor!",
         subtitle:
           "Konfigurieren wir Ihre Fahrschule gemeinsam in 5 einfachen Schritten",
         skipNotAllowed: "Konfiguration erforderlich zum Starten",
@@ -475,7 +475,7 @@ export const ONBOARDING_I18N: Record<OnboardingLocale, OnboardingTranslations> =
       step2: {
         title: "Erstellen Sie Ihr Team",
         subtitle:
-          "Laden Sie Ihre Fahrlehrer und Mitarbeiter ein, ViaMenutor beizutreten",
+          "Laden Sie Ihre Fahrlehrer und Mitarbeiter ein, Viamentor beizutreten",
         alert: {
           title: "Sie sind der Hauptadministrator",
           description:
@@ -568,7 +568,7 @@ export const ONBOARDING_I18N: Record<OnboardingLocale, OnboardingTranslations> =
         terms: {
           accept: "Ich akzeptiere die Allgemeinen Geschäftsbedingungen",
           privacy: "Ich akzeptiere die Datenschutzrichtlinie",
-          newsletter: "Ich möchte ViaMenutor-Neuigkeiten erhalten",
+          newsletter: "Ich möchte Viamentor-Neuigkeiten erhalten",
           dataProcessing:
             "Ich autorisiere die Verarbeitung meiner Daten gemäss DSGVO",
         },
@@ -606,7 +606,7 @@ export const ONBOARDING_I18N: Record<OnboardingLocale, OnboardingTranslations> =
     // ============================================================================
     it: {
       header: {
-        welcome: "Benvenuto su ViaMenutor!",
+        welcome: "Benvenuto su Viamentor!",
         subtitle:
           "Configuriamo insieme la tua scuola guida in 5 semplici passaggi",
         skipNotAllowed: "Configurazione obbligatoria per iniziare",
@@ -675,7 +675,7 @@ export const ONBOARDING_I18N: Record<OnboardingLocale, OnboardingTranslations> =
       step2: {
         title: "Crea il tuo team",
         subtitle:
-          "Invita i tuoi istruttori e collaboratori a unirsi a ViaMenutor",
+          "Invita i tuoi istruttori e collaboratori a unirsi a Viamentor",
         alert: {
           title: "Sei l'amministratore principale",
           description:
@@ -767,7 +767,7 @@ export const ONBOARDING_I18N: Record<OnboardingLocale, OnboardingTranslations> =
         terms: {
           accept: "Accetto i termini e condizioni generali",
           privacy: "Accetto la politica sulla privacy",
-          newsletter: "Desidero ricevere le novità ViaMenutor",
+          newsletter: "Desidero ricevere le novità Viamentor",
           dataProcessing:
             "Autorizzo il trattamento dei miei dati conformemente al GDPR",
         },
@@ -805,7 +805,7 @@ export const ONBOARDING_I18N: Record<OnboardingLocale, OnboardingTranslations> =
     // ============================================================================
     en: {
       header: {
-        welcome: "Welcome to ViaMenutor!",
+        welcome: "Welcome to Viamentor!",
         subtitle:
           "Let's configure your driving school together in 5 simple steps",
         skipNotAllowed: "Configuration required to start",
@@ -873,7 +873,7 @@ export const ONBOARDING_I18N: Record<OnboardingLocale, OnboardingTranslations> =
 
       step2: {
         title: "Create your team",
-        subtitle: "Invite your instructors and staff to join ViaMenutor",
+        subtitle: "Invite your instructors and staff to join Viamentor",
         alert: {
           title: "You are the main administrator",
           description:
@@ -965,7 +965,7 @@ export const ONBOARDING_I18N: Record<OnboardingLocale, OnboardingTranslations> =
         terms: {
           accept: "I accept the terms and conditions",
           privacy: "I accept the privacy policy",
-          newsletter: "I want to receive ViaMenutor news",
+          newsletter: "I want to receive Viamentor news",
           dataProcessing:
             "I authorize the processing of my data in accordance with GDPR",
         },

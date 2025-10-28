@@ -75,7 +75,7 @@ const topPerformers: TopPerformer[] = [
 // COMPONENT
 // ============================================================================
 
-export function ViaMenutorSchoolAdminTopPerformersSection({
+export function ViamentorSchoolAdminTopPerformersSection({
   locale = "fr",
 }: SchoolAdminTopPerformersSectionProps) {
   return (
@@ -135,4 +135,4 @@ export function ViaMenutorSchoolAdminTopPerformersSection({
   );
 }
 
-export default ViaMenutorSchoolAdminTopPerformersSection;
+export default ViamentorSchoolAdminTopPerformersSection;

@@ -270,7 +270,7 @@
  * - UTM: ?utm_source=tiktok&utm_medium=social&utm_campaign=genz-2025
  *
  * ### /landing/referral
- * - Hero: "Votre ami vous recommande ViaMenutor"
+ * - Hero: "Votre ami vous recommande Viamentor"
  * - Discount: Code "PARRAIN20" (-20% premier forfait)
  * - CTA: "Profiter de l'offre"
  * - UTM: ?utm_source=referral&utm_medium=referral&utm_campaign=parrainage&utm_content=PARRAIN20

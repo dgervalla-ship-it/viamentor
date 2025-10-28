@@ -3,7 +3,7 @@
  */
 
 export const apiGuidesDoc = `
-# 📚 ViaMenutor - API, Guides & Deployment
+# 📚 Viamentor - API, Guides & Deployment
 
 ## 📋 Table des matières
 
@@ -438,7 +438,7 @@ Authorization: Bearer <token>
 
 ### 🎯 Rôle et responsabilités
 
-Le **Platform Admin** gère l'ensemble de la plateforme ViaMenutor :
+Le **Platform Admin** gère l'ensemble de la plateforme Viamentor :
 - Gestion des tenants (auto-écoles)
 - Monitoring global
 - Support technique

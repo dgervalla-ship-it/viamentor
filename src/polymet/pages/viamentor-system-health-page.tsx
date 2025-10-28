@@ -119,7 +119,7 @@ export function SystemHealthPage({ locale = "fr" }: SystemHealthPageProps) {
       <div>
         <h1 className="text-3xl font-bold text-foreground">Santé Système</h1>
         <p className="text-muted-foreground mt-1">
-          Monitoring temps réel de l'infrastructure ViaMenutor
+          Monitoring temps réel de l'infrastructure Viamentor
         </p>
       </div>
 

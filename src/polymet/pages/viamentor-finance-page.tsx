@@ -20,7 +20,7 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { toast } from "sonner";
 
-export function ViaMenutorFinancePage() {
+export function ViamentorFinancePage() {
   const [subscriptions, setSubscriptions] = useState(MOCK_SUBSCRIPTIONS);
   const [selectedSubscription, setSelectedSubscription] =
     useState<TenantSubscription | null>(null);

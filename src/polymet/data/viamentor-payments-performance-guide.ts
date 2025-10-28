@@ -4,7 +4,7 @@
  */
 
 export const paymentsPerformanceGuide = `
-# ⚡ Guide d'Optimisation - Module Payments ViaMenutor
+# ⚡ Guide d'Optimisation - Module Payments Viamentor
 
 ## 📊 Analyse de Performance Actuelle
 

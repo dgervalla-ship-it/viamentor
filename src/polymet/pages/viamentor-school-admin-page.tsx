@@ -25,14 +25,14 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { ResponsivePageWrapper } from "@/polymet/components/viamentor-responsive-page-wrapper";
-import { ViaMenutorSchoolAdminStatsSection } from "@/polymet/components/viamentor-school-admin-stats-section";
-import { ViaMenutorSchoolAdminQuickActionsSection } from "@/polymet/components/viamentor-school-admin-quick-actions-section";
-import { ViaMenutorSchoolAdminChartsSection } from "@/polymet/components/viamentor-school-admin-charts-section";
-import { ViaMenutorSchoolAdminGoalsSection } from "@/polymet/components/viamentor-school-admin-goals-section";
-import { ViaMenutorSchoolAdminTopPerformersSection } from "@/polymet/components/viamentor-school-admin-top-performers-section";
-import { ViaMenutorSchoolAdminActivitySection } from "@/polymet/components/viamentor-school-admin-activity-section";
-import { ViaMenutorSchoolAdminEventsSection } from "@/polymet/components/viamentor-school-admin-events-section";
-import { ViaMenutorSchoolAdminPerformanceSection } from "@/polymet/components/viamentor-school-admin-performance-section";
+import { ViamentorSchoolAdminStatsSection } from "@/polymet/components/viamentor-school-admin-stats-section";
+import { ViamentorSchoolAdminQuickActionsSection } from "@/polymet/components/viamentor-school-admin-quick-actions-section";
+import { ViamentorSchoolAdminChartsSection } from "@/polymet/components/viamentor-school-admin-charts-section";
+import { ViamentorSchoolAdminGoalsSection } from "@/polymet/components/viamentor-school-admin-goals-section";
+import { ViamentorSchoolAdminTopPerformersSection } from "@/polymet/components/viamentor-school-admin-top-performers-section";
+import { ViamentorSchoolAdminActivitySection } from "@/polymet/components/viamentor-school-admin-activity-section";
+import { ViamentorSchoolAdminEventsSection } from "@/polymet/components/viamentor-school-admin-events-section";
+import { ViamentorSchoolAdminPerformanceSection } from "@/polymet/components/viamentor-school-admin-performance-section";
 import {
   RefreshCw,
   X,
@@ -75,7 +75,7 @@ const iconMap: Record<string, any> = {
 // COMPONENT
 // ============================================================================
 
-export function ViaMenutorSchoolAdminPage({
+export function ViamentorSchoolAdminPage({
   locale = "fr",
 }: SchoolAdminPageProps) {
   const t = schoolAdminTranslations[locale];
@@ -223,9 +223,9 @@ export function ViaMenutorSchoolAdminPage({
         <div className="space-y-6">
           {/* Filters visible on desktop */}
           <div className="hidden lg:block">{filtersSection}</div>
-          <ViaMenutorSchoolAdminStatsSection locale={locale} />
+          <ViamentorSchoolAdminStatsSection locale={locale} />
 
-          <ViaMenutorSchoolAdminQuickActionsSection locale={locale} />
+          <ViamentorSchoolAdminQuickActionsSection locale={locale} />
         </div>
       ),
     },
@@ -233,19 +233,19 @@ export function ViaMenutorSchoolAdminPage({
       id: "charts",
       title: "Graphiques",
       icon: "BarChart3",
-      content: <ViaMenutorSchoolAdminChartsSection locale={locale} />,
+      content: <ViamentorSchoolAdminChartsSection locale={locale} />,
     },
     {
       id: "goals",
       title: "Objectifs",
       icon: "Target",
-      content: <ViaMenutorSchoolAdminGoalsSection locale={locale} />,
+      content: <ViamentorSchoolAdminGoalsSection locale={locale} />,
     },
     {
       id: "performers",
       title: "Top Performers",
       icon: "Trophy",
-      content: <ViaMenutorSchoolAdminTopPerformersSection locale={locale} />,
+      content: <ViamentorSchoolAdminTopPerformersSection locale={locale} />,
     },
     {
       id: "activity",
@@ -253,9 +253,9 @@ export function ViaMenutorSchoolAdminPage({
       icon: "Activity",
       content: (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <ViaMenutorSchoolAdminActivitySection locale={locale} />
+          <ViamentorSchoolAdminActivitySection locale={locale} />
 
-          <ViaMenutorSchoolAdminEventsSection locale={locale} />
+          <ViamentorSchoolAdminEventsSection locale={locale} />
         </div>
       ),
     },
@@ -263,7 +263,7 @@ export function ViaMenutorSchoolAdminPage({
       id: "performance",
       title: "Performance",
       icon: "TrendingUp",
-      content: <ViaMenutorSchoolAdminPerformanceSection locale={locale} />,
+      content: <ViamentorSchoolAdminPerformanceSection locale={locale} />,
     },
   ];
 
@@ -289,4 +289,4 @@ export function ViaMenutorSchoolAdminPage({
   );
 }
 
-export default ViaMenutorSchoolAdminPage;
+export default ViamentorSchoolAdminPage;

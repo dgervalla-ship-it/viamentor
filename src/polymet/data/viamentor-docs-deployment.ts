@@ -3,14 +3,14 @@
  * VIAMENTOR - DEPLOYMENT.md
  * ============================================================================
  *
- * Guide de déploiement ViaMenutor
+ * Guide de déploiement Viamentor
  *
  * @version 1.0.0
  * @date 2025-01-19
  */
 
 export const DEPLOYMENT_MD = `
-# 🚀 Deployment Guide ViaMenutor
+# 🚀 Deployment Guide Viamentor
 
 ## Table des matières
 
@@ -99,7 +99,7 @@ vercel --prod
 
 \`\`\`bash
 # App
-VITE_APP_NAME=ViaMenutor
+VITE_APP_NAME=Viamentor
 VITE_APP_ENV=development
 VITE_APP_URL=http://localhost:5173
 
@@ -125,7 +125,7 @@ VITE_FEATURE_CAMPAIGNS=true
 
 \`\`\`bash
 # App
-VITE_APP_NAME=ViaMenutor Staging
+VITE_APP_NAME=Viamentor Staging
 VITE_APP_ENV=staging
 VITE_APP_URL=https://viamentor-staging.vercel.app
 
@@ -151,7 +151,7 @@ VITE_FEATURE_CAMPAIGNS=false
 
 \`\`\`bash
 # App
-VITE_APP_NAME=ViaMenutor
+VITE_APP_NAME=Viamentor
 VITE_APP_ENV=production
 VITE_APP_URL=https://app.viamentor.ch
 
@@ -604,7 +604,7 @@ const { data } = useQuery({
 
 **Dernière mise à jour:** 2025-01-19  
 **Version:** 1.0.0  
-**Auteur:** ViaMenutor Team
+**Auteur:** Viamentor Team
 `;
 
 export default DEPLOYMENT_MD;

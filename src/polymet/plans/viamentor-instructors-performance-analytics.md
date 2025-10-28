@@ -1,7 +1,7 @@
 # Module Instructors Performance Analytics
 
 ## User Request
-Créer un système complet d'analytics de performance des moniteurs ViaMenutor avec:
+Créer un système complet d'analytics de performance des moniteurs Viamentor avec:
 - Performance ranking avec classement et métriques
 - Analyse détaillée individuelle par moniteur
 - Workload analysis avec heatmaps et alertes surcharge

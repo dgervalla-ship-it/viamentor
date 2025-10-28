@@ -147,25 +147,25 @@ export const quickActionsRoutes = [
   {
     path: "/quick/book-lesson",
     page: "QuickBookLessonPage",
-    layout: "ViaMenutorMainLayout",
+    layout: "ViamentorMainLayout",
     description: "Réservation rapide de leçon",
   },
   {
     path: "/quick/new-student",
     page: "QuickNewStudentPage",
-    layout: "ViaMenutorMainLayout",
+    layout: "ViamentorMainLayout",
     description: "Ajout rapide d'un nouvel élève",
   },
   {
     path: "/quick/new-invoice",
     page: "QuickNewInvoicePage",
-    layout: "ViaMenutorMainLayout",
+    layout: "ViamentorMainLayout",
     description: "Création rapide de facture",
   },
   {
     path: "/quick/report-absence",
     page: "QuickReportAbsencePage",
-    layout: "ViaMenutorMainLayout",
+    layout: "ViamentorMainLayout",
     description: "Signalement rapide d'absence",
   },
 ];

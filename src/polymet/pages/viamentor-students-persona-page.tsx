@@ -238,7 +238,7 @@ export function StudentsPersonaPage({
             Commencez votre parcours aujourd'hui
           </h2>
           <p className="text-xl text-white/90">
-            Rejoignez 15'000+ élèves qui apprennent avec ViaMenutor
+            Rejoignez 15'000+ élèves qui apprennent avec Viamentor
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button

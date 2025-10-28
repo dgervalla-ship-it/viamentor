@@ -471,7 +471,7 @@ export const mockSMS: ProspectSMS[] = [
     id: "sms-1",
     prospectId: "pr-3",
     message:
-      "Bonjour Sophie, merci pour votre demande. Je vous rappelle demain à 10h. Sophie - ViaMenutor",
+      "Bonjour Sophie, merci pour votre demande. Je vous rappelle demain à 10h. Sophie - Viamentor",
     direction: "outbound",
     date: "2025-01-13T17:00:00Z",
     delivered: true,

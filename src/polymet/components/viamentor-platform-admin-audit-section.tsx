@@ -39,7 +39,7 @@ interface PlatformAdminAuditSectionProps {
 // COMPONENT
 // ============================================================================
 
-export function ViaMenutorPlatformAdminAuditSection({
+export function ViamentorPlatformAdminAuditSection({
   locale = "fr",
 }: PlatformAdminAuditSectionProps) {
   const t = getPlatformAdminTranslations(locale);
@@ -119,4 +119,4 @@ export function ViaMenutorPlatformAdminAuditSection({
   );
 }
 
-export default ViaMenutorPlatformAdminAuditSection;
+export default ViamentorPlatformAdminAuditSection;

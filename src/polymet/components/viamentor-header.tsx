@@ -85,7 +85,7 @@ export function Header({
   locale = "fr",
   user = {
     id: "user-1",
-    name: "Admin ViaMenutor",
+    name: "Admin Viamentor",
     email: "admin@viamentor.ch",
     role: "Platform Admin",
     avatar: "https://github.com/yusufhilmi.png",

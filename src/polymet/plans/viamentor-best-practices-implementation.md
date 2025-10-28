@@ -1,4 +1,4 @@
-# Implémentation Best Practices ViaMenutor
+# Implémentation Best Practices Viamentor
 
 ## User Request
 Implémenter les recommandations des audits Best Practices pour améliorer le design system, l'UX, le data fetching et l'accessibilité.

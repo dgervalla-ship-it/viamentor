@@ -1,4 +1,4 @@
-# Priorité 2 - HAUTE - Améliorations Système ViaMenutor
+# Priorité 2 - HAUTE - Améliorations Système Viamentor
 
 ## User Request
 Implémenter les améliorations de **Priorité 2 - HAUTE** :

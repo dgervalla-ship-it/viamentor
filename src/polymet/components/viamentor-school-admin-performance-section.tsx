@@ -37,7 +37,7 @@ interface SchoolAdminPerformanceSectionProps {
 // COMPONENT
 // ============================================================================
 
-export function ViaMenutorSchoolAdminPerformanceSection({
+export function ViamentorSchoolAdminPerformanceSection({
   locale = "fr",
 }: SchoolAdminPerformanceSectionProps) {
   const t = schoolAdminTranslations[locale];
@@ -96,4 +96,4 @@ export function ViaMenutorSchoolAdminPerformanceSection({
   );
 }
 
-export default ViaMenutorSchoolAdminPerformanceSection;
+export default ViamentorSchoolAdminPerformanceSection;

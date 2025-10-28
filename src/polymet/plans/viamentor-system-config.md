@@ -1,7 +1,7 @@
-# ViaMenutor System Configuration
+# Viamentor System Configuration
 
 ## User Request
-Créer la configuration globale du système ViaMenutor (SaaS auto-école suisse multi-tenant) avec:
+Créer la configuration globale du système Viamentor (SaaS auto-école suisse multi-tenant) avec:
 - Système de rôles RBAC complet (15 rôles hiérarchiques)
 - Configuration thème UI personnalisable (Hero UI + Shadcn fallback)
 - Système i18n FR/DE/IT/EN avec règles grammaticales strictes

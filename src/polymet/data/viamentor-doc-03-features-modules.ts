@@ -3,7 +3,7 @@
  */
 
 export const featuresDoc = `
-# 🎯 ViaMenutor - Features & Modules
+# 🎯 Viamentor - Features & Modules
 
 ## 📋 Table des matières
 
@@ -26,25 +26,25 @@ export const featuresDoc = `
 
 \`\`\`typescript
 export const USER_ROLES = {
-  // Platform Level (ViaMenutor)
+  // Platform Level (Viamentor)
   platform_admin: {
     level: 1,
     label: "Platform Admin",
-    description: "Administrateur plateforme ViaMenutor",
+    description: "Administrateur plateforme Viamentor",
     permissions: ["*"], // All permissions
   },
   
   platform_support: {
     level: 2,
     label: "Platform Support",
-    description: "Support technique ViaMenutor",
+    description: "Support technique Viamentor",
     permissions: ["tenants:read", "users:read", "support:write"],
   },
   
   finance_admin: {
     level: 2,
     label: "Finance Admin",
-    description: "Administrateur financier ViaMenutor",
+    description: "Administrateur financier Viamentor",
     permissions: ["finance:*", "invoices:*", "subscriptions:*"],
   },
   

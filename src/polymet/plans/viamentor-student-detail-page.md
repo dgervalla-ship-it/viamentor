@@ -1,4 +1,4 @@
-# Page Détail Élève ViaMenutor
+# Page Détail Élève Viamentor
 
 ## User Request
 Créer une page de détail élève complète avec:

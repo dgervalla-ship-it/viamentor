@@ -588,7 +588,7 @@ function generateBackupCodes(count: number): string[] {
 
 async function generateQRCode(userId: string, secret: string): Promise<string> {
   // TODO: Implémenter génération QR code
-  const otpauthUrl = `otpauth://totp/ViaMenutor:${userId}?secret=${secret}&issuer=ViaMenutor`;
+  const otpauthUrl = `otpauth://totp/Viamentor:${userId}?secret=${secret}&issuer=Viamentor`;
   return `data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==`;
 }
 

@@ -34,7 +34,7 @@ interface PlatformAdminMonitoringSectionProps {
 // COMPONENT
 // ============================================================================
 
-export function ViaMenutorPlatformAdminMonitoringSection({
+export function ViamentorPlatformAdminMonitoringSection({
   locale = "fr",
 }: PlatformAdminMonitoringSectionProps) {
   const t = getPlatformAdminTranslations(locale);
@@ -93,4 +93,4 @@ export function ViaMenutorPlatformAdminMonitoringSection({
   );
 }
 
-export default ViaMenutorPlatformAdminMonitoringSection;
+export default ViamentorPlatformAdminMonitoringSection;

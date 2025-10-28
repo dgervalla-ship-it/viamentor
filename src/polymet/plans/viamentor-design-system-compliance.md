@@ -1,7 +1,7 @@
-# Conformité Design System ViaMenutor
+# Conformité Design System Viamentor
 
 ## User Request
-Corriger tous les problèmes de conformité avec le Design System ViaMenutor dans l'ensemble du projet selon les spécifications fournies.
+Corriger tous les problèmes de conformité avec le Design System Viamentor dans l'ensemble du projet selon les spécifications fournies.
 
 ## Related Files
 - @/polymet/pages/viamentor-login-page (to update) - Corrections spacing, typography, colors
@@ -91,7 +91,7 @@ Corriger tous les problèmes de conformité avec le Design System ViaMenutor dan
 **Documentation créée:**
 - ✅ viamentor-design-system-reference: Guide complet avec exemples, checklist, et références
 
-**Statut final:** ✅ Projet 100% conforme au Design System ViaMenutor
+**Statut final:** ✅ Projet 100% conforme au Design System Viamentor
 
   
 ## Plan Information

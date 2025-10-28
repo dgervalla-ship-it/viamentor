@@ -8,7 +8,7 @@
 // ============================================================================
 
 export const MIGRATION_GUIDE = {
-  title: "Guide de Migration State Management ViaMenutor",
+  title: "Guide de Migration State Management Viamentor",
   version: "1.0.0",
   lastUpdate: "2025-01-18",
   duration: "2-3 semaines",

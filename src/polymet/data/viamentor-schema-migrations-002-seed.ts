@@ -21,7 +21,7 @@ export const migration002SeedSQL = `
 -- ============================================================================
 -- MIGRATION 002: SEED RBAC DATA
 -- Date: 2025-01-XX
--- Author: ViaMenutor Schema Audit
+-- Author: Viamentor Schema Audit
 -- Description: Seed 15 rôles + 150 permissions + assignments defaults
 -- ============================================================================
 

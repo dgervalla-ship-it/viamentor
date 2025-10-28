@@ -1,4 +1,4 @@
-# Module Revenue Analytics ViaMenutor
+# Module Revenue Analytics Viamentor
 
 ## User Request
 Développer le module complet d'analytics revenus et rapports financiers Finance Admin avec:

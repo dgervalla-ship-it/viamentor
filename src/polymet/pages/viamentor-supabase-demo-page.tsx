@@ -45,7 +45,7 @@ import {
   ArrowLeftIcon,
 } from "lucide-react";
 
-export function ViaMenutorSupabaseDemoPage() {
+export function ViamentorSupabaseDemoPage() {
   const [client] = useState(() => useSupabaseMock());
   const [user, setUser] = useState<any>(null);
   const [autoLoginEnabled, setAutoLoginEnabled] = useState(getAutoLogin());

@@ -273,7 +273,7 @@ export const mockSupportTickets: SupportTicket[] = [
         authorName: "Marie Laurent",
         authorAvatar: "https://github.com/shoaibux1.png",
         content:
-          "Bonjour, je souhaiterais synchroniser le planning ViaMenutor avec mon Google Calendar. Est-ce possible ?",
+          "Bonjour, je souhaiterais synchroniser le planning Viamentor avec mon Google Calendar. Est-ce possible ?",
         timestamp: new Date(2025, 0, 14, 14, 20),
       },
       {
@@ -436,7 +436,7 @@ export const mockKBArticles: KBArticle[] = [
     title: "Comment créer une QR-facture suisse conforme ?",
     slug: "creer-qr-facture-suisse",
     description:
-      "Guide complet pour générer des QR-factures conformes aux normes suisses avec ViaMenutor",
+      "Guide complet pour générer des QR-factures conformes aux normes suisses avec Viamentor",
     content: `# Comment créer une QR-facture suisse conforme
 
 ## Introduction
@@ -455,7 +455,7 @@ Les QR-factures sont obligatoires en Suisse depuis le 30 septembre 2022...
 - Informations client complètes
 
 ## Vérification de conformité
-ViaMenutor vérifie automatiquement...`,
+Viamentor vérifie automatiquement...`,
     category: "cat-2",
     categoryName: "Facturation & Paiements",
     views: 1245,
@@ -472,7 +472,7 @@ ViaMenutor vérifie automatiquement...`,
     title: "Exporter le planning au format iCal",
     slug: "export-planning-ical",
     description:
-      "Synchronisez votre planning ViaMenutor avec Google Calendar, Outlook ou Apple Calendar",
+      "Synchronisez votre planning Viamentor avec Google Calendar, Outlook ou Apple Calendar",
     content: `# Exporter le planning au format iCal
 
 ## Pourquoi exporter en iCal ?

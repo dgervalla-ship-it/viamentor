@@ -7,11 +7,11 @@
  */
 
 export const NO_AUTH_MODE_README = `
-# 🔓 Mode Sans Authentification - ViaMenutor
+# 🔓 Mode Sans Authentification - Viamentor
 
 ## Vue d'ensemble
 
-Le système ViaMenutor fonctionne maintenant en **mode développement sans authentification**.
+Le système Viamentor fonctionne maintenant en **mode développement sans authentification**.
 Toutes les pages sont accessibles directement sans avoir besoin de se connecter.
 
 ---

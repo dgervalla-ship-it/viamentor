@@ -82,7 +82,7 @@ const WIDGETS: Widget[] = [
     rating: 4.8,
     downloads: 1250,
     version: "2.1.0",
-    author: "ViaMenutor",
+    author: "Viamentor",
     premium: false,
   },
   {
@@ -97,7 +97,7 @@ const WIDGETS: Widget[] = [
     rating: 4.9,
     downloads: 980,
     version: "1.5.2",
-    author: "ViaMenutor",
+    author: "Viamentor",
     premium: false,
   },
   {
@@ -112,7 +112,7 @@ const WIDGETS: Widget[] = [
     rating: 4.7,
     downloads: 850,
     version: "3.0.1",
-    author: "ViaMenutor",
+    author: "Viamentor",
     premium: true,
   },
   {
@@ -127,7 +127,7 @@ const WIDGETS: Widget[] = [
     rating: 4.6,
     downloads: 720,
     version: "1.8.0",
-    author: "ViaMenutor",
+    author: "Viamentor",
     premium: false,
   },
   {
@@ -142,7 +142,7 @@ const WIDGETS: Widget[] = [
     rating: 4.5,
     downloads: 650,
     version: "2.3.0",
-    author: "ViaMenutor",
+    author: "Viamentor",
     premium: false,
   },
   {
@@ -157,7 +157,7 @@ const WIDGETS: Widget[] = [
     rating: 4.4,
     downloads: 580,
     version: "1.2.5",
-    author: "ViaMenutor",
+    author: "Viamentor",
     premium: false,
   },
   {
@@ -172,7 +172,7 @@ const WIDGETS: Widget[] = [
     rating: 4.8,
     downloads: 920,
     version: "2.0.0",
-    author: "ViaMenutor",
+    author: "Viamentor",
     premium: true,
   },
   {
@@ -187,7 +187,7 @@ const WIDGETS: Widget[] = [
     rating: 4.9,
     downloads: 1100,
     version: "3.2.1",
-    author: "ViaMenutor",
+    author: "Viamentor",
     premium: true,
   },
   {
@@ -202,7 +202,7 @@ const WIDGETS: Widget[] = [
     rating: 4.7,
     downloads: 780,
     version: "1.9.0",
-    author: "ViaMenutor",
+    author: "Viamentor",
     premium: false,
   },
   {
@@ -217,7 +217,7 @@ const WIDGETS: Widget[] = [
     rating: 4.6,
     downloads: 690,
     version: "2.5.0",
-    author: "ViaMenutor",
+    author: "Viamentor",
     premium: true,
   },
 ];

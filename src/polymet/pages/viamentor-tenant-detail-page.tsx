@@ -26,7 +26,7 @@ import {
   getTenantLogs,
 } from "@/polymet/data/viamentor-tenant-detail-data";
 
-export function ViaMenutorTenantDetailPage() {
+export function ViamentorTenantDetailPage() {
   const { id = "tenant-001" } = useParams<{ id: string }>();
 
   // Load data (in real app, use TanStack Query)

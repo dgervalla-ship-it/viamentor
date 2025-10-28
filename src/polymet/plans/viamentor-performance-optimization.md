@@ -1,4 +1,4 @@
-# Optimisation Performances ViaMenutor
+# Optimisation Performances Viamentor
 
 ## User Request
 Optimiser les performances de 20 pages dashboard/analytics avec lazy loading, mise en cache, optimisation requêtes, React.memo et useMemo.

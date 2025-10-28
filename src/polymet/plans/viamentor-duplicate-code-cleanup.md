@@ -1,7 +1,7 @@
-# Nettoyage Code Dupliqué ViaMenutor
+# Nettoyage Code Dupliqué Viamentor
 
 ## User Request
-Nettoyer le code dupliqué dans toutes les pages du projet ViaMenutor pour améliorer la maintenabilité et réduire la taille des fichiers.
+Nettoyer le code dupliqué dans toutes les pages du projet Viamentor pour améliorer la maintenabilité et réduire la taille des fichiers.
 
 ## Related Files
 

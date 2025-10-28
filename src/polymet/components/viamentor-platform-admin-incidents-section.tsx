@@ -34,7 +34,7 @@ interface PlatformAdminIncidentsSectionProps {
 // COMPONENT
 // ============================================================================
 
-export function ViaMenutorPlatformAdminIncidentsSection({
+export function ViamentorPlatformAdminIncidentsSection({
   locale = "fr",
   onCreateIncident,
 }: PlatformAdminIncidentsSectionProps) {
@@ -154,4 +154,4 @@ export function ViaMenutorPlatformAdminIncidentsSection({
   );
 }
 
-export default ViaMenutorPlatformAdminIncidentsSection;
+export default ViamentorPlatformAdminIncidentsSection;

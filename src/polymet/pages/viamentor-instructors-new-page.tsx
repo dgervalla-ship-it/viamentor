@@ -5,7 +5,7 @@
 
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { ViaMenutorCreateInstructorWizard } from "@/polymet/components/viamentor-create-instructor-wizard";
+import { ViamentorCreateInstructorWizard } from "@/polymet/components/viamentor-create-instructor-wizard";
 import { InstructorsLocale } from "@/polymet/data/viamentor-instructors-i18n";
 
 interface InstructorsNewPageProps {
@@ -47,7 +47,7 @@ export function InstructorsNewPage({ locale = "fr" }: InstructorsNewPageProps) {
 
   return (
     <div className="min-h-screen bg-background">
-      <ViaMenutorCreateInstructorWizard
+      <ViamentorCreateInstructorWizard
         open={true}
         onOpenChange={(open) => {
           if (!open) {

@@ -33,7 +33,7 @@ const meta: Meta<typeof AboutPage> = {
         component: `
 # About Page
 
-Page À propos de ViaMenutor avec mission, histoire, équipe et valeurs.
+Page À propos de Viamentor avec mission, histoire, équipe et valeurs.
 
 ## Features
 - ✅ SEO complet (meta tags, Open Graph, Twitter Cards, structured data)

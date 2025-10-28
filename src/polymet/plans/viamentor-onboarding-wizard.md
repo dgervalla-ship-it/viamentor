@@ -1,7 +1,7 @@
-# Wizard Setup Initial ViaMenutor
+# Wizard Setup Initial Viamentor
 
 ## User Request
-Construire le wizard de configuration initiale ViaMenutor pour les nouveaux tenants avec 5 étapes (École/Utilisateurs/Catégories/Paiements/Finalisation), Hero UI, i18n FR/DE/IT/EN, auto-save localStorage, Clean Code 200-250 lignes/fichier.
+Construire le wizard de configuration initiale Viamentor pour les nouveaux tenants avec 5 étapes (École/Utilisateurs/Catégories/Paiements/Finalisation), Hero UI, i18n FR/DE/IT/EN, auto-save localStorage, Clean Code 200-250 lignes/fichier.
 
 ## Related Files
 - @/polymet/data/viamentor-onboarding-schemas (créé) - Validation Zod 5 steps

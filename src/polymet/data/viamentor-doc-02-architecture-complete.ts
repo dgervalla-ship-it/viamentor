@@ -3,7 +3,7 @@
  */
 
 export const architectureDoc = `
-# 🏗️ ViaMenutor - Architecture Complète
+# 🏗️ Viamentor - Architecture Complète
 
 ## 📋 Table des matières
 
@@ -137,7 +137,7 @@ export function MainLayout({ children }: { children: ReactNode }) {
 
 \`\`\`tsx
 // prototypes/viamentor-system-prototype.tsx
-export default function ViaMenutorPrototype() {
+export default function ViamentorPrototype() {
   return (
     <Router>
       <Routes>
@@ -229,7 +229,7 @@ export function useCreateStudent() {
 
 - **Shadcn UI**: Button, Input, Select, Dialog, Table, etc.
 - **Hero UI**: Advanced components (Calendar, Charts)
-- **Custom**: ViaMenutor-specific components
+- **Custom**: Viamentor-specific components
 
 ### 📱 Responsive Design
 

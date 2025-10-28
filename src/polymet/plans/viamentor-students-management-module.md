@@ -1,7 +1,7 @@
-# ViaMenutor Students Management Module
+# Viamentor Students Management Module
 
 ## User Request
-Créer le module complet de gestion des élèves pour School Admin ViaMenutor avec:
+Créer le module complet de gestion des élèves pour School Admin Viamentor avec:
 - DataTable optimisée virtualisée 1000+ rows
 - Filtres avancés avec presets sauvegardés
 - Bulk actions (assign, email, status, export, delete)

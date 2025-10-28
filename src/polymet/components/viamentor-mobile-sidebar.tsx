@@ -110,7 +110,7 @@ export function MobileSidebar({
                 </span>
               </div>
               <SheetTitle className="text-base font-semibold">
-                ViaMenutor
+                Viamentor
               </SheetTitle>
             </div>
           </div>

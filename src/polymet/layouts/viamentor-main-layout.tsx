@@ -104,7 +104,7 @@ const useMockTenant = (tenantSlug?: string) => {
 /**
  * Main Layout Component
  */
-export function ViaMenutorMainLayout({
+export function ViamentorMainLayout({
   children,
   locale = "fr",
   tenant: tenantSlug,
@@ -269,4 +269,4 @@ export function ViaMenutorMainLayout({
 /**
  * Export default
  */
-export default ViaMenutorMainLayout;
+export default ViamentorMainLayout;

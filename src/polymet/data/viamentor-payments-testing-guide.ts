@@ -4,7 +4,7 @@
  */
 
 export const paymentsTestingGuide = `
-# 🧪 Guide de Tests - Module Payments ViaMenutor
+# 🧪 Guide de Tests - Module Payments Viamentor
 
 ## 📋 Vue d'ensemble
 
