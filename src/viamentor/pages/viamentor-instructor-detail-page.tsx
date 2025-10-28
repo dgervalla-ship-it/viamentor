@@ -7,7 +7,6 @@ import { ViamentorInstructorPlanningTab } from "@/viamentor/components/viamentor
 import { ViamentorInstructorStudentsTab } from "@/viamentor/components/viamentor-instructor-students-tab";
 import { ViamentorInstructorPerformanceTab } from "@/viamentor/components/viamentor-instructor-performance-tab";
 import {
-  MOCK_INSTRUCTOR_DETAIL,
   MOCK_INSTRUCTOR_LESSONS,
   MOCK_ASSIGNED_STUDENTS,
   MOCK_INSTRUCTOR_PERFORMANCE,
@@ -16,6 +15,9 @@ import {
 } from "@/viamentor/data/viamentor-instructor-detail-data";
 import type { InstructorDetailLocale } from "@/viamentor/data/viamentor-instructor-detail-i18n";
 import { INSTRUCTOR_DETAIL_I18N } from "@/viamentor/data/viamentor-instructor-detail-i18n";
+import { useInstructor } from "@/lib/hooks/use-instructors";
+import { LoadingSpinner } from "@/components/ui/loading-spinner";
+import { ErrorMessage } from "@/components/ui/error-message";
 
 interface InstructorDetailPageProps {
   locale?: InstructorDetailLocale;
@@ -28,8 +30,20 @@ export function ViamentorInstructorDetailPage({
   const [activeTab, setActiveTab] = useState("informations");
   const t = INSTRUCTOR_DETAIL_I18N[locale];
 
-  // Mock: En production, charger les données depuis l'API avec l'id
-  const instructor = MOCK_INSTRUCTOR_DETAIL;
+  // Fetch instructor data from API
+  const { data: instructor, isLoading, error } = useInstructor(id || "");
+
+  // Loading state
+  if (isLoading) {
+    return <LoadingSpinner fullScreen />;
+  }
+
+  // Error state
+  if (error || !instructor) {
+    return <ErrorMessage error={error || new Error("Instructor not found")} fullScreen />;
+  }
+
+  // Mock data for now (TODO: create hooks for these)
   const lessons = MOCK_INSTRUCTOR_LESSONS;
   const students = MOCK_ASSIGNED_STUDENTS;
   const performance = MOCK_INSTRUCTOR_PERFORMANCE;
@@ -37,10 +51,10 @@ export function ViamentorInstructorDetailPage({
   const ranking = MOCK_INSTRUCTOR_RANKING;
 
   const studentsStats = {
-    total: instructor.stats.totalStudents,
-    active: instructor.stats.activeStudents,
-    lessonsLast7Days: instructor.stats.lessonsLast7Days,
-    successRate: instructor.stats.successRate,
+    total: instructor.stats?.totalStudents || 0,
+    active: instructor.stats?.activeStudents || 0,
+    lessonsLast7Days: instructor.stats?.lessonsLast7Days || 0,
+    successRate: instructor.stats?.successRate || 0,
   };
 
   // Handlers

@@ -4,6 +4,7 @@
  */
 
 import React, { useState } from "react";
+import { useParams } from "react-router-dom";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
@@ -68,7 +69,6 @@ import {
   AwardIcon,
 } from "lucide-react";
 import {
-  mockInstructorProfile,
   calculateAge,
   hasExpiredCertificates,
   hasExpiringSoonCertificates,
@@ -80,6 +80,9 @@ import {
 } from "@/viamentor/data/viamentor-instructor-profile-i18n";
 import { ChartContainer, ChartTooltip } from "@/components/ui/chart";
 import { LineChart, Line, XAxis, ResponsiveContainer } from "recharts";
+import { useInstructor, useUpdateInstructor } from "@/lib/hooks/use-instructors";
+import { LoadingSpinner } from "@/components/ui/loading-spinner";
+import { ErrorMessage } from "@/components/ui/error-message";
 
 // ============================================================================
 // TYPES
@@ -96,8 +99,22 @@ interface InstructorProfilePageProps {
 export function InstructorProfilePage({
   locale = "fr",
 }: InstructorProfilePageProps) {
+  const { id } = useParams<{ id: string }>();
   const t = instructorProfileI18n[locale];
-  const [profile, setProfile] = useState(mockInstructorProfile);
+
+  // Fetch instructor profile
+  const { data: profile, isLoading, error } = useInstructor(id || "");
+  const updateInstructor = useUpdateInstructor();
+
+  // Loading state
+  if (isLoading) {
+    return <LoadingSpinner fullScreen />;
+  }
+
+  // Error state
+  if (error || !profile) {
+    return <ErrorMessage error={error || new Error("Profile not found")} fullScreen />;
+  }
   const [isEditing, setIsEditing] = useState(false);
   const [isDirty, setIsDirty] = useState(false);
   const [showChangePasswordDialog, setShowChangePasswordDialog] =

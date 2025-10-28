@@ -35,10 +35,9 @@ import {
   useInstructorsTranslations,
 } from "@/viamentor/data/viamentor-instructors-i18n";
 import { useInstructorsStore } from "@/viamentor/data/viamentor-instructors-store";
-import {
-  useInstructorsList,
-  useInstructorStats,
-} from "@/viamentor/data/viamentor-use-instructors-query";
+import { useInstructors } from "@/lib/hooks/use-instructors";
+import { LoadingSpinner } from "@/components/ui/loading-spinner";
+import { ErrorMessage } from "@/components/ui/error-message";
 
 interface InstructorsPageProps {
   locale?: InstructorsLocale;
@@ -68,12 +67,28 @@ export function ViamentorInstructorsPage({
   } = useInstructorsStore();
 
   // TanStack Query (Server Data)
-  const { data: instructors = [], isLoading: isLoadingList } =
-    useInstructorsList(filters);
-  const { data: stats, isLoading: isLoadingStats } = useInstructorStats();
+  const { data: instructors = [], isLoading: isLoadingList, error: errorList } = useInstructors();
 
   // Local state for wizard
   const [showCreateWizard, setShowCreateWizard] = useState(false);
+
+  // Loading state
+  if (isLoadingList) {
+    return <LoadingSpinner fullScreen />;
+  }
+
+  // Error state
+  if (errorList) {
+    return <ErrorMessage error={errorList} fullScreen />;
+  }
+
+  // Mock stats for now (TODO: create useInstructorsStats hook)
+  const stats = {
+    total: instructors.length,
+    active: instructors.filter(i => i.status === 'active').length,
+    onLesson: instructors.filter(i => i.status === 'active').length / 2, // Mock
+    available: instructors.filter(i => i.status === 'active').length / 3, // Mock
+  };
 
   // Instructors are already filtered by TanStack Query
   const filteredInstructors = instructors;
