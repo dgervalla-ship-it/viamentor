@@ -1,0 +1,530 @@
+{
+  "info": {
+    "name": "Viamentor API",
+    "description": "Collection complète pour tester toutes les APIs Viamentor",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "viamentor"
+  },
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{access_token}}",
+        "type": "string"
+      }
+    ]
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "https://viamentor.vercel.app/api",
+      "type": "string"
+    },
+    {
+      "key": "local_url",
+      "value": "http://localhost:5174/api",
+      "type": "string"
+    },
+    {
+      "key": "access_token",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "student_id",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "instructor_id",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "invoice_id",
+      "value": "",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "01 - Auth",
+      "item": [
+        {
+          "name": "Login",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"Status code is 200\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test(\"Response has access token\", function () {",
+                  "    var jsonData = pm.response.json();",
+                  "    pm.expect(jsonData.session.access_token).to.exist;",
+                  "    pm.collectionVariables.set(\"access_token\", jsonData.session.access_token);",
+                  "});"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"test@viamentor.ch\",\n  \"password\": \"password123\"\n}"
+            },
+            "url": {
+              "raw": "{{local_url}}/auth/login",
+              "host": ["{{local_url}}"],
+              "path": ["auth", "login"]
+            }
+          }
+        },
+        {
+          "name": "Signup",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"Status code is 201\", function () {",
+                  "    pm.response.to.have.status(201);",
+                  "});"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"nouveau@viamentor.ch\",\n  \"password\": \"password123\",\n  \"firstName\": \"Nouveau\",\n  \"lastName\": \"Utilisateur\"\n}"
+            },
+            "url": {
+              "raw": "{{local_url}}/auth/signup",
+              "host": ["{{local_url}}"],
+              "path": ["auth", "signup"]
+            }
+          }
+        },
+        {
+          "name": "Logout",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{local_url}}/auth/logout",
+              "host": ["{{local_url}}"],
+              "path": ["auth", "logout"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "02 - Students",
+      "item": [
+        {
+          "name": "Get All Students",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"Status code is 200\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test(\"Response is an array\", function () {",
+                  "    var jsonData = pm.response.json();",
+                  "    pm.expect(jsonData).to.be.an('array');",
+                  "    if (jsonData.length > 0) {",
+                  "        pm.collectionVariables.set(\"student_id\", jsonData[0].id);",
+                  "    }",
+                  "});"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{local_url}}/students",
+              "host": ["{{local_url}}"],
+              "path": ["students"]
+            }
+          }
+        },
+        {
+          "name": "Create Student",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"Status code is 201\", function () {",
+                  "    pm.response.to.have.status(201);",
+                  "});",
+                  "",
+                  "pm.test(\"Student created with ID\", function () {",
+                  "    var jsonData = pm.response.json();",
+                  "    pm.expect(jsonData.id).to.exist;",
+                  "    pm.collectionVariables.set(\"student_id\", jsonData.id);",
+                  "});"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"first_name\": \"Jean\",\n  \"last_name\": \"Dupont\",\n  \"email\": \"jean.dupont@example.com\",\n  \"phone\": \"+41 79 123 45 67\",\n  \"date_of_birth\": \"2005-03-15\",\n  \"permit_type\": \"B\"\n}"
+            },
+            "url": {
+              "raw": "{{local_url}}/students",
+              "host": ["{{local_url}}"],
+              "path": ["students"]
+            }
+          }
+        },
+        {
+          "name": "Get Student by ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{local_url}}/students/{{student_id}}",
+              "host": ["{{local_url}}"],
+              "path": ["students", "{{student_id}}"]
+            }
+          }
+        },
+        {
+          "name": "Update Student",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"phone\": \"+41 79 999 88 77\"\n}"
+            },
+            "url": {
+              "raw": "{{local_url}}/students/{{student_id}}",
+              "host": ["{{local_url}}"],
+              "path": ["students", "{{student_id}}"]
+            }
+          }
+        },
+        {
+          "name": "Delete Student",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{local_url}}/students/{{student_id}}",
+              "host": ["{{local_url}}"],
+              "path": ["students", "{{student_id}}"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "03 - Instructors",
+      "item": [
+        {
+          "name": "Get All Instructors",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"Status code is 200\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test(\"Response is an array\", function () {",
+                  "    var jsonData = pm.response.json();",
+                  "    pm.expect(jsonData).to.be.an('array');",
+                  "    if (jsonData.length > 0) {",
+                  "        pm.collectionVariables.set(\"instructor_id\", jsonData[0].id);",
+                  "    }",
+                  "});"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{local_url}}/instructors",
+              "host": ["{{local_url}}"],
+              "path": ["instructors"]
+            }
+          }
+        },
+        {
+          "name": "Create Instructor",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"first_name\": \"Marc\",\n  \"last_name\": \"Martin\",\n  \"email\": \"marc.martin@example.com\",\n  \"categories\": [\"B\", \"BE\"],\n  \"languages\": [\"fr\", \"en\"]\n}"
+            },
+            "url": {
+              "raw": "{{local_url}}/instructors",
+              "host": ["{{local_url}}"],
+              "path": ["instructors"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "04 - Lessons",
+      "item": [
+        {
+          "name": "Get All Lessons",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{local_url}}/lessons",
+              "host": ["{{local_url}}"],
+              "path": ["lessons"]
+            }
+          }
+        },
+        {
+          "name": "Create Lesson",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"student_id\": \"{{student_id}}\",\n  \"instructor_id\": \"{{instructor_id}}\",\n  \"date\": \"2025-11-01\",\n  \"start_time\": \"10:00\",\n  \"end_time\": \"10:50\",\n  \"category\": \"B\",\n  \"price\": 85\n}"
+            },
+            "url": {
+              "raw": "{{local_url}}/lessons",
+              "host": ["{{local_url}}"],
+              "path": ["lessons"]
+            }
+          }
+        },
+        {
+          "name": "Get Lessons by Student",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{local_url}}/lessons?student_id={{student_id}}",
+              "host": ["{{local_url}}"],
+              "path": ["lessons"],
+              "query": [
+                {
+                  "key": "student_id",
+                  "value": "{{student_id}}"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "05 - Invoices",
+      "item": [
+        {
+          "name": "Get All Invoices",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"Status code is 200\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test(\"Response is an array\", function () {",
+                  "    var jsonData = pm.response.json();",
+                  "    pm.expect(jsonData).to.be.an('array');",
+                  "    if (jsonData.length > 0) {",
+                  "        pm.collectionVariables.set(\"invoice_id\", jsonData[0].id);",
+                  "    }",
+                  "});"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{local_url}}/invoices",
+              "host": ["{{local_url}}"],
+              "path": ["invoices"]
+            }
+          }
+        },
+        {
+          "name": "Create Invoice",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"student_id\": \"{{student_id}}\",\n  \"issue_date\": \"2025-10-28\",\n  \"due_date\": \"2025-11-28\",\n  \"total_amount\": 850,\n  \"currency\": \"CHF\",\n  \"items\": [\n    {\n      \"description\": \"Leçon de conduite (50 min)\",\n      \"quantity\": 10,\n      \"unit_price\": 85,\n      \"total\": 850\n    }\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{local_url}}/invoices",
+              "host": ["{{local_url}}"],
+              "path": ["invoices"]
+            }
+          }
+        },
+        {
+          "name": "Get Invoice PDF",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{local_url}}/invoices/{{invoice_id}}/pdf",
+              "host": ["{{local_url}}"],
+              "path": ["invoices", "{{invoice_id}}", "pdf"]
+            }
+          }
+        },
+        {
+          "name": "Get QR Bill Only",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{local_url}}/invoices/{{invoice_id}}/qr-bill",
+              "host": ["{{local_url}}"],
+              "path": ["invoices", "{{invoice_id}}", "qr-bill"]
+            }
+          }
+        },
+        {
+          "name": "Mark Invoice as Paid",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"status\": \"paid\",\n  \"payment_method\": \"bank_transfer\"\n}"
+            },
+            "url": {
+              "raw": "{{local_url}}/invoices/{{invoice_id}}",
+              "host": ["{{local_url}}"],
+              "path": ["invoices", "{{invoice_id}}"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "06 - Health Checks",
+      "item": [
+        {
+          "name": "API Health",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"API is healthy\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "    var jsonData = pm.response.json();",
+                  "    pm.expect(jsonData.status).to.eql('healthy');",
+                  "});"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{local_url}}/health",
+              "host": ["{{local_url}}"],
+              "path": ["health"]
+            }
+          }
+        },
+        {
+          "name": "Database Health",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{local_url}}/health/db",
+              "host": ["{{local_url}}"],
+              "path": ["health", "db"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
+

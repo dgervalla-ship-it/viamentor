@@ -223,3 +223,32 @@ export async function getAvailableInstructors(category: string): Promise<Instruc
   return availableInstructors.sort((a: any, b: any) => a.workload - b.workload);
 }
 
+/**
+ * Supprimer un instructeur
+ */
+export async function deleteInstructor(id: string): Promise<void> {
+  const { error } = await supabase
+    .from('instructors')
+    .delete()
+    .eq('id', id);
+
+  if (error) {
+    console.error('Error deleting instructor:', error);
+    throw new Error(`Failed to delete instructor: ${error.message}`);
+  }
+}
+
+/**
+ * Service object pour cohérence avec les autres services
+ */
+export const instructorsService = {
+  getAll: getAllInstructors,
+  getById: getInstructorById,
+  create: createInstructor,
+  update: updateInstructor,
+  delete: deleteInstructor,
+  getActive: getActiveInstructors,
+  getAvailable: getAvailableInstructors,
+  getWorkload: getInstructorWorkload,
+};
+

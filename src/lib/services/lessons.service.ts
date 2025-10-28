@@ -271,3 +271,19 @@ export async function checkInstructorAvailability(
   return data.length === 0;
 }
 
+/**
+ * Service object pour cohérence avec les autres services
+ */
+export const lessonsService = {
+  getAll: getAllLessons,
+  getById: getLessonById,
+  create: createLesson,
+  update: updateLesson,
+  cancel: cancelLesson,
+  getByStudentId: getStudentLessons,
+  getByInstructorId: getInstructorLessons,
+  getUpcoming: getUpcomingLessons,
+  getByDate: getLessonsByDate,
+  checkInstructorAvailability,
+};
+

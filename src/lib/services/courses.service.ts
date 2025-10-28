@@ -227,3 +227,32 @@ export async function getUpcomingCourses(): Promise<Course[]> {
   return data || [];
 }
 
+/**
+ * Supprimer un cours
+ */
+export async function deleteCourse(id: string): Promise<void> {
+  const { error } = await supabase
+    .from('courses')
+    .delete()
+    .eq('id', id);
+
+  if (error) {
+    console.error('Error deleting course:', error);
+    throw new Error(`Failed to delete course: ${error.message}`);
+  }
+}
+
+/**
+ * Service object pour cohérence avec les autres services
+ */
+export const coursesService = {
+  getAll: getAllCourses,
+  getById: getCourseById,
+  create: createCourse,
+  update: updateCourse,
+  delete: deleteCourse,
+  enrollStudent,
+  getParticipants: getCourseParticipants,
+  getUpcoming: getUpcomingCourses,
+};
+
