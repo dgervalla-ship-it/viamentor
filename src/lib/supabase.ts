@@ -6,21 +6,22 @@
 import { createClient } from '@supabase/supabase-js';
 
 // Récupérer les variables d'environnement
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || 'https://jdyuulqscwxlkswmceqp.supabase.co';
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || '';
 
-// Validation des variables d'environnement
-if (!supabaseUrl) {
-  throw new Error(
-    '❌ VITE_SUPABASE_URL manquante dans .env\n' +
+// Validation des variables d'environnement (warning au lieu d'erreur pour permettre le build)
+if (!import.meta.env.VITE_SUPABASE_URL) {
+  console.warn(
+    '⚠️  VITE_SUPABASE_URL manquante dans .env\n' +
     'Ajoutez: VITE_SUPABASE_URL=https://jdyuulqscwxlkswmceqp.supabase.co'
   );
 }
 
-if (!supabaseAnonKey) {
-  throw new Error(
-    '❌ VITE_SUPABASE_ANON_KEY manquante dans .env\n' +
-    'Récupérez votre clé dans: Supabase Dashboard > Settings > API'
+if (!import.meta.env.VITE_SUPABASE_ANON_KEY) {
+  console.warn(
+    '⚠️  VITE_SUPABASE_ANON_KEY manquante dans .env\n' +
+    'Récupérez votre clé dans: Supabase Dashboard > Settings > API\n' +
+    'Configurez dans Vercel: Settings > Environment Variables'
   );
 }
 
