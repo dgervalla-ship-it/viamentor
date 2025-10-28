@@ -33,23 +33,15 @@ import {
   FolderIcon,
   WalletIcon,
 } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { ResponsivePageWrapper } from "@/viamentor/components/viamentor-responsive-page-wrapper";
+import { useStudent } from "@/lib/hooks/use-students";
+import { LoadingSpinner } from "@/components/ui/loading-spinner";
+import { ErrorMessage } from "@/components/ui/error-message";
 
 export interface DashboardStudentPageProps {
   locale?: "fr" | "de" | "it" | "en";
 }
-
-const MOCK_STUDENT = {
-  name: "Marie Dubois",
-  avatar: "https://github.com/kdrnp.png",
-  category: "B",
-  progress: 75,
-  lessonsCompleted: 18,
-  lessonsTotal: 24,
-  theoryPassed: true,
-  practiceExamDate: "2024-02-15",
-};
 
 const MOCK_UPCOMING_LESSONS = [
   {
@@ -120,17 +112,34 @@ const MOCK_PROGRESS_THEMES = [
 export function DashboardStudentPage({
   locale = "fr",
 }: DashboardStudentPageProps) {
+  const { id } = useParams<{ id: string }>();
+  const { data: student, isLoading, error } = useStudent(id || "");
+
+  // Loading state
+  if (isLoading) {
+    return <LoadingSpinner fullScreen />;
+  }
+
+  // Error state
+  if (error || !student) {
+    return <ErrorMessage error={error || new Error("Student not found")} fullScreen />;
+  }
+
+  const studentProgress = 75; // TODO: calculer depuis les vraies données
+  const lessonsCompleted = 18; // TODO: récupérer depuis les vraies données
+  const lessonsTotal = 24; // TODO: récupérer depuis les vraies données
+
   return (
     <ResponsivePageWrapper
       title="Mon Dashboard"
-      description={`Bienvenue ${MOCK_STUDENT.name} - Formation Catégorie ${MOCK_STUDENT.category}`}
+      description={`Bienvenue ${student.fullName} - Formation Catégorie ${student.category}`}
       sections={[
         {
           id: "progress",
           label: "Progression",
           icon: <BarChart3Icon className="h-4 w-4" />,
 
-          badge: `${MOCK_STUDENT.progress}%`,
+          badge: `${studentProgress}%`,
           content: (
             <Card className="border-2 border-primary">
               <CardHeader>
@@ -144,20 +153,20 @@ export function DashboardStudentPage({
                       Progression globale
                     </span>
                     <span className="text-2xl font-bold text-primary">
-                      {MOCK_STUDENT.progress}%
+                      {studentProgress}%
                     </span>
                   </div>
-                  <Progress value={MOCK_STUDENT.progress} className="h-3" />
+                  <Progress value={studentProgress} className="h-3" />
 
                   <p className="text-sm text-muted-foreground mt-2">
-                    {MOCK_STUDENT.lessonsCompleted} /{" "}
-                    {MOCK_STUDENT.lessonsTotal} leçons complétées
+                    {lessonsCompleted} /{" "}
+                    {lessonsTotal} leçons complétées
                   </p>
                 </div>
 
                 <div className="grid grid-cols-2 gap-4 pt-4 border-t">
                   <div className="flex items-center gap-3">
-                    {MOCK_STUDENT.theoryPassed ? (
+                    {true ? ( {/* TODO: récupérer depuis student.theoryPassed */}
                       <CheckCircleIcon className="h-8 w-8 text-green-600 dark:text-green-500" />
                     ) : (
                       <AlertCircleIcon className="h-8 w-8 text-orange-600 dark:text-orange-500" />

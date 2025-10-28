@@ -27,17 +27,16 @@ import { StudentsFilters } from "@/viamentor/components/viamentor-students-filte
 import { BulkActionsBar } from "@/viamentor/components/viamentor-students-bulk-actions";
 import { StudentsGridView } from "@/viamentor/components/viamentor-students-grid-view";
 import { CreateStudentWizard } from "@/viamentor/components/viamentor-create-student-wizard";
-import {
-  MOCK_STUDENTS,
-  MOCK_INSTRUCTORS,
-  MOCK_STUDENT_STATS,
-  MOCK_FILTER_PRESETS,
-} from "@/viamentor/data/viamentor-students-data";
+import { MOCK_FILTER_PRESETS } from "@/viamentor/data/viamentor-students-data";
 import {
   StudentsLocale,
   useStudentsTranslations,
 } from "@/viamentor/data/viamentor-students-i18n";
 import { useStudentsQueryParams } from "@/viamentor/data/viamentor-url-query-params";
+import { useStudents, useStudentsStats } from "@/lib/hooks/use-students";
+import { useInstructors } from "@/lib/hooks/use-instructors";
+import { LoadingSpinner } from "@/components/ui/loading-spinner";
+import { ErrorMessage } from "@/components/ui/error-message";
 
 interface StudentsPageProps {
   locale?: StudentsLocale;
@@ -45,6 +44,11 @@ interface StudentsPageProps {
 
 export function StudentsPage({ locale = "fr" }: StudentsPageProps) {
   const t = useStudentsTranslations(locale);
+
+  // Fetch data from APIs
+  const { data: students, isLoading: studentsLoading, error: studentsError } = useStudents();
+  const { data: stats, isLoading: statsLoading } = useStudentsStats();
+  const { data: instructors } = useInstructors();
 
   // Use query params hook
   const {
@@ -63,6 +67,31 @@ export function StudentsPage({ locale = "fr" }: StudentsPageProps) {
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
   const [searchQuery, setSearchQuery] = useState(searchParam || "");
   const [createWizardOpen, setCreateWizardOpen] = useState(false);
+
+  // Loading state
+  if (studentsLoading || statsLoading) {
+    return <LoadingSpinner fullScreen />;
+  }
+
+  // Error state
+  if (studentsError) {
+    return <ErrorMessage error={studentsError} fullScreen />;
+  }
+
+  // No data fallback
+  if (!students || students.length === 0) {
+    return (
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="text-center">
+          <p className="text-lg text-muted-foreground mb-4">Aucun élève trouvé</p>
+          <Button onClick={() => setCreateWizardOpen(true)}>
+            <UserPlusIcon className="mr-2 h-4 w-4" />
+            Créer un élève
+          </Button>
+        </div>
+      </div>
+    );
+  }
 
   // Map view to viewMode (list/grid/cards -> table/grid)
   const viewMode =
@@ -89,7 +118,7 @@ export function StudentsPage({ locale = "fr" }: StudentsPageProps) {
   }, [searchQuery, searchParam, setSearchParam]);
 
   const handleSelectAll = (selected: boolean) => {
-    setSelectedIds(selected ? MOCK_STUDENTS.map((s) => s.id) : []);
+    setSelectedIds(selected ? students.map((s) => s.id) : []);
   };
 
   const handleSelectOne = (id: string, selected: boolean) => {
@@ -129,7 +158,7 @@ export function StudentsPage({ locale = "fr" }: StudentsPageProps) {
           </div>
 
           {/* Stats Cards */}
-          <StudentsStatsCards stats={MOCK_STUDENT_STATS} locale={locale} />
+          <StudentsStatsCards stats={stats} locale={locale} />
 
           {/* Actions Bar */}
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
@@ -147,7 +176,7 @@ export function StudentsPage({ locale = "fr" }: StudentsPageProps) {
             </div>
 
             <StudentsFilters
-              instructors={MOCK_INSTRUCTORS}
+              instructors={instructors || []}
               presets={MOCK_FILTER_PRESETS}
               locale={locale}
               onApply={(filters) => console.log("Apply filters:", filters)}
@@ -209,8 +238,8 @@ export function StudentsPage({ locale = "fr" }: StudentsPageProps) {
         <div className="space-y-4">
           {viewMode === "table" ? (
             <StudentsTable
-              students={MOCK_STUDENTS}
-              instructors={MOCK_INSTRUCTORS}
+              students={students}
+              instructors={instructors || []}
               selectedIds={selectedIds}
               locale={locale}
               onSelectAll={handleSelectAll}
@@ -239,7 +268,7 @@ export function StudentsPage({ locale = "fr" }: StudentsPageProps) {
         </div>
 
         {/* Empty State */}
-        {MOCK_STUDENTS.length === 0 && (
+        {students.length === 0 && (
           <div className="text-center py-16">
             <div className="max-w-md mx-auto space-y-6">
               <div className="h-24 w-24 mx-auto rounded-full bg-muted flex items-center justify-center">
@@ -281,7 +310,7 @@ export function StudentsPage({ locale = "fr" }: StudentsPageProps) {
       <CreateStudentWizard
         open={createWizardOpen}
         onOpenChange={setCreateWizardOpen}
-        instructors={MOCK_INSTRUCTORS}
+        instructors={instructors || []}
         locale={locale}
         onSuccess={handleStudentCreated}
       />

@@ -6,8 +6,11 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { CreateStudentWizard } from "@/viamentor/components/viamentor-create-student-wizard";
-import { MOCK_INSTRUCTORS } from "@/viamentor/data/viamentor-students-data";
 import { StudentsLocale } from "@/viamentor/data/viamentor-students-i18n";
+import { useInstructors } from "@/lib/hooks/use-instructors";
+import { useCreateStudent } from "@/lib/hooks/use-students";
+import { LoadingSpinner } from "@/components/ui/loading-spinner";
+import { ErrorMessage } from "@/components/ui/error-message";
 
 interface StudentsNewPageProps {
   locale?: StudentsLocale;
@@ -16,6 +19,10 @@ interface StudentsNewPageProps {
 export function StudentsNewPage({ locale = "fr" }: StudentsNewPageProps) {
   const [wizardOpen, setWizardOpen] = useState(true);
   const [redirectTo, setRedirectTo] = useState<string | null>(null);
+
+  // Fetch instructors and create mutation
+  const { data: instructors, isLoading, error } = useInstructors();
+  const createStudent = useCreateStudent();
 
   const handleWizardClose = (open: boolean) => {
     if (!open) {
@@ -30,6 +37,16 @@ export function StudentsNewPage({ locale = "fr" }: StudentsNewPageProps) {
     // Rediriger vers la page de détail du nouvel élève
     setRedirectTo(`/students/${studentId}`);
   };
+
+  // Loading state
+  if (isLoading) {
+    return <LoadingSpinner fullScreen />;
+  }
+
+  // Error state
+  if (error) {
+    return <ErrorMessage error={error} fullScreen />;
+  }
 
   // If redirect is set, show a link to navigate
   if (redirectTo) {
@@ -56,7 +73,7 @@ export function StudentsNewPage({ locale = "fr" }: StudentsNewPageProps) {
       <CreateStudentWizard
         open={wizardOpen}
         onOpenChange={handleWizardClose}
-        instructors={MOCK_INSTRUCTORS}
+        instructors={instructors || []}
         locale={locale}
         onSuccess={handleStudentCreated}
       />

@@ -45,7 +45,6 @@ import {
 } from "@/components/ui/select";
 import { Separator } from "@/components/ui/separator";
 import {
-  mockStudentProfile,
   mockLegalDocuments,
   mockTrainingHistory,
   mockAccountPreferences,
@@ -56,6 +55,10 @@ import {
   type ProfileLocale,
 } from "@/viamentor/data/viamentor-student-profile-data";
 import { getProfileTranslations } from "@/viamentor/data/viamentor-student-profile-i18n";
+import { useStudent, useUpdateStudent } from "@/lib/hooks/use-students";
+import { useParams } from "react-router-dom";
+import { LoadingSpinner } from "@/components/ui/loading-spinner";
+import { ErrorMessage } from "@/components/ui/error-message";
 
 // ============================================================================
 // TYPES
@@ -70,9 +73,23 @@ interface StudentProfilePageProps {
 // ============================================================================
 
 export function StudentProfilePage({ locale = "fr" }: StudentProfilePageProps) {
+  const { id } = useParams<{ id: string }>();
   const t = getProfileTranslations(locale);
-  const [profile] = useState<StudentProfile>(mockStudentProfile);
   const [activeTab, setActiveTab] = useState("personal");
+
+  // Fetch student profile
+  const { data: profile, isLoading, error } = useStudent(id || "");
+  const updateStudent = useUpdateStudent();
+
+  // Loading state
+  if (isLoading) {
+    return <LoadingSpinner fullScreen />;
+  }
+
+  // Error state
+  if (error || !profile) {
+    return <ErrorMessage error={error || new Error("Profile not found")} fullScreen />;
+  }
 
   return (
     <div className="min-h-screen bg-background p-6 space-y-6">

@@ -19,7 +19,6 @@ import { StudentPlanningTab } from "@/viamentor/components/viamentor-student-pla
 import { StudentHistoryTab } from "@/viamentor/components/viamentor-student-history-tab";
 import { QuickActionsSidebar } from "@/viamentor/components/viamentor-student-quick-actions";
 import {
-  MOCK_STUDENT_DETAIL,
   MOCK_LESSONS,
   MOCK_PROGRESS_THEMES,
   MOCK_EXAM_RECORDS,
@@ -30,7 +29,10 @@ import {
 } from "@/viamentor/data/viamentor-student-detail-data";
 import { useStudentDetailTranslations } from "@/viamentor/data/viamentor-student-detail-i18n";
 import type { StudentDetailLocale } from "@/viamentor/data/viamentor-student-detail-data";
-import { MOCK_STUDENTS } from "@/viamentor/data/viamentor-students-data";
+import { useStudent } from "@/lib/hooks/use-students";
+import { useStudents } from "@/lib/hooks/use-students";
+import { LoadingSpinner } from "@/components/ui/loading-spinner";
+import { ErrorMessage } from "@/components/ui/error-message";
 
 export function StudentDetailPage() {
   const { id } = useParams<{ id: string }>();
@@ -38,14 +40,25 @@ export function StudentDetailPage() {
   const [activeTab, setActiveTab] = useState("informations");
   const t = useStudentDetailTranslations(locale);
 
-  // In real app, fetch student data based on id
-  const student = MOCK_STUDENT_DETAIL;
+  // Fetch student data based on id
+  const { data: student, isLoading: studentLoading, error: studentError } = useStudent(id || "");
+  const { data: students } = useStudents();
+
+  // Loading state
+  if (studentLoading) {
+    return <LoadingSpinner fullScreen />;
+  }
+
+  // Error state
+  if (studentError || !student) {
+    return <ErrorMessage error={studentError || new Error("Student not found")} fullScreen />;
+  }
 
   // Contextual navigation
   const navigation = useContextualNavigation({
     entityType: "students",
     currentId: id || "1",
-    items: MOCK_STUDENTS,
+    items: students || [],
     getItemId: (s) => s.id,
     getItemName: (s) => s.fullName,
     getItemAvatar: (s) => s.avatar,
