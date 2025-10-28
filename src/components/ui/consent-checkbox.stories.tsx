@@ -171,4 +171,3 @@ export const BeforeAfterComparison: Story = {
     </div>
   ),
 };
-
