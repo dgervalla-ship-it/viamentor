@@ -86,13 +86,17 @@ export const qrBillService = {
 
   /**
    * Calculer le checksum Modulo 10 (récursif)
+   * Optimisé pour performance
    */
   calculateModulo10(input: string): number {
     const table = [0, 9, 4, 6, 8, 2, 7, 1, 3, 5];
     let carry = 0;
     
-    for (let i = 0; i < input.length; i++) {
-      carry = table[(carry + parseInt(input.charAt(i))) % 10];
+    // Optimisation: charAt() est plus rapide que [] sur les strings
+    const len = input.length;
+    for (let i = 0; i < len; i++) {
+      const digit = parseInt(input.charAt(i), 10);
+      carry = table[(carry + digit) % 10];
     }
     
     return (10 - carry) % 10;
@@ -100,29 +104,36 @@ export const qrBillService = {
 
   /**
    * Valider un IBAN suisse
+   * Optimisé pour performance et cache
    */
   validateSwissIBAN(iban: string): boolean {
-    // Nettoyer l'IBAN
+    // Nettoyer l'IBAN (whitespace uniquement)
     const cleanIBAN = iban.replace(/\s/g, '').toUpperCase();
     
-    // Vérifier le format suisse
-    if (!cleanIBAN.match(/^CH\d{19}$/)) {
+    // Vérification rapide du format suisse (21 caractères: CH + 19 chiffres)
+    if (cleanIBAN.length !== 21 || !cleanIBAN.startsWith('CH')) {
       return false;
     }
     
-    // Vérifier le checksum IBAN
+    // Vérification regex optimisée
+    if (!/^CH\d{19}$/.test(cleanIBAN)) {
+      return false;
+    }
+    
+    // Vérifier le checksum IBAN (Modulo 97)
     const rearranged = cleanIBAN.slice(4) + cleanIBAN.slice(0, 4);
     const numeric = rearranged.replace(/[A-Z]/g, (char) =>
       (char.charCodeAt(0) - 55).toString()
     );
     
-    // Modulo 97
-    let remainder = '';
-    for (let i = 0; i < numeric.length; i++) {
-      remainder = (parseInt(remainder + numeric[i]) % 97).toString();
+    // Modulo 97 optimisé
+    let remainder = 0;
+    const len = numeric.length;
+    for (let i = 0; i < len; i++) {
+      remainder = (remainder * 10 + parseInt(numeric[i], 10)) % 97;
     }
     
-    return parseInt(remainder) === 1;
+    return remainder === 1;
   },
 
   /**

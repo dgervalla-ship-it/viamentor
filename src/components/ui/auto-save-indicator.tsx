@@ -17,8 +17,14 @@ const formatTime = (date: Date) => {
   return date.toLocaleTimeString('fr-CH', { hour: '2-digit', minute: '2-digit' });
 };
 
-const AutoSaveIndicator = React.forwardRef<HTMLDivElement, AutoSaveIndicatorProps>(
+const AutoSaveIndicator = React.memo(React.forwardRef<HTMLDivElement, AutoSaveIndicatorProps>(
   ({ isSaving, lastSaved, className, ...props }, ref) => {
+    // Mémoïser le texte formaté pour éviter recalcul à chaque render
+    const formattedTime = React.useMemo(() => 
+      lastSaved ? formatTime(lastSaved) : null,
+      [lastSaved]
+    );
+
     return (
       <div
         ref={ref}
@@ -33,11 +39,11 @@ const AutoSaveIndicator = React.forwardRef<HTMLDivElement, AutoSaveIndicatorProp
             <Loader2 className="h-3 w-3 animate-spin text-blue-500" />
             <span className="text-blue-600">Sauvegarde...</span>
           </>
-        ) : lastSaved ? (
+        ) : formattedTime ? (
           <>
             <Check className="h-3 w-3 text-green-500" />
             <span className="text-green-600">
-              Sauvegardé {formatTime(lastSaved)}
+              Sauvegardé {formattedTime}
             </span>
           </>
         ) : (
@@ -46,12 +52,12 @@ const AutoSaveIndicator = React.forwardRef<HTMLDivElement, AutoSaveIndicatorProp
       </div>
     );
   }
-);
+));
 AutoSaveIndicator.displayName = "AutoSaveIndicator";
 
 export { AutoSaveIndicator };
 
-// Hook personnalisé pour gérer l'auto-save
+// Hook personnalisé pour gérer l'auto-save (optimisé)
 export function useAutoSave<T>(
   data: T,
   onSave: (data: T) => Promise<void>,
@@ -61,6 +67,21 @@ export function useAutoSave<T>(
   const [lastSaved, setLastSaved] = React.useState<Date | undefined>();
   const timeoutRef = React.useRef<NodeJS.Timeout>();
 
+  // Mémoïser la fonction de sauvegarde pour éviter re-créations
+  const handleSave = React.useCallback(async () => {
+    if (data) {
+      setIsSaving(true);
+      try {
+        await onSave(data);
+        setLastSaved(new Date());
+      } catch (error) {
+        console.error('Auto-save failed:', error);
+      } finally {
+        setIsSaving(false);
+      }
+    }
+  }, [data, onSave]);
+
   React.useEffect(() => {
     // Clear previous timeout
     if (timeoutRef.current) {
@@ -68,19 +89,7 @@ export function useAutoSave<T>(
     }
 
     // Set new timeout
-    timeoutRef.current = setTimeout(async () => {
-      if (data) {
-        setIsSaving(true);
-        try {
-          await onSave(data);
-          setLastSaved(new Date());
-        } catch (error) {
-          console.error('Auto-save failed:', error);
-        } finally {
-          setIsSaving(false);
-        }
-      }
-    }, delay);
+    timeoutRef.current = setTimeout(handleSave, delay);
 
     // Cleanup
     return () => {
@@ -88,7 +97,7 @@ export function useAutoSave<T>(
         clearTimeout(timeoutRef.current);
       }
     };
-  }, [data, onSave, delay]);
+  }, [handleSave, delay]);
 
   return { isSaving, lastSaved };
 }

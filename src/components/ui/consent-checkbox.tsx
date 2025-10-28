@@ -45,10 +45,15 @@ const CONSENT_CONFIG = {
   },
 };
 
-const ConsentCheckbox = React.forwardRef<HTMLDivElement, ConsentCheckboxProps>(
+const ConsentCheckbox = React.memo(React.forwardRef<HTMLDivElement, ConsentCheckboxProps>(
   ({ id, checked, onCheckedChange, type, required, className, ...props }, ref) => {
-    const config = CONSENT_CONFIG[type];
-    const isRequired = required ?? config.required;
+    const config = React.useMemo(() => CONSENT_CONFIG[type], [type]);
+    const isRequired = React.useMemo(() => required ?? config.required, [required, config.required]);
+
+    // Mémoïser le handler pour éviter re-créations
+    const handlePreventDefault = React.useCallback((e: React.MouseEvent) => {
+      e.preventDefault();
+    }, []);
 
     return (
       <div ref={ref} className={cn("flex items-start space-x-3", className)} {...props}>
@@ -74,7 +79,7 @@ const ConsentCheckbox = React.forwardRef<HTMLDivElement, ConsentCheckboxProps>(
                 <button 
                   type="button"
                   className="inline-flex"
-                  onClick={(e) => e.preventDefault()}
+                  onClick={handlePreventDefault}
                 >
                   <Info className="h-3.5 w-3.5 text-muted-foreground hover:text-foreground transition-colors" />
                 </button>
@@ -96,7 +101,7 @@ const ConsentCheckbox = React.forwardRef<HTMLDivElement, ConsentCheckboxProps>(
       </div>
     );
   }
-);
+));
 ConsentCheckbox.displayName = "ConsentCheckbox";
 
 // Composant groupé pour tous les consentements obligatoires
@@ -111,9 +116,18 @@ export interface ConsentGroupProps extends React.HTMLAttributes<HTMLDivElement> 
   showNewsletter?: boolean;
 }
 
-const ConsentGroup = React.forwardRef<HTMLDivElement, ConsentGroupProps>(
+const ConsentGroup = React.memo(React.forwardRef<HTMLDivElement, ConsentGroupProps>(
   ({ values, onChange, showNewsletter = true, className, ...props }, ref) => {
-    const allRequiredAccepted = values.faber && values.cgu && values.rgpd;
+    const allRequiredAccepted = React.useMemo(
+      () => values.faber && values.cgu && values.rgpd,
+      [values.faber, values.cgu, values.rgpd]
+    );
+
+    // Mémoïser les handlers pour éviter re-créations
+    const handleFaberChange = React.useCallback((checked: boolean) => onChange('faber', checked), [onChange]);
+    const handleCguChange = React.useCallback((checked: boolean) => onChange('cgu', checked), [onChange]);
+    const handleRgpdChange = React.useCallback((checked: boolean) => onChange('rgpd', checked), [onChange]);
+    const handleNewsletterChange = React.useCallback((checked: boolean) => onChange('newsletter', checked), [onChange]);
 
     return (
       <div ref={ref} className={cn("space-y-4", className)} {...props}>
@@ -122,26 +136,26 @@ const ConsentGroup = React.forwardRef<HTMLDivElement, ConsentGroupProps>(
           id="consent-faber"
           type="faber"
           checked={values.faber}
-          onCheckedChange={(checked) => onChange('faber', checked)}
+          onCheckedChange={handleFaberChange}
         />
         <ConsentCheckbox
           id="consent-cgu"
           type="cgu"
           checked={values.cgu}
-          onCheckedChange={(checked) => onChange('cgu', checked)}
+          onCheckedChange={handleCguChange}
         />
         <ConsentCheckbox
           id="consent-rgpd"
           type="rgpd"
           checked={values.rgpd}
-          onCheckedChange={(checked) => onChange('rgpd', checked)}
+          onCheckedChange={handleRgpdChange}
         />
         {showNewsletter && (
           <ConsentCheckbox
             id="consent-newsletter"
             type="newsletter"
             checked={values.newsletter ?? false}
-            onCheckedChange={(checked) => onChange('newsletter', checked)}
+            onCheckedChange={handleNewsletterChange}
           />
         )}
       </div>
@@ -157,7 +171,7 @@ const ConsentGroup = React.forwardRef<HTMLDivElement, ConsentGroupProps>(
       </div>
     );
   }
-);
+));
 ConsentGroup.displayName = "ConsentGroup";
 
 export { ConsentCheckbox, ConsentGroup };
