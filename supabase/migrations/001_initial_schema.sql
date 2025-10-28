@@ -57,7 +57,7 @@ CREATE INDEX idx_tenants_status ON tenants(status);
 -- 2. USERS (Auth + Roles)
 -- =====================================================
 CREATE TABLE IF NOT EXISTS users (
-  id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,
+  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
   tenant_id UUID REFERENCES tenants(id) ON DELETE CASCADE,
   
   -- Profile
@@ -475,61 +475,62 @@ ALTER TABLE vehicles ENABLE ROW LEVEL SECURITY;
 -- =====================================================
 
 -- Fonction helper pour obtenir le tenant_id de l'utilisateur
-CREATE OR REPLACE FUNCTION auth.user_tenant_id()
+-- Note: Créée dans le schéma public au lieu de auth pour éviter les problèmes de permissions
+CREATE OR REPLACE FUNCTION public.user_tenant_id()
 RETURNS UUID AS $$
-  SELECT tenant_id FROM users WHERE id = auth.uid();
-$$ LANGUAGE SQL STABLE;
+  SELECT tenant_id FROM public.users WHERE id = auth.uid();
+$$ LANGUAGE SQL STABLE SECURITY DEFINER;
 
 -- TENANTS: Les users voient leur propre tenant
 CREATE POLICY "Users can view their own tenant"
   ON tenants FOR SELECT
-  USING (id = auth.user_tenant_id());
+  USING (id = public.user_tenant_id());
 
 -- USERS: Les users voient les users du même tenant
 CREATE POLICY "Users can view users in their tenant"
   ON users FOR SELECT
-  USING (tenant_id = auth.user_tenant_id());
+  USING (tenant_id = public.user_tenant_id());
 
 -- STUDENTS: Les users voient les étudiants de leur tenant
 CREATE POLICY "Users can view students in their tenant"
   ON students FOR SELECT
-  USING (tenant_id = auth.user_tenant_id());
+  USING (tenant_id = public.user_tenant_id());
 
 CREATE POLICY "Users can create students in their tenant"
   ON students FOR INSERT
-  WITH CHECK (tenant_id = auth.user_tenant_id());
+  WITH CHECK (tenant_id = public.user_tenant_id());
 
 CREATE POLICY "Users can update students in their tenant"
   ON students FOR UPDATE
-  USING (tenant_id = auth.user_tenant_id());
+  USING (tenant_id = public.user_tenant_id());
 
 -- INSTRUCTORS: Les users voient les instructeurs de leur tenant
 CREATE POLICY "Users can view instructors in their tenant"
   ON instructors FOR SELECT
-  USING (tenant_id = auth.user_tenant_id());
+  USING (tenant_id = public.user_tenant_id());
 
 -- COURSES: Les users voient les cours de leur tenant
 CREATE POLICY "Users can view courses in their tenant"
   ON courses FOR SELECT
-  USING (tenant_id = auth.user_tenant_id());
+  USING (tenant_id = public.user_tenant_id());
 
 CREATE POLICY "Users can create courses in their tenant"
   ON courses FOR INSERT
-  WITH CHECK (tenant_id = auth.user_tenant_id());
+  WITH CHECK (tenant_id = public.user_tenant_id());
 
 -- LESSONS: Les users voient les leçons de leur tenant
 CREATE POLICY "Users can view lessons in their tenant"
   ON lessons FOR SELECT
-  USING (tenant_id = auth.user_tenant_id());
+  USING (tenant_id = public.user_tenant_id());
 
 CREATE POLICY "Users can create lessons in their tenant"
   ON lessons FOR INSERT
-  WITH CHECK (tenant_id = auth.user_tenant_id());
+  WITH CHECK (tenant_id = public.user_tenant_id());
 
 -- VEHICLES: Les users voient les véhicules de leur tenant
 CREATE POLICY "Users can view vehicles in their tenant"
   ON vehicles FOR SELECT
-  USING (tenant_id = auth.user_tenant_id());
+  USING (tenant_id = public.user_tenant_id());
 
 -- =====================================================
 -- FUNCTIONS & TRIGGERS
