@@ -21,7 +21,7 @@
 - ❌ Video tutorials absents
 
 **Docs techniques trouvées (EXCELLENT)** :
-- 74 fichiers `.md` dans `/src/polymet/plans/`
+- 74 fichiers `.md` dans `/src/viamentor/plans/`
 - Guides système très détaillés
 - Mais : Trop techniques pour utilisateurs finaux
 

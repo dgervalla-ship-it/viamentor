@@ -19,7 +19,7 @@
 - ✅ Décisions majeures documentées
 - ❌ Format ADR standard non utilisé
 
-**Plans d'architecture trouvés** : `/src/polymet/plans/`
+**Plans d'architecture trouvés** : `/src/viamentor/plans/`
 
 **Exemples remarquables** :
 - `viamentor-architecture-refactoring.md`

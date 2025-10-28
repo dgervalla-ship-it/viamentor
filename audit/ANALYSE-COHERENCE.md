@@ -46,12 +46,12 @@ Le fichier CONTEXTE.md est **très cohérent** avec l'audit réalisé. Les infor
 - 370+ composants métier
 - 189 pages/routes
 - 74 plans architecture
-- Structure `/src/polymet/`
+- Structure `/src/viamentor/`
 
 **AUDIT confirme** :
-- ✅ `/src/polymet/components/` : 370 fichiers .tsx
-- ✅ `/src/polymet/pages/` : 189 fichiers .tsx
-- ✅ `/src/polymet/plans/` : 74 fichiers .md
+- ✅ `/src/viamentor/components/` : 370 fichiers .tsx
+- ✅ `/src/viamentor/pages/` : 189 fichiers .tsx
+- ✅ `/src/viamentor/plans/` : 74 fichiers .md
 - ✅ Architecture multi-tenant bien pensée (score 8/10)
 
 **Petite nuance** :
@@ -431,7 +431,7 @@ Phase 2 (12 semaines) = Connecter backend réel.
 **J'ai vérifié** :
 - ✅ `package.json` : Stack technique EXACTE
 - ✅ `tsconfig.json` : TypeScript strict confirmé
-- ✅ `/src/polymet/` : 370+189+74 fichiers confirmés
+- ✅ `/src/viamentor/` : 370+189+74 fichiers confirmés
 - ✅ `viamentor-*-store.ts` : Zustand confirmé
 - ✅ `viamentor-query-provider.tsx` : TanStack Query confirmé
 - ✅ `viamentor-*-i18n.ts` : 4 langues confirmées

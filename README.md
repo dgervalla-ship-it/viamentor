@@ -143,7 +143,7 @@ VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6...
 Exécutez les migrations SQL dans **Supabase Dashboard > SQL Editor** :
 
 ```sql
--- Voir src/polymet/data/viamentor-schema-migrations-001.ts
+-- Voir src/viamentor/data/viamentor-schema-migrations-001.ts
 -- pour le schéma complet
 ```
 
@@ -203,7 +203,7 @@ viamentor/
 │   ├── components/        # Composants UI Shadcn/ui
 │   ├── hooks/            # Custom React hooks
 │   ├── lib/              # Utilitaires (Supabase, utils)
-│   ├── polymet/          # Code métier Viamentor
+│   ├── viamentor/          # Code métier Viamentor
 │   │   ├── components/   # 370+ composants métier
 │   │   ├── data/         # 370+ fichiers data/i18n/schemas
 │   │   ├── layouts/      # Layouts (MainLayout)
@@ -231,9 +231,9 @@ viamentor/
 ### Guides disponibles
 
 - 📖 **[SUPABASE_SETUP.md](./SUPABASE_SETUP.md)** : Configuration Supabase
-- 🏗️ **[src/polymet/data/viamentor-docs-architecture.ts](./src/polymet/data/viamentor-docs-architecture.ts)** : Architecture complète
-- 🔐 **[src/polymet/data/viamentor-security-readme.ts](./src/polymet/data/viamentor-security-readme.ts)** : Sécurité & RBAC
-- 🌍 **[src/polymet/data/viamentor-i18n-complete-guide.ts](./src/polymet/data/viamentor-i18n-complete-guide.ts)** : Internationalisation
+- 🏗️ **[src/viamentor/data/viamentor-docs-architecture.ts](./src/viamentor/data/viamentor-docs-architecture.ts)** : Architecture complète
+- 🔐 **[src/viamentor/data/viamentor-security-readme.ts](./src/viamentor/data/viamentor-security-readme.ts)** : Sécurité & RBAC
+- 🌍 **[src/viamentor/data/viamentor-i18n-complete-guide.ts](./src/viamentor/data/viamentor-i18n-complete-guide.ts)** : Internationalisation
 
 ### Pages de démo
 

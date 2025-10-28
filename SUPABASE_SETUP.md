@@ -46,7 +46,7 @@ Même chose dans `.env.local`
 #### Option A : Via SQL Editor (Recommandé)
 
 1. Allez dans **SQL Editor** dans votre dashboard Supabase
-2. Copiez le contenu de `src/polymet/data/viamentor-schema-migrations-001.ts`
+2. Copiez le contenu de `src/viamentor/data/viamentor-schema-migrations-001.ts`
 3. Collez dans le SQL Editor
 4. Cliquez sur **Run**
 
@@ -98,7 +98,7 @@ Vous devriez voir : `✅ Connexion Supabase OK`
 
 **Avant (mock) :**
 ```typescript
-import { useSupabaseMock } from "@/polymet/data/viamentor-supabase-mock";
+import { useSupabaseMock } from "@/viamentor/data/viamentor-supabase-mock";
 const supabase = useSupabaseMock();
 ```
 

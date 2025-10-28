@@ -109,7 +109,7 @@ typography: {
 **Constat** :
 - ❌ Pas de Storybook installé
 - ✅ Composants bien typés (TypeScript props)
-- ✅ 370+ composants métier dans `/polymet/components/`
+- ✅ 370+ composants métier dans `/viamentor/components/`
 - ❌ Pas de documentation interactive
 
 **Composants UI de base** : 50+ dans `/components/ui/`

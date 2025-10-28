@@ -211,7 +211,7 @@ viamentor/
 │   ├── components/ui/        # 53+ composants shadcn/ui
 │   │   ├── *.tsx            # Composants
 │   │   └── *.stories.tsx    # Stories Storybook (5 créées)
-│   ├── polymet/             # Code métier Viamentor
+│   ├── viamentor/             # Code métier Viamentor
 │   │   ├── components/      # 370+ composants
 │   │   ├── pages/           # 189 pages
 │   │   ├── data/            # 370+ fichiers data/i18n

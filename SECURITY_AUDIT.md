@@ -142,9 +142,9 @@ const workbook = new ExcelJS.Workbook();
 ```
 
 ### Étape 3 : Adapter le code
-- Facturation exports → `src/polymet/pages/viamentor-invoices-list-page.tsx`
-- Rapports comptables → `src/polymet/components/viamentor-accounting-reports-tab.tsx`
-- Planning export → `src/polymet/pages/viamentor-planning-page.tsx`
+- Facturation exports → `src/viamentor/pages/viamentor-invoices-list-page.tsx`
+- Rapports comptables → `src/viamentor/components/viamentor-accounting-reports-tab.tsx`
+- Planning export → `src/viamentor/pages/viamentor-planning-page.tsx`
 
 **Effort estimé :** 4-6 heures
 

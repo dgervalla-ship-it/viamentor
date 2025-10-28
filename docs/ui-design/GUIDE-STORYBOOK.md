@@ -67,7 +67,7 @@ import { join, dirname } from "path";
 const config: StorybookConfig = {
   stories: [
     "../src/components/**/*.stories.@(js|jsx|ts|tsx)",
-    "../src/polymet/components/**/*.stories.@(js|jsx|ts|tsx)",
+    "../src/viamentor/components/**/*.stories.@(js|jsx|ts|tsx)",
   ],
   addons: [
     "@storybook/addon-essentials",
@@ -385,7 +385,7 @@ export const StudentCard: Story = {
 
 ### Exemple 3 : Form Component (Complexe)
 
-**Fichier** : `src/polymet/components/students/student-form.stories.tsx`
+**Fichier** : `src/viamentor/components/students/student-form.stories.tsx`
 
 ```typescript
 import type { Meta, StoryObj } from '@storybook/react';

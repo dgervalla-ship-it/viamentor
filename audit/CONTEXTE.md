@@ -80,7 +80,7 @@ viamentor/
 │   ├── lib/                         # Utilitaires
 │   │   ├── supabase.ts             # Client Supabase
 │   │   └── utils.ts                # Utilitaires
-│   ├── polymet/                    # Code métier Viamentor
+│   ├── viamentor/                    # Code métier Viamentor
 │   │   ├── components/             # 370+ composants métier
 │   │   ├── data/                   # 370+ fichiers data/i18n/schemas
 │   │   ├── layouts/                # Layouts (MainLayout)
@@ -558,10 +558,10 @@ npm run test:e2e
 
 ### Comprends d'abord:
 1. Lis `audit/00-SOMMAIRE-AUDIT.md`
-2. Explore structure `/src/polymet/`
+2. Explore structure `/src/viamentor/`
 3. Regarde composants `/src/components/ui/`
-4. Check mock data `/src/polymet/data/`
-5. Vois layouts `/src/polymet/layouts/`
+4. Check mock data `/src/viamentor/data/`
+5. Vois layouts `/src/viamentor/layouts/`
 
 ### Ensuite:
 1. Identifie feature à travailler

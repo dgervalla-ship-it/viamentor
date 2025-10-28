@@ -171,7 +171,7 @@ const { data: { user } } = await supabase.auth.getUser();
 
 **Avant :**
 ```typescript
-import { MOCK_STUDENTS } from '@/polymet/data/viamentor-students-data';
+import { MOCK_STUDENTS } from '@/viamentor/data/viamentor-students-data';
 ```
 
 **Après :**
