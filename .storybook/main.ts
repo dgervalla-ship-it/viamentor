@@ -9,8 +9,8 @@ const config: StorybookConfig = {
     "@chromatic-com/storybook",
     "@storybook/addon-docs",
     "@storybook/addon-onboarding",
-    "@storybook/addon-a11y",
-    "@storybook/addon-vitest"
+    "@storybook/addon-a11y"
+    // "@storybook/addon-vitest" // Désactivé - nécessite Vitest configuré
   ],
   "framework": {
     "name": "@storybook/react-vite",
