@@ -1,10 +1,10 @@
 import * as React from "react";
 import { Input } from "./input";
 import { Label } from "./label";
-import { cn } from "@/lib/utils";
+import { cn } from "../../lib/utils";
 import { AlertCircle, Check } from "lucide-react";
 
-interface AvsInputProps extends Omit<React.InputHTMLAttributes<HTMLInputElement>, 'onChange'> {
+export interface AvsInputProps extends Omit<React.InputHTMLAttributes<HTMLInputElement>, 'onChange'> {
   label?: string;
   value?: string;
   onChange?: (value: string, isValid: boolean) => void;
@@ -35,38 +35,39 @@ function formatAVS(value: string): string {
   return `${digits.slice(0, 3)}.${digits.slice(3, 7)}.${digits.slice(7, 11)}.${digits.slice(11, 13)}`;
 }
 
-export function AvsInput({ 
-  label = "N° AVS",
-  value = "",
-  onChange,
-  showValidation = true,
-  className,
-  ...props 
-}: AvsInputProps) {
-  const [internalValue, setInternalValue] = React.useState(value);
-  const [isTouched, setIsTouched] = React.useState(false);
-  
-  const isValid = validateAVS(internalValue);
-  const showError = showValidation && isTouched && internalValue.length > 0 && !isValid;
-  const showSuccess = showValidation && isTouched && isValid;
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const rawValue = e.target.value;
-    const formatted = formatAVS(rawValue);
+const AvsInput = React.forwardRef<HTMLDivElement, AvsInputProps>(
+  ({ 
+    label = "N° AVS",
+    value = "",
+    onChange,
+    showValidation = true,
+    className,
+    ...props 
+  }, ref) => {
+    const [internalValue, setInternalValue] = React.useState(value);
+    const [isTouched, setIsTouched] = React.useState(false);
     
-    setInternalValue(formatted);
-    
-    if (onChange) {
-      onChange(formatted, validateAVS(formatted));
-    }
-  };
+    const isValid = validateAVS(internalValue);
+    const showError = showValidation && isTouched && internalValue.length > 0 && !isValid;
+    const showSuccess = showValidation && isTouched && isValid;
 
-  const handleBlur = () => {
-    setIsTouched(true);
-  };
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+      const rawValue = e.target.value;
+      const formatted = formatAVS(rawValue);
+      
+      setInternalValue(formatted);
+      
+      if (onChange) {
+        onChange(formatted, validateAVS(formatted));
+      }
+    };
 
-  return (
-    <div className="space-y-2">
+    const handleBlur = () => {
+      setIsTouched(true);
+    };
+
+    return (
+      <div ref={ref} className="space-y-2">
       {label && (
         <Label htmlFor="avs-input" className="flex items-center justify-between">
           <span>{label}</span>
@@ -114,7 +115,11 @@ export function AvsInput({
       <p className="text-xs text-muted-foreground">
         💡 Vous pouvez saisir avec ou sans points, le format sera ajusté automatiquement
       </p>
-    </div>
-  );
-}
+      </div>
+    );
+  }
+);
+AvsInput.displayName = "AvsInput";
+
+export { AvsInput };
 

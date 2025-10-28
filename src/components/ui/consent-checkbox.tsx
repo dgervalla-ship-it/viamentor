@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Checkbox } from "./checkbox";
 import { Label } from "./label";
-import { cn } from "@/lib/utils";
+import { cn } from "../../lib/utils";
 import {
   Tooltip,
   TooltipContent,
@@ -10,13 +10,12 @@ import {
 } from "./tooltip";
 import { Info } from "lucide-react";
 
-interface ConsentCheckboxProps {
+export interface ConsentCheckboxProps extends React.HTMLAttributes<HTMLDivElement> {
   id: string;
   checked: boolean;
   onCheckedChange: (checked: boolean) => void;
   type: "faber" | "cgu" | "rgpd" | "newsletter";
   required?: boolean;
-  className?: string;
 }
 
 const CONSENT_CONFIG = {
@@ -46,19 +45,13 @@ const CONSENT_CONFIG = {
   },
 };
 
-export function ConsentCheckbox({
-  id,
-  checked,
-  onCheckedChange,
-  type,
-  required,
-  className,
-}: ConsentCheckboxProps) {
-  const config = CONSENT_CONFIG[type];
-  const isRequired = required ?? config.required;
+const ConsentCheckbox = React.forwardRef<HTMLDivElement, ConsentCheckboxProps>(
+  ({ id, checked, onCheckedChange, type, required, className, ...props }, ref) => {
+    const config = CONSENT_CONFIG[type];
+    const isRequired = required ?? config.required;
 
-  return (
-    <div className={cn("flex items-start space-x-3", className)}>
+    return (
+      <div ref={ref} className={cn("flex items-start space-x-3", className)} {...props}>
       <Checkbox
         id={id}
         checked={checked}
@@ -100,12 +93,14 @@ export function ConsentCheckbox({
           {config.description}
         </p>
       </div>
-    </div>
-  );
-}
+      </div>
+    );
+  }
+);
+ConsentCheckbox.displayName = "ConsentCheckbox";
 
 // Composant groupé pour tous les consentements obligatoires
-interface ConsentGroupProps {
+export interface ConsentGroupProps extends React.HTMLAttributes<HTMLDivElement> {
   values: {
     faber: boolean;
     cgu: boolean;
@@ -114,19 +109,14 @@ interface ConsentGroupProps {
   };
   onChange: (type: keyof ConsentGroupProps['values'], checked: boolean) => void;
   showNewsletter?: boolean;
-  className?: string;
 }
 
-export function ConsentGroup({ 
-  values, 
-  onChange, 
-  showNewsletter = true,
-  className 
-}: ConsentGroupProps) {
-  const allRequiredAccepted = values.faber && values.cgu && values.rgpd;
+const ConsentGroup = React.forwardRef<HTMLDivElement, ConsentGroupProps>(
+  ({ values, onChange, showNewsletter = true, className, ...props }, ref) => {
+    const allRequiredAccepted = values.faber && values.cgu && values.rgpd;
 
-  return (
-    <div className={cn("space-y-4", className)}>
+    return (
+      <div ref={ref} className={cn("space-y-4", className)} {...props}>
       <div className="space-y-3">
         <ConsentCheckbox
           id="consent-faber"
@@ -164,7 +154,11 @@ export function ConsentGroup({
           </p>
         </div>
       )}
-    </div>
-  );
-}
+      </div>
+    );
+  }
+);
+ConsentGroup.displayName = "ConsentGroup";
+
+export { ConsentCheckbox, ConsentGroup };
 
