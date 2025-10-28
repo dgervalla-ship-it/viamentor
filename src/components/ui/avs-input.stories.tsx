@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
+import * as React from 'react';
 import { AvsInput } from './avs-input';
-import { useState } from 'react';
 
 const meta = {
   title: 'UI/AvsInput',
@@ -34,7 +34,7 @@ export const Invalid: Story = {
 
 export const WithoutDots: Story = {
   render: () => {
-    const [value, setValue] = useState('');
+    const [value, setValue] = React.useState('');
     return (
       <div className="w-[400px] space-y-4">
         <p className="text-sm text-muted-foreground">
@@ -54,8 +54,8 @@ export const WithoutDots: Story = {
 
 export const InFormContext: Story = {
   render: () => {
-    const [value, setValue] = useState('');
-    const [isValid, setIsValid] = useState(false);
+    const [value, setValue] = React.useState('');
+    const [isValid, setIsValid] = React.useState(false);
     
     return (
       <div className="w-[500px] p-6 border rounded-lg space-y-4">

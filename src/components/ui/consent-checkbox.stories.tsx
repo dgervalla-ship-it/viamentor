@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
+import * as React from 'react';
 import { ConsentCheckbox, ConsentGroup } from './consent-checkbox';
-import { useState } from 'react';
 
 const meta = {
   title: 'UI/ConsentCheckbox',
@@ -52,7 +52,7 @@ export const Newsletter: Story = {
 
 export const Interactive: Story = {
   render: () => {
-    const [checked, setChecked] = useState(false);
+    const [checked, setChecked] = React.useState(false);
     
     return (
       <div className="w-[500px] space-y-4">
@@ -75,7 +75,7 @@ export const Interactive: Story = {
 
 export const FullForm: Story = {
   render: () => {
-    const [values, setValues] = useState({
+    const [values, setValues] = React.useState({
       faber: false,
       cgu: false,
       rgpd: false,
