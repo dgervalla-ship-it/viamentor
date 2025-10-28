@@ -3,10 +3,14 @@ import * as ReactDOM from "react-dom";
 import { createRoot } from "react-dom/client";
 import App from "./App";
 import "./index.css";
+import { initGA } from "./lib/analytics";
 
 // Make React and ReactDOM globally available immediately (not in useEffect)
 window.React = React;
 window.ReactDOM = ReactDOM;
+
+// Initialiser Google Analytics 4
+initGA();
 
 function Main() {
   return (
